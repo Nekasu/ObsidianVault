@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"02c7127fa81ec46d","type":"text","text":"本文件主要记录风格迁移领域文章的依赖关系, 为寻找风格迁移领域发展脉络做准备","x":-1360,"y":-960,"width":250,"height":95},
+		{"id":"9ed99db05bee87bf","type":"text","text":"AesFA, 利用频域处理与解纠缠, 进行具有美感的风格迁移 (Joonwoo, AesFA)","x":-900,"y":-620,"width":320,"height":123},
+		{"id":"b34a5804d65007cc","type":"text","text":"OctConv, 一个通用的卷积改动, 将图像分成高低频, 将低频信息的空间尺度降低一个八度 (因为低频信息有冗余), 提高卷积核的性能\n(Chen, Drop an octave)","x":-1360,"y":-743,"width":320,"height":123},
+		{"id":"e997c266d4db1630","type":"text","text":"AdaConv, 一个对 AdaIN 的改进. 结束, 找到 AesFA 属于的类别了, 是 AdaIN 类别的文章 (Prashanth, Adaptive Convolutions for Structure-Aware Style Transfer)","x":-1360,"y":-497,"width":320,"height":123}
+	],
+	"edges":[
+		{"id":"ba63dcbbb12f990c","fromNode":"b34a5804d65007cc","fromSide":"right","toNode":"9ed99db05bee87bf","toSide":"left"},
+		{"id":"1dc86a151efb64c3","fromNode":"e997c266d4db1630","fromSide":"right","toNode":"9ed99db05bee87bf","toSide":"left"}
+	]
+}

@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e514f308c2c41cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ecd4dc8964658832",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2023-11-28.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "具身",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 405.5
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3下午_大模型应用讲习班与研讨会/2_研讨会.md"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "2d48a7bc1e7af144",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "49034ce08637d17c",
+  "lastOpenFiles": [
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3下午_大模型应用讲习班与研讨会/0_Attachments/Pasted image 20231203143353.png",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3下午_大模型应用讲习班与研讨会/0_Attachments/Pasted image 20231203141617.png",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3下午_大模型应用讲习班与研讨会/0_Attachments/Pasted image 20231203141508.png",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3下午_大模型应用讲习班与研讨会/0_Attachments/Pasted image 20231203140814.png",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3上午_大模型应用讲习班/0_Attachments/Pasted image 20231203092413.png",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2下午_大模型的应用讲习班/0_Attachments/Pasted image 20231202161559.png",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2上午_大模型的应用高峰论坛/0_Attachments/Pasted image 20231202090335.png",
+    "Neural Network/中国图象图像学学会/中国图像图形学学会直播/0_Attachments/Pasted image 20230725164153.png",
+    "Neural Network/中国图象图像学学会/中国图像图形学学会直播/0_Attachments/Pasted image 20230725155205.png",
+    "Neural Network/昇腾全栈架构设计/昇腾AI处理器_架构与编程/0_Attachments/Pasted image 20230816194044.png",
+    "Neural Network/中国图象图像学学会/中国图像图形学学会直播/0_Attachments/Pasted image 20230725155120.png",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3下午_大模型应用讲习班与研讨会/1_文心CV大模型：理解、生成与思考_王井东.md",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3下午_大模型应用讲习班与研讨会/2_研讨会.md",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2上午_大模型的应用高峰论坛/3_通用人工智能技术进展和典型应用_科大讯飞_王士进.md",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3下午_大模型应用讲习班与研讨会/0_Attachments",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2下午_大模型的应用讲习班/2_多模态大模型的研究与应用.md",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3上午_大模型应用讲习班/1_大模型能力对齐MOSS-RLHF_桂韬.md",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3上午_大模型应用讲习班/0_Attachments",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2下午_大模型的应用讲习班/1_书生通用大模型系统_乔宇.md",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2下午_大模型的应用讲习班/0_Attachments",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2上午_大模型的应用高峰论坛/医疗领域基础模型的探索与展望.md",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2上午_大模型的应用高峰论坛/1_多模态模型和生成式方法在文本识别中的应用_吕岳.md",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2上午_大模型的应用高峰论坛/0_Attachments",
+    "Neural Network/1统计学习方法_李航/chapter1_监督学习/section1_监督学习及监督学习概论/1-3统计学习方法三要素.md",
+    "Neural Network/昇腾全栈架构设计/昇腾AI处理器_架构与编程/Z1_介绍CANN.md",
+    "Neural Network/昇腾全栈架构设计/昇腾AI处理器_架构与编程/B1_基础理论.md",
+    "Neural Network/昇腾全栈架构设计/昇腾AI处理器_架构与编程/A1_概念辨析.md",
+    "Neural Network/昇腾全栈架构设计/昇腾AI处理器_架构与编程/A0_基础概念.md",
+    "Neural Network/昇腾全栈架构设计/昇腾AI处理器_架构与编程/0_Attachments",
+    "Neural Network/中国图象图像学学会/中国图像图形学学会直播/第五期学生会员分享论坛.md",
+    "Neural Network/中国图象图像学学会/中国图像图形学学会直播/0_Attachments",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3下午_大模型应用讲习班与研讨会",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-3上午_大模型应用讲习班",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2下午_大模型的应用讲习班",
+    "Neural Network/中国图象图像学学会/2023-12合肥大模型研讨班/2023-12-2上午_大模型的应用高峰论坛",
+    "Neural Network/昇腾全栈架构设计/深度解析昇腾AI全栈架构设计.md",
+    "Neural Network/昇腾全栈架构设计/0专有名词.md",
+    "Neural Network/Diffusion_Model/Diffusion_Model.md",
+    "Neural Network/1统计学习方法_李航/附录_名词解释.md",
+    "Neural Network/1统计学习方法_李航/未命名.md",
+    "Neural Network/style_stransfer/1_关于Gatys等人论文给我的启发.md",
+    "Neural Network/0_基础知识/马尔科夫随机场与风格迁移.md",
+    "Neural Network/0_基础知识/6_XPU各种处理器.md",
+    "Neural Network/0_基础知识/附录_名词解释 1.md",
+    "Neural Network/0_基础知识/5_两张图片的欧氏距离.md",
+    "Neural Network/0_基础知识/4_神经网络的训练过程.md",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

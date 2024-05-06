@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "edd36462290c505e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "274d4b7ad5065e27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2023/2023-9/2023-09-22.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "708472f394cf9671",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0_NewFiles/测试总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "上三角",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 464.5
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2023/2023-9/2023-09-22.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2023/2023-9/2023-09-22.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2023/2023-9/2023-09-22.md"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "274d4b7ad5065e27",
+  "lastOpenFiles": [
+    "Diary/2023/2023-9/2023-09-24.md",
+    "Diary/2023/2023-9/2023-09-25.md",
+    "0_NewFiles/测试.md",
+    "0_NewFiles/测试总结.md",
+    "Diary/2023-09-26.md",
+    "Diary/2023-09-28.md",
+    "Diary/2023/2023-9/2023-09-22.md",
+    "Diary/2023/2023-9/2023-09-21.md",
+    "Diary/2023/2023-9/2023-09-20.md",
+    "Diary/2023-09-09.md",
+    "Template/A_Diary_Template.md",
+    "Diary/2023-09-08.md",
+    "Diary/2023-11-01.md",
+    "Diary/2023-11-02.md",
+    "Diary/2023-11-03.md",
+    "Neural Network/Diffusion_Model/0_Attachments/Pasted image 20231103110816.png",
+    "Neural Network/Diffusion_Model/0_Attachments/Pasted image 20231103105907.png",
+    "Neural Network/Diffusion_Model/0_Attachments/Pasted image 20231103104634.png",
+    "Neural Network/Diffusion_Model/0_Attachments",
+    "Neural Network/Diffusion_Model/Diffusion_Model.md",
+    "Neural Network/Diffusion_Model/未命名.md",
+    "Neural Network/Diffusion_Model",
+    "Neural Network/未命名",
+    "Diary/2023-11-02-NekasuPC.md",
+    "ARTS/成一家之言/人体/5_1如何绘制胸腔.md",
+    "ARTS/成一家之言/人体/5_0胸腔与盆腔.md",
+    "ARTS/成一家之言/人体/6_胸部的画法.md",
+    "ARTS/成一家之言/人体/脸颊的转折在哪里.md",
+    "ARTS/成一家之言/人体/1_脸颊的转折在哪里.md",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022847.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022830.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231102012428.png",
+    "SoftWare_Learning/TikZ/0_TikZ_test.md",
+    "Diary/0_Attachments/Pasted image 20231102012941.png",
+    "Diary/2023-10-26.md",
+    "Diary/2023-10-25.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/重要知识汇总",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/其他重要知识Others/其他重要知识Others",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定理与性质Theorem",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C2矩阵的范数",
+    "Diary/0_Attachments/Pasted image 20231027023918.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022837.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022826.png",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

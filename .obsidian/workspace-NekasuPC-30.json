@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e514f308c2c41cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ecd4dc8964658832",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2023-11-28.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42e96ed96f7d4367",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2023-11-29.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 405.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2023-11-29.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2023-11-29.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2023-11-29.md"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "42e96ed96f7d4367",
+  "lastOpenFiles": [
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/1_Jordan标准形_索引文件.md",
+    "Diary/2023-11-29.md",
+    "Diary/2023-11-28.md",
+    "Diary/2023-11-27.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/0_本节行文思路_目录_请直接看这个_不要翻文件夹D2_2.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/其他重要知识Other/O2_带有系数的方阵幂级数定义.md",
+    "研究生课程笔记/矩阵论/update_file.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C2矩阵的范数/C22几种常用的矩阵范数/定理与性质Theorem/T2_5_3_矩阵的无穷-范数.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C2矩阵的范数/C22几种常用的矩阵范数/定理与性质Theorem/T2_5_2_矩阵的2-范数.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C2矩阵的范数/C22几种常用的矩阵范数/定理与性质Theorem/T2_5_1_矩阵的1-范数(列和范数).md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D0写在章节开始前/前言.md",
+    "研究生课程笔记/矩阵论/0_Attachments/矩阵序列、矩阵级数与矩阵幂级数.png",
+    "研究生课程笔记/矩阵论/0_Attachments/Pasted image 20230923104744.png",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A0一些底层理解/A08_方阵幂级数与幂级数之间的联系.md",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A0一些底层理解/未命名.md",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A0一些底层理解/A06_矩阵序列与数列之间的联系.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/定理与性质Theorem/T3_4_1不带系数的方阵幂级数收敛的充要条件.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/定理与性质Theorem/T3_6_带有系数的幂级数收敛的充要条件.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/定理与性质Theorem/T3_5_方阵幂级数与前n项和的误差.md",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A0一些底层理解/A07_矩阵级数与数项级数的联系.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D0写在章节开始前/矩阵序列、矩阵级数与方阵幂级数.png.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D1矩阵序列/定理与性质Theorem/T3_1_矩阵序列收敛的充要条件.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/其他重要知识Other/O1_不带系数的方阵幂级数的定义.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/定理与性质Theorem/T3_4_2方阵幂级数收敛到什么矩阵.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D1矩阵序列/其他重要知识Other/O5_矩阵序列与收敛矩阵的辨析.md",
+    "Diary/2023-11-22.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D1矩阵序列/0_本节行文思路_目录_请直接看这个_不要翻文件夹D1.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_1矩阵级数/0_本节行文思路_目录_请直接看这个_不要翻文件夹D2_1.md",
+    "研究生课程笔记/矩阵论/0_Attachments/同济大学_高等数学.jpg",
+    "研究生课程笔记/矩阵论/0_Attachments/同济大学_高等数学.jpg.crdownload",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_1矩阵级数/定义Definiton/D1_矩阵级数的定义",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_1矩阵级数/定理与性质Theorem",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_1矩阵级数/定义Definiton",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_1矩阵级数/其他重要知识Other",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_1矩阵级数",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/定理与性质Theorem",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/定义Definiton",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/其他重要知识Other",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D1矩阵序列/0_Attachments/Pasted image 20231125105318.png",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A2课程要求与安排/0_Attachments/Pasted image 20231122170817.png",
+    "ARTS/成一家之言/人体/人体效果/0_Attachments/Pasted image 20231121091043.png",
+    "ARTS/成一家之言/人体/人体效果/0_Attachments/Pasted image 20231121005118.png",
+    "ARTS/成一家之言/人体/人体效果/0_Attachments/Pasted image 20231121003308.png",
+    "ARTS/成一家之言/人体/人体效果/0_Attachments/Pasted image 20231121003240.png",
+    "ARTS/成一家之言/人体/人体效果/0_Attachments/Pasted image 20231121002918.png",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

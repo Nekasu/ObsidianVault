@@ -1,0 +1,1 @@
+$n$阶矩阵$A$的特征多项式的一个零点为矩阵$A$自身, 即对于特征多项式$$\varphi(\lambda)=det(A-\lambda I)=\lambda^n+a_1\lambda^{n-1}+a_2\lambda^{n-2}+\cdots+a_{n-1}\lambda+a_n,$$令$\lambda=A$, 有$$\varphi(A)=A^n+a_1A^{n-1}+a_2A^{n-2}+\cdots+a_{n-1}A+a_n=O.$$

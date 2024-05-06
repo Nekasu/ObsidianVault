@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "f29146cb5ccfe641",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae28ae792e8edce1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文/B论文撰写/B12_插曲_需要选择一定的分类标准对风格迁移技术进行分析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "分类标准",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 374.5
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "论文/B论文撰写/B12_插曲_需要选择一定的分类标准对风格迁移技术进行分析.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "论文/B论文撰写/B12_插曲_需要选择一定的分类标准对风格迁移技术进行分析.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "论文/B论文撰写/B12_插曲_需要选择一定的分类标准对风格迁移技术进行分析.md"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "ae28ae792e8edce1",
+  "lastOpenFiles": [
+    "Diary/2023-11-13.md",
+    "论文/B论文撰写/B12_插曲_需要选择一定的分类标准对风格迁移技术进行分析.md",
+    "Diary/2023-11-14.md",
+    "Diary/0_Attachments/Pasted image 20231113193036.png",
+    "Latex/集合运算.md",
+    "研究生课程笔记/矩阵论/0_Attachments/矩阵论作业.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/0_讨论本节的意义.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/1_Jordan标准形_索引文件.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B23特征值与特征向量/0_学习本节的意义.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B23特征值与特征向量/1_求高次矩阵多项式的值的方法.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B25不变子空间/0_研究不变子空间的意义.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B22线性变换的矩阵表示/B122_线性变换的矩阵表示.md",
+    "研究生课程笔记/矩阵论/A/A6_一系列空间的定义.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B21线性变换及其运算/B121_线性变换及其运算.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B1集合与映射_线性空间及其性质/B11_12集合与映射_线性空间及其性质.md",
+    "Diary/2023-11-12.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B22线性变换的矩阵表示/B122_线性变换及其运算.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B1集合与映射_线性空间及其性质/B1_线性空间与线性变换.md",
+    "研究生课程笔记/矩阵论/A/A4_一些重要意识.md",
+    "研究生课程笔记/矩阵论/A/A3_考点.md",
+    "研究生课程笔记/矩阵论/A/A2_常用的字母.md",
+    "研究生课程笔记/矩阵论/A/A1_课程要求、总览与提醒.md",
+    "研究生课程笔记/矩阵论/A/一些线性代数的基本名词.md",
+    "研究生课程笔记/矩阵论/A/矩阵的表示方式.md",
+    "研究生课程笔记/矩阵论/A/0_一些底层理解.md",
+    "SoftWare_Learning/TikZ/A_TikZ指令目录/2_tikz的路径命令的分类.md",
+    "SoftWare_Learning/TikZ/E_箭头/E1_箭头.md",
+    "SoftWare_Learning/vim",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/其他重要知识Other",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/定义Definiton",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/定理与性质Theorem",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/其他重要知识Other",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/定义Definiton",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/定理与性质Theorem",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C31矩阵的非奇异性质/其他重要知识Other",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C31矩阵的非奇异性质/定义Definiton",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C31矩阵的非奇异性质/定理与性质Theorem",
+    "Diary/0_Attachments/Pasted image 20231107012823.png",
+    "Diary/0_Attachments/Pasted image 20231107012818.png",
+    "Diary/0_Attachments/Pasted image 20231107012816.png",
+    "Diary/0_Attachments/Pasted image 20231107012812.png",
+    "Neural Network/Diffusion_Model/0_Attachments/Pasted image 20231103110816.png",
+    "Neural Network/Diffusion_Model/0_Attachments/Pasted image 20231103105907.png",
+    "Neural Network/Diffusion_Model/0_Attachments/Pasted image 20231103104634.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022847.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022830.png",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

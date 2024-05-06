@@ -1,0 +1,285 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "c95784161729ab5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf699a255bbee0bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2023-11-11.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "174a886bff33b454",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C11向量范数的定义与性质/定义Definiton/D2_1向量范数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2098b6e26751c61b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生课程笔记/矩阵论/C范数理论及其应用/C2矩阵的范数/C21矩阵范数的定义与性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a4823e8d15c2603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C11向量范数的定义与性质/定义Definiton/D2_1向量范数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "156fe4e41ec1895b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2023-11-11.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 465.5
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2023-11-11.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2023-11-11.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2023-11-11.md"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "11b8783b51bfba3c",
+  "lastOpenFiles": [
+    "Excalidraw/风格迁移分类.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-12 11.10.48.excalidraw.md",
+    "Diary/2023-11-12.md",
+    "Diary/2023-11-12.md~RF51e32ee3.TMP",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C11向量范数的定义与性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C11向量范数的定义与性质/定义Definiton/D2_1向量范数.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C2矩阵的范数/C21矩阵范数的定义与性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C12线性空间上是向量范数的等价性/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C11向量范数的定义与性质/其他重要知识Other/0_学习本节的意义_向量范数的作用.md",
+    "Diary/2023-11-11.md",
+    "Template/A_Diary_Template.md",
+    "Diary/2023-10-19.md",
+    "Diary/2023-10-20.md",
+    "Diary/2023-10-17.md",
+    "Diary/2023-11-06.md",
+    "Diary/2023-10-23.md",
+    "Diary/2023-10-21.md",
+    "ARTS/成一家之言/人体/6_胸部的画法.md",
+    "ARTS/成一家之言/人体/5_1如何绘制胸腔.md",
+    "ARTS/成一家之言/人体/5_0胸腔与盆腔.md",
+    "ARTS/成一家之言/人体/0_人体比例关系.md",
+    "Diary/2023/2023-9/2023-09-19.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C11向量范数的定义与性质/其他重要知识Other/O5_1-型范数.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C11向量范数的定义与性质/其他重要知识Other/O4_无穷范数.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C11向量范数的定义与性质/其他重要知识Other/O3_2-型范数.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B1集合与映射_线性空间及其性质/B11_12集合与映射_线性空间及其性质.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质/C12线性空间上是向量范数的等价性/定理与性质Theorem/T2_2向量收敛的充要条件.md",
+    "SoftWare_Learning/vim",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/其他重要知识Other",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/定义Definiton",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/定理与性质Theorem",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/其他重要知识Other",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/定义Definiton",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/定理与性质Theorem",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C31矩阵的非奇异性质/其他重要知识Other",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C31矩阵的非奇异性质/定义Definiton",
+    "Diary/0_Attachments/Pasted image 20231107012823.png",
+    "Diary/0_Attachments/Pasted image 20231107012818.png",
+    "Diary/0_Attachments/Pasted image 20231107012816.png",
+    "Diary/0_Attachments/Pasted image 20231107012812.png",
+    "Neural Network/Diffusion_Model/0_Attachments/Pasted image 20231103110816.png",
+    "Neural Network/Diffusion_Model/0_Attachments/Pasted image 20231103105907.png",
+    "Neural Network/Diffusion_Model/0_Attachments/Pasted image 20231103104634.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022847.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022830.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231102012428.png",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

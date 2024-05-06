@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "37d3d2017a974ff5",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5297c7dc72315f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50de9682da4242d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生课程笔记/高级计算机网络/第二节课.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9634b7ae871f7179",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7f04bb73df7382b8",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1082e143c6eb3de6",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "6e9f04626f82d87e",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "81cd36c6f5778261",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "81f98cac7a639ea6",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      },
+      {
+        "id": "81e8a1df8fc63c6c",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "a7fb1bf9911de64c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6b963a7517e6fe55",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "研究生课程笔记/高级计算机网络/第二节课.md",
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "83d94a32873ae3ca",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "研究生课程笔记/高级计算机网络/第二节课.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5ddbc0087f184ac7",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "研究生课程笔记/高级计算机网络/第二节课.md"
+          }
+        }
+      },
+      {
+        "id": "dcc3f6f3b0f78286",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "50de9682da4242d7",
+  "lastOpenFiles": [
+    "研究生课程笔记/高级计算机网络/第二节课.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定理与性质Theorem/T1_42酉相似、正交相似于对角阵的充要条件及其推论.md",
+    "SoftWare_Learning/vscode/vscode与Python/不解析导入函数的问题.md",
+    "SoftWare_Learning/vscode/vscode与Python/不自动补全构造函数__init__.md",
+    "SoftWare_Learning/vscode/vscode与Python",
+    "研究生课程笔记/自然辩证法概论/2_第二节课.md",
+    "研究生课程笔记/算法导论/2_第二节课_研究方向介绍与相应算法分享.md",
+    "Diary/2024-03-06.md",
+    "Diary/2024-03-04.md",
+    "Neural Network/深度学习模型的复杂度/原始资料收集.md",
+    "Neural Network/深度学习模型的复杂度",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B1集合与映射_线性空间及其性质/B11_12集合与映射_线性空间及其性质.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B25不变子空间/定义Definition/D1_20不变子空间.md",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A1一些重要结论/未命名.md",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A1一些重要结论/A7_以矩阵为元素的空间的维度.md",
+    "Diary/2023-12-13.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B25不变子空间/0_研究不变子空间的意义.md",
+    "研究生课程笔记/矩阵论/update_file.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/其他重要知识Other/O3_利用「相似对角化」求矩阵函数的函数值.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/其他重要知识Other/O_1_1矩阵函数与欧拉公式.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/其他重要知识Other/O0_关于矩阵函数的一些探讨.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D32.md",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/使用vscode开发uni-app.md",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/1_ts错误校验.md",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_下载一些好用的插件.md",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments/Pasted image 20231207222644.png",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments/Pasted image 20231207222638.png",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments/Pasted image 20231207222631.png",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments/Pasted image 20231207222139.png",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments",
+    "ARTS/0_Attachments/引用书籍/孙韬_解构人体_艺术人体解剖_封面图像.jpg",
+    "ARTS/0_Attachments/引用书籍",
+    "SoftWare_Learning/vscode/插件推荐/0_Attachments/Pasted image 20231207233236.png",
+    "SoftWare_Learning/vscode/插件推荐/0_Attachments/Pasted image 20231207233200.png",
+    "SoftWare_Learning/vscode/插件推荐/鼠标悬停查看图像预览插件.md",
+    "SoftWare_Learning/vscode/插件推荐/路径提示插件.md",
+    "SoftWare_Learning/vscode/插件推荐/工作区插件Project Manager.md",
+    "SoftWare_Learning/vscode/插件推荐/0_Attachments",
+    "SoftWare_Learning/vscode/插件推荐",
+    "SoftWare_Learning/vscode"
+  ]
+}

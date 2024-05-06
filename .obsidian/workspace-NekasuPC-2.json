@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "e843f349fafd3828",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ab084b7419216f4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "高级",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2023-11-01.md"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "49034ce08637d17c",
+  "lastOpenFiles": [
+    "ARTS/成一家之言/人体/5_1如何绘制胸腔.md",
+    "Diary/2023-11-01.md",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231102012428.png",
+    "ARTS/成一家之言/人体/5_0胸腔与盆腔.md",
+    "ARTS/成一家之言/人体/4_眼睛的球与透视.md",
+    "ARTS/集百家之长/Krenz团队/作为光影萌新，我是如何开始学习二分的【前辈经验丨第五期】.md",
+    "ARTS/集百家之长/Krenz团队/【Krenz】干货：练明暗交界线和抓型.md",
+    "Diary/2023-10-31.md",
+    "Diary/2023-10-30.md",
+    "Latex/希腊字母.md",
+    "Diary/2023-10-26.md",
+    "Diary/2023-10-25.md",
+    "Diary/2023-10-24.md",
+    "Latex/偏导数.md",
+    "Latex/公式的引用.md",
+    "Diary/0_Attachments/Pasted image 20231027023918.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022847.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022837.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022830.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022826.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027013821.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027012815.png",
+    "ARTS/成一家之言/人体/6_胸部的画法.md",
+    "研究生课程笔记/网络与信息安全/未命名.md",
+    "BodyExercise/Daily Diet.md",
+    "Neural Network/0_基础知识/马尔科夫随机场与风格迁移.md",
+    "论文/B论文撰写/B11_风格迁移综述_论文组织架构.md",
+    "论文/B论文撰写/B12_插曲_需要选择一定的分类标准对风格迁移技术进行分析.md",
+    "心理咨询/8_22吵架情况汇报与经验总结.md",
+    "研究生课程笔记/网络与信息安全/A0_一些数论基础.md",
+    "研究生课程笔记/矩阵论/B1集合与映射_线性空间及其性质/B11_12集合与映射_线性空间及其性质.md",
+    "研究生课程笔记/矩阵论/A/A3_考点.md",
+    "研究生课程笔记/矩阵论/A/A1_课程要求、总览与提醒.md",
+    "研究生课程笔记/矩阵论/A/A3_考点 1.md",
+    "研究生课程笔记/矩阵论/B1集合与映射_线性空间及其性质",
+    "研究生课程笔记/矩阵论/A",
+    "研究生课程笔记/矩阵论/0_Attachments/矩阵论作业.pdf",
+    "研究生课程笔记/矩阵论/0_Attachments/Pasted image 20230923104744.png",
+    "研究生课程笔记/矩阵论/0_Attachments/A1_经典微博——矩阵论的来龙去脉.pdf",
+    "研究生课程笔记/矩阵论/0_Attachments",
+    "研究生课程笔记/矩阵论/B3两个重要子空间",
+    "研究生课程笔记/矩阵论/B2线性空间变换及其矩阵/B26Jardan标准型/定理与性质Theorem",
+    "研究生课程笔记/矩阵论/B2线性空间变换及其矩阵/B26Jardan标准型/定义Definition",
+    "研究生课程笔记/矩阵论/B2线性空间变换及其矩阵/B26Jardan标准型/其他重要知识Others",
+    "研究生课程笔记/矩阵论/B2线性空间变换及其矩阵/B26Jardan标准型",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231025014442.png",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "119ef11c1a1b7561",
+    "type": "split",
+    "children": [
+      {
+        "id": "0dd9af759179a4ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "def5a141fca41ba0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "update_file.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ae3536bd88a78a46",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f1ec31aae6d73c68",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "157dc5431fa577a6",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "cb989b2f8a3efa25",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "621069844559495a",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "781f873177d16e80",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c5b99eb4513040e8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "update_file.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5e7b9665f4e79afe",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "update_file.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "03f60108f9d2e27a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "update_file.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f1ec31aae6d73c68",
+  "lastOpenFiles": [
+    "D矩阵分析及其应用/D2_2方阵幂级数/0_本节行文思路_目录_请直接看这个_不要翻文件夹D2_2.md",
+    "A重要理解、常用字母与课程安排/A0一些底层理解/A08_方阵幂级数与幂级数之间的联系.md",
+    "B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定理与性质Theorem/T1_42酉相似、正交相似于对角阵的充要条件及其推论.md",
+    "D矩阵分析及其应用/D0写在章节开始前/前言.md",
+    "D矩阵分析及其应用/D1矩阵序列/0_本节行文思路_目录_请直接看这个_不要翻文件夹D1.md",
+    "D矩阵分析及其应用/D2_1矩阵级数/0_本节行文思路_目录_请直接看这个_不要翻文件夹D2_1.md",
+    "D矩阵分析及其应用/D1矩阵序列/0_Attachments/Pasted image 20231125105318.png",
+    "D矩阵分析及其应用/D1矩阵序列/定义Definiton/未命名.md",
+    "update_file.md",
+    "D矩阵分析及其应用/D2_2方阵幂级数/定理与性质Theorem/T3_6_带有系数的幂级数收敛的充要条件.md",
+    "D矩阵分析及其应用/D1矩阵序列/定理与性质Theorem/T3_3(1)矩阵是收敛矩阵的充要条件.md",
+    "D矩阵分析及其应用/D1矩阵序列/其他重要知识Other/O5_矩阵序列与收敛矩阵的辨析.md",
+    "D矩阵分析及其应用/D1矩阵序列/定理与性质Theorem/T3_2收敛矩阵的定义.md",
+    "D矩阵分析及其应用/D2_1矩阵级数/其他重要知识Other/O2_绝对收敛的矩阵级数的性质2_绝对收敛的充要条件.md",
+    "D矩阵分析及其应用/D2_1矩阵级数/定义Definiton/D3_6_矩阵级数绝对收敛的定义.md",
+    "A重要理解、常用字母与课程安排/A0一些底层理解/A07_矩阵级数与数项级数的联系.md",
+    "D矩阵分析及其应用/D1矩阵序列/定理与性质Theorem/T3_1_矩阵序列收敛的充要条件.md",
+    "A重要理解、常用字母与课程安排/A0一些底层理解/A06_矩阵序列与数列之间的联系.md",
+    "D矩阵分析及其应用/D1矩阵序列/定义Definiton/D3_1_矩阵序列发散与收敛的定义.md",
+    "D矩阵分析及其应用/D1矩阵序列/其他重要知识Other/O1_2_矩阵序列与矩阵序列的通项的辨析.md",
+    "D矩阵分析及其应用/D1矩阵序列/其他重要知识Other/O1_什么是矩阵序列.md",
+    "A重要理解、常用字母与课程安排/A2课程要求与安排/联动书籍_同济大学高等数学.md",
+    "D矩阵分析及其应用/D1矩阵序列/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md"
+  ]
+}

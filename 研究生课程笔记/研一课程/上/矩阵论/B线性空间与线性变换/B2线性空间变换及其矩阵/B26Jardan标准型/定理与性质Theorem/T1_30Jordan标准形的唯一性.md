@@ -1,0 +1,1 @@
+每个$n$阶复矩阵$A$都与一个Jordan标准形相似（不考Jordan标准形中Jordan块的顺序）, 即每个Jordan标准形被矩阵$A$唯一确定

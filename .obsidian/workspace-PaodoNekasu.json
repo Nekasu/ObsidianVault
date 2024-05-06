@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c159e7b77eabac8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "add641b9057d4d33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2023-11-03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#待整理",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 464.5
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2023-11-03.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2023-11-03.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2023-11-03.md"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "49034ce08637d17c",
+  "lastOpenFiles": [
+    "Neural Network/Diffusion_Model",
+    "本质/卷积、卷积操作、卷积神经网络.md",
+    "Diary/2023-10-23.md",
+    "Diary/2023-10-21.md",
+    "Diary/2023-10-17.md",
+    "Diary/2023-10-16.md",
+    "ARTS/成一家之言/人体/5_1如何绘制胸腔.md",
+    "ARTS/成一家之言/人体/0_人体比例关系.md",
+    "Diary/2023-11-03.md",
+    "Diary/2023-11-02.md",
+    "ARTS/成一家之言/人体/5_0胸腔与盆腔.md",
+    "ARTS/成一家之言/人体/6_胸部的画法.md",
+    "ARTS/成一家之言/人体/脸颊的转折在哪里.md",
+    "ARTS/成一家之言/人体/1_脸颊的转折在哪里.md",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022847.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022830.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231102012428.png",
+    "SoftWare_Learning/TikZ/0_TikZ_test.md",
+    "Diary/2023-11-01.md",
+    "Diary/0_Attachments/Pasted image 20231102012941.png",
+    "Diary/2023-10-26.md",
+    "Diary/2023-10-25.md",
+    "Diary/2023-10-24.md",
+    "Diary/2023-10-31.md",
+    "Diary/2023-10-30.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/0_讨论本节的意义.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O10Herimite矩阵的谱分解、矩阵的第三种表示方式.md",
+    "研究生课程笔记/矩阵论/A/矩阵的表示方式.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定理与性质Theorem/T1_42酉相似、正交相似于对角阵的充要条件及其推论.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_32正规矩阵.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/重要知识汇总",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/其他重要知识Others/其他重要知识Others",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定理与性质Theorem",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C2矩阵的范数",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C1向量范数及其性质",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换",
+    "研究生课程笔记/矩阵论/C范数理论及其应用",
+    "Diary/0_Attachments/Pasted image 20231027023918.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022837.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027022826.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027013821.png",
+    "ARTS/成一家之言/人体/0_Attachments/Pasted image 20231027012815.png",
+    "研究生课程笔记/矩阵论/0_Attachments/Pasted image 20230923104744.png",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

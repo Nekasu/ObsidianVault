@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7e10471cb25a0bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1feed32579f6fdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D32.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "929377de1dc1389c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/其他重要知识Other/O1_矩阵函数的一些例子.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "高",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 405.5
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D32.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D32.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D32.md"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "c1feed32579f6fdc",
+  "lastOpenFiles": [
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D31.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B23特征值与特征向量/1_求高次矩阵多项式的值的方法.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/其他重要知识Other/O1_利用「待定系数法」求矩阵函数值.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/其他重要知识Other/O1_矩阵函数的一些例子.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B23特征值与特征向量/定义Definition/D1_19最小多项式.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/其他重要知识Other/O0_关于矩阵函数的一些探讨.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/其他重要知识Other/O_1_1矩阵函数与欧拉公式.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D32.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B23特征值与特征向量/定理与性质Theorem/T1_19最小多项式与其他首一多项式.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B23特征值与特征向量/定理与性质Theorem/T1_18Hamlilton-Cayley定理.md",
+    "Diary/2023-12-07.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/定义Definiton/T3_7矩阵函数的定义.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B22线性变换的矩阵表示/B122_线性变换的矩阵表示.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B23特征值与特征向量/定理与性质Theorem/T1_21最小多项式的计算.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/1_Jordan标准形_索引文件.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/定理与性质Theorem/T1_28Jardan引理.md",
+    "研究生课程笔记/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/0_研究Jordan标准型的意义.md",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A1一些重要结论/A6_一系列空间的定义.md",
+    "Diary/2023-12-08.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/其他重要知识Other/O2_矩阵三角函数的展开式与倍角公式.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D31矩阵函数的定义与性质/定理与性质Theorem/T3_7同底数的、以矩阵为幂的函数的乘积及其推广.md",
+    "研究生课程笔记/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/定理与性质Theorem/D2_5_谱半径的定义.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/其他重要知识Other/O2_利用「数项级数」求矩阵函数.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/其他重要知识Other/O4_利用「Jordan标准形」求矩阵函数的值.md",
+    "SoftWare_Learning/Latex/省略号.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D33矩阵函数的另一定义/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D33.md",
+    "SoftWare_Learning/vscode/插件推荐/0_Attachments/Pasted image 20231207233236.png",
+    "SoftWare_Learning/vscode/插件推荐/0_Attachments/Pasted image 20231207233200.png",
+    "SoftWare_Learning/vscode/插件推荐/0_Attachments",
+    "SoftWare_Learning/vscode/插件推荐",
+    "SoftWare_Learning/vscode",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments/Pasted image 20231207222644.png",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments/Pasted image 20231207222638.png",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments/Pasted image 20231207222631.png",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments/Pasted image 20231207222139.png",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp/0_Attachments",
+    "ARTS/0_Attachments/引用书籍/孙韬_解构人体_艺术人体解剖_封面图像.jpg",
+    "ARTS/0_Attachments/引用书籍/孙韬_解构人体_艺术人体解剖_封面图像.jpg.crdownload",
+    "ARTS/0_Attachments/引用书籍",
+    "ARTS/0_Attachments/新建文件夹",
+    "Diary/0_Attachments/Pasted image 20231207104054.png",
+    "Diary/0_Attachments/Pasted image 20231207104029.png",
+    "SoftWare_Learning/Uniapp/使用vscode开发uniapp",
+    "SoftWare_Learning/Uniapp/官方文档_查询常用功能",
+    "SoftWare_Learning/Uniapp/A_Uniapp文件架构/0_Attachments/Pasted image 20231206230229.png",
+    "SoftWare_Learning/Uniapp/A_Uniapp文件架构/0_Attachments",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

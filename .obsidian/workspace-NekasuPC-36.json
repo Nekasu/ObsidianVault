@@ -1,0 +1,290 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "37b4ed16317d5789",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc8a1faf9f31ab5d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Neural Network/style_stransfer/0_风格迁移领域文章发展关系.canvas",
+                "viewState": {
+                  "x": -420,
+                  "y": 141.5,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "6f2bb78832e228e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Network/style_stransfer/1_风格迁移中实现无监督训练的方法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c92c4998a4189348",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024-03-17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81e41207e3a73696",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024-03-17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#近日安排",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 356.5
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Neural Network/style_stransfer/0_风格迁移领域文章发展关系.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Neural Network/style_stransfer/0_风格迁移领域文章发展关系.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Neural Network/style_stransfer/0_风格迁移领域文章发展关系.canvas"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "b0cd145bae1fa7da",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "vscode-editor:新建代码文件": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "fc8a1faf9f31ab5d",
+  "lastOpenFiles": [
+    "SoftWare_Learning/vscode/vscode与copilot/github_copilot_代替方案.md",
+    "SoftWare_Learning/vscode/vscode与copilot/未命名.md",
+    "Diary/2024-03-17.md",
+    "研究生课程笔记/算法导论/3_第三节课.md",
+    "Neural Network/style_stransfer/0_风格迁移领域文章发展关系.canvas",
+    "Neural Network/style_stransfer/4_风格迁移领域的关键问题.md",
+    "Neural Network/style_stransfer/1_风格迁移中实现无监督训练的方法.md",
+    "Diary/2024-03-15.md",
+    "SoftWare_Learning/服务器配置/1_服务器网络代理设置.md",
+    "Neural Network/style_stransfer/3_各文章对于风格迁移定义的描述.md",
+    "Neural Network/style_stransfer/2_风格迁移领域评价标准.md",
+    "Neural Network/style_stransfer/1_关于Gatys等人论文给我的启发.md",
+    "Diary/2024-03-14.md",
+    "Diary/2024-03-13.md",
+    "如何谈恋爱_一些心得/小技巧.md",
+    "如何谈恋爱_一些心得/8_22吵架情况汇报与经验总结.md",
+    "如何谈恋爱_一些心得/稻草人技巧.md",
+    "Neural Network/0_基础知识/1_名词解释/4_如何理解embedding？.md",
+    "Neural Network/论文写作/词汇积累.md",
+    "Neural Network/论文写作",
+    "SoftWare_Learning/vscode/vscode与Python/不解析导入函数的问题.md",
+    "SoftWare_Learning/vscode/vscode与Python/不自动补全构造函数__init__.md",
+    "SoftWare_Learning/服务器配置/0_服务器ip地址信息.md",
+    "SoftWare_Learning/雀魂麻将账号密码/美游.md",
+    "SoftWare_Learning/vscode/插件推荐/鼠标悬停查看图像预览插件.md",
+    "Neural Network/0_基础知识/1_名词解释/3_嵌入空间_embedding_space.md",
+    "Template/A_Diary_Template.md",
+    "Diary/2024-01-20.md",
+    "Neural Network/0_基础知识/3_概念辨析",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D3矩阵函数/D32矩阵函数值的求法/其他重要知识Other/O4_利用「Jordan标准形」求矩阵函数的值.md.2023-12-09_18.19.05.foldersync.old",
+    "Diary/2024-01-22.md.2024-01-23_00.10.18.foldersync.old",
+    "Diary/2023-11-22.md.2023-11-23_00.10.16.foldersync.old",
+    "SoftWare_Learning/服务器配置/0_Attachments/Pasted image 20240310152428.png",
+    "SoftWare_Learning/服务器配置/0_Attachments",
+    "SoftWare_Learning/服务器地址信息/未命名.canvas",
+    "未命名.canvas",
+    "SoftWare_Learning/服务器配置",
+    "SoftWare_Learning/雀魂麻将账号密码",
+    "SoftWare_Learning/vscode/0_Attachments/新建 Microsoft Publisher Document.pub",
+    "SoftWare_Learning/vscode/0_Attachments/Vscode离线安装插件的方法 - 稳住别慌 - 博客园.pdf",
+    "Diary/0_Attachments/Pasted image 20240123000824.png",
+    "Diary/0_Attachments/Pasted image 20240123000451.png",
+    "Diary/0_Attachments/Pasted image 20240122233428.png",
+    "Diary/0_Attachments/Pasted image 20240121113356.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117171741.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117171740.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117163425.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117163602.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117165646.png",
+    "未命名 1.canvas"
+  ]
+}

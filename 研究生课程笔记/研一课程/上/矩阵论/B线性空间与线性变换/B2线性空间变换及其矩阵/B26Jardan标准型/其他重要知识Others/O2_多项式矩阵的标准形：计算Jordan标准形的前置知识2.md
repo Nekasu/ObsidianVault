@@ -1,0 +1,3 @@
+[[O1_多项式矩阵：计算Jordan标准形的前置知识1|多项式矩阵]]$A(\lambda)$的标准形指的是对$A(\lambda)$进行`初等行列变换`, 将其变为以下的形式$$A(\lambda)\rightarrow\begin{bmatrix}d_1(\lambda)& & & & & &\\
+&d_2(\lambda) & & & & & \\& &\ddots& & &\\& & & d_s(\lambda)& & &\\&&&&0&&\\& & & & &\ddots &\\& & & & & &0\end{bmatrix}$$
+且该`标准形`满足$d_1(\lambda) \mid d_2(\lambda)$ , $d_2(\lambda) \mid d_3(\lambda), \cdots, d_{n-1}(\lambda) \mid d_n(\lambda)$,  即之间存在整除关系

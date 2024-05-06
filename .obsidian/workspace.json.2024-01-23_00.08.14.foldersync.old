@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "12f642eed5c51c26",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae9aea97ef8b1311",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0660006c77e6e399",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生课程笔记/矩阵论/D矩阵分析及其应用/D4矩阵的微分与积分/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D4.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16f959aea1b61615",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024-01-22.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b4e9d5eeb14cbc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbdaa5b9eac4a0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49034ce08637d17c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b60120a92f98687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "AAAI",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "595e893f284ce784",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "86df6cc607131511",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "eecd073479a4da28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 405.5
+  },
+  "right": {
+    "id": "90a14c6cca9d3830",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfff837c18cfff93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63b0c72059013cc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2024-01-22.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fb624d4b723ca728",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2024-01-22.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c648dc017455fe16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ddd5e66f17abfc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2024-01-22.md"
+              }
+            }
+          },
+          {
+            "id": "11b8783b51bfba3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1c6ad467bda7c72f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "b0cd145bae1fa7da",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "16f959aea1b61615",
+  "lastOpenFiles": [
+    "Diary/2024-01-21.md",
+    "Diary/2024-01-22.md",
+    "Diary/2024-01-20.md",
+    "Diary/2024-01-19.md",
+    "Diary/2024-01-15.md",
+    "Template/A_Diary_Template.md",
+    "Diary/2024-01-18.md",
+    "SoftWare_Learning/Zotro/Zotro与easyscholar联动时的一些映射关系.md",
+    "Diary/0_Attachments/Pasted image 20240121113356.png",
+    "Diary/2024-01-17.md",
+    "Diary/2024-01-16.md",
+    "Diary/2024-01-14.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D4矩阵的微分与积分/0_本节行文思路_目录_请直接看这个_不要翻文件夹_D4.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/定理与性质Theorem/T3_4_2方阵幂级数收敛到什么矩阵.md",
+    "研究生课程笔记/矩阵论/update_file.md",
+    "SoftWare_Learning/TikZ/0_TikZ_test.md",
+    "Neural Network/style_stransfer/2_风格迁移领域评价标准.md",
+    "本质/信息熵.md",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117171741.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117171740.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117163425.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117163602.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117165646.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117165835.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117162618.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117162013.png",
+    "Neural Network/style_stransfer/0_Attachments/Pasted image 20240117161955.png",
+    "Neural Network/style_stransfer/0_Attachments",
+    "Diary/2023-11-29.md",
+    "Diary/2023-11-17.md",
+    "研究生课程笔记/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/定理与性质Theorem/T3_6_带有系数的幂级数收敛的充要条件.md",
+    "Diary/2023-12-01.md",
+    "Diary/2023-11-26.md",
+    "Diary/2023-11-22.md",
+    "Diary/2023-11-11.md",
+    "Diary/2023-10-19.md",
+    "Diary/2023-10-17.md",
+    "本质/信息熵.md~",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A1_解题方法/0_Attachments",
+    "研究生课程笔记/矩阵论/A重要理解、常用字母与课程安排/A1_解题方法",
+    "Daily/工作习惯养成",
+    "研究生课程笔记/机器学习",
+    "Neural Network/0_基础知识/2_一些难以理解的说法",
+    "本质/概率论",
+    "Daily/学校_家_清单整理/未命名",
+    "Daily/学校_家_清单整理",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}
