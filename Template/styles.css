@@ -48,3 +48,56 @@ a:hover {
     border-radius: 3px;
     display: inline-block;
 }
+
+/* 初始化计数器 */
+body {
+  counter-reset: h1 h2 h3 h4 h5;
+}
+
+/* h1 自动编号 */
+h1 {
+  counter-reset: h2; /* h1 内重置 h2 */
+}
+h1::before {
+  counter-increment: h1;
+  content: counter(h1) ". ";
+}
+
+/* h2 自动编号 */
+h2 {
+  counter-reset: h3; /* h2 内重置 h3 */
+}
+h2::before {
+  counter-increment: h2;
+  content: counter(h1) "." counter(h2) " ";
+}
+
+/* h3 自动编号 */
+h3 {
+  counter-reset: h4; /* h3 内重置 h4 */
+}
+h3::before {
+  counter-increment: h3;
+  content: counter(h1) "." counter(h2) "." counter(h3) " ";
+}
+
+/* h4 自动编号 */
+h4 {
+  counter-reset: h5; /* h4 内重置 h5 */
+}
+h4::before {
+  counter-increment: h4;
+  content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) " ";
+}
+
+/* h5 自动编号 */
+h5::before {
+  counter-increment: h5;
+  content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " ";
+}
+
+/* 可选样式：设置标题间距和字体 */
+h1, h2, h3, h4, h5 {
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+}

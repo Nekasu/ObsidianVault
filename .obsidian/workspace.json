@@ -8,15 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6e8c16d0d1be857",
+            "id": "94f4e9343828b578",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf"
+                "file": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/20241126接受审稿意见如下.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "NEUCOM-D-24-08078"
+              "icon": "lucide-file",
+              "title": "20241126接受审稿意见如下"
             }
           }
         ]
@@ -133,10 +135,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf"
+                "file": "Diary/2024-12-01.md"
               },
               "icon": "lucide-list",
-              "title": "NEUCOM-D-24-08078 的大纲"
+              "title": "2024-12-01 的大纲"
             }
           },
           {
@@ -245,10 +247,12 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "c6e8c16d0d1be857",
+  "active": "b70a1505259d4f6a",
   "lastOpenFiles": [
-    "Diary/2024-12-01.md",
     "Diary/2024-12-07.md",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/20241126接受审稿意见如下.md",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf",
+    "Diary/2024-12-01.md",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.html",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.md",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.md.nssyncsc",
@@ -257,10 +261,8 @@
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/howtousehtml.html",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/未命名.html",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/styles.css",
-    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/20241126接受审稿意见如下.md",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/新建 文本文档.txt",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/未命名.md",
-    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf",
     "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/2024年12月1日_G_contrast函数检查.md",
     "SoftWare_Learning/服务器/1_服务器配置/0_readme.md",
     "Neural Network/0_基础知识/3_概念辨析/CUDA们/1_CUDA、cudatoolkit、cudnn三者概念的辨析.md",
