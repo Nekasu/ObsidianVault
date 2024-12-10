@@ -22,7 +22,7 @@ Git 使用 SSH 配置，初始需要以下三个步骤
 
 #### 第一步 ：检查本地主机是否已经存在 ssh key
 
-```console
+```bash
 cd ~/.ssh
 ls
 //看是否存在 id_rsa 和 id_rsa.pub文件，如果存在，说明已经有SSH Key
@@ -38,7 +38,7 @@ ls
 
 如果不存在 ssh key，使用如下命令生成
 
-```console
+```bash
 ssh-keygen -t rsa -C " xxx@xxx.com "
 //执行后一直回车即可
 ```
@@ -47,7 +47,7 @@ ssh-keygen -t rsa -C " xxx@xxx.com "
 
 #### 第三步 ：获取 ssh key 公钥内容（id_rsa. Pub）
 
-```console
+```bash
 cd ~/. Ssh
 cat id_rsa. Pub
 ```
@@ -68,7 +68,7 @@ cat id_rsa. Pub
 
 #### 第五步：验证是否设置成功
 
-```console
+```bash
 ssh -T git@github.com
 ```
 

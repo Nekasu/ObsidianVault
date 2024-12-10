@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "2024-06-27",
+      "path": "Diary/2024-06-27.md"
+    },
+    {
+      "basename": "2024-06-24",
+      "path": "Diary/2024-06-24.md"
+    },
+    {
+      "basename": "2024-06-13审稿",
+      "path": "Diary/2024-06-13审稿.md"
+    },
+    {
+      "basename": "输入数据处理问题",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/输入数据处理问题.md"
+    },
+    {
+      "basename": "图像合并层面的问题",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/图像合并层面的问题.md"
+    },
+    {
+      "basename": "基于修改网络的解决方案",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/风格迁移层面的问题/基于修改网络的解决方案.md"
+    },
+    {
+      "basename": "风格迁移层面的问题",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/风格迁移层面的问题/风格迁移层面的问题.md"
+    },
+    {
+      "basename": "目录文件_README_0612",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/目录文件_README_0612.md"
+    },
+    {
+      "basename": "基于预处理的解决方案",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/风格迁移层面的问题/基于预处理的解决方案.md"
+    },
+    {
+      "basename": "2_某两篇研究生毕业论文引起的思考",
+      "path": "Neural Network/style_stransfer/对于风格迁移领域的一些思考/2_某两篇研究生毕业论文引起的思考.md"
+    },
+    {
+      "basename": "2024-06-26",
+      "path": "Diary/2024-06-26.md"
+    },
+    {
+      "basename": "0_Diary_Template",
+      "path": "Template/0_Diary_Template.md"
+    },
+    {
+      "basename": "神经网络组件目录文件_README",
+      "path": "Neural Network/神经网络组件/神经网络组件目录文件_README.md"
+    },
+    {
+      "basename": "OctConv_八度卷积",
+      "path": "Neural Network/神经网络组件/OctConv_八度卷积.md"
+    },
+    {
+      "basename": "4_修改用户密码",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/4_修改用户密码.md"
+    },
+    {
+      "basename": "4_风格迁移领域的关键问题",
+      "path": "Neural Network/style_stransfer/4_风格迁移领域的关键问题.md"
+    },
+    {
+      "basename": "1_代理设置_本机ip",
+      "path": "SoftWare_Learning/服务器个人信息/1_代理设置_本机ip.md"
+    },
+    {
+      "basename": "6_XPU各种处理器",
+      "path": "Neural Network/0_基础知识/6_XPU各种处理器.md"
+    },
+    {
+      "basename": "5_安装与配置nvcc",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/5_安装与配置nvcc.md"
+    },
+    {
+      "basename": "0专有名词",
+      "path": "Neural Network/昇腾全栈架构设计/0专有名词.md"
+    },
+    {
+      "basename": "0_早期名词解释 1",
+      "path": "Neural Network/0_基础知识/1_名词解释/0_早期名词解释 1.md"
+    },
+    {
+      "basename": "如何用tikz画一个神经网络",
+      "path": "Neural Network/如何用tikz画一个神经网络.md"
+    },
+    {
+      "basename": "扩散模型过程整理_Nekasu",
+      "path": "Neural Network/Diffusion_Model/扩散模型过程整理_Nekasu.md"
+    },
+    {
+      "basename": "0_服务器ip地址与个人密码信息",
+      "path": "SoftWare_Learning/服务器个人信息/0_服务器ip地址与个人密码信息.md"
+    },
+    {
+      "basename": "2024-06-19",
+      "path": "Diary/2024-06-19.md"
+    },
+    {
+      "basename": "2024-05-24",
+      "path": "Diary/2024-05-24.md"
+    },
+    {
+      "basename": "扩散模型过程整理_Nekasu",
+      "path": "Neural Network/Diffusion_Model/扩散模型过程整理_Nekasu.pdf"
+    },
+    {
+      "basename": "1_diffusion图像生成过程",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/1_diffusion图像生成过程总览/1_diffusion图像生成过程.md"
+    },
+    {
+      "basename": "2_denoise过程介绍",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/1_diffusion图像生成过程总览/2_denoise过程介绍.md"
+    },
+    {
+      "basename": "1_diffusion的Training过程",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/3_diffusion原理剖析/1_diffusion的Training过程.md"
+    },
+    {
+      "basename": "2_diffusion的Inference过程",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/3_diffusion原理剖析/2_diffusion的Inference过程.md"
+    },
+    {
+      "basename": "1_图像生成模型总览",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/1_图像生成模型总览.md"
+    },
+    {
+      "basename": "4_部件3_generation_model",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/4_部件3_generation_model.md"
+    },
+    {
+      "basename": "3_部件2_decoder",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/3_部件2_decoder.md"
+    },
+    {
+      "basename": "2_部件1_text_encoder",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/2_部件1_text_encoder.md"
+    },
+    {
+      "basename": "面试小准备",
+      "path": "Neural Network/Diffusion_Model/0_Attachments/面试小准备.md"
+    },
+    {
+      "basename": "1_服务器网络代理设置",
+      "path": "SoftWare_Learning/服务器个人信息/1_服务器网络代理设置.md"
+    },
+    {
+      "basename": "深度解析昇腾AI全栈架构设计",
+      "path": "Neural Network/昇腾全栈架构设计/深度解析昇腾AI全栈架构设计.md"
+    },
+    {
+      "basename": "Drawing 2023-12-09 16.34.27.excalidraw",
+      "path": "Excalidraw/Drawing 2023-12-09 16.34.27.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2024-04-26 20.18.50.excalidraw",
+      "path": "Excalidraw/Drawing 2024-04-26 20.18.50.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2024-05-06 16.10.26.excalidraw",
+      "path": "Excalidraw/Drawing 2024-05-06 16.10.26.excalidraw.md"
+    },
+    {
+      "basename": "Drawing 2024-05-11 17.46.08.excalidraw",
+      "path": "Excalidraw/Drawing 2024-05-11 17.46.08.excalidraw.png"
+    },
+    {
+      "basename": "Drawing 2023-08-17 17.48.32.excalidraw",
+      "path": "Excalidraw/Drawing 2023-08-17 17.48.32.excalidraw.md"
+    },
+    {
+      "basename": "Blockbench总览与提示",
+      "path": "Development/minecraft_devlop/Blockbench总览与提示.md"
+    },
+    {
+      "basename": "我的世界风格指南",
+      "path": "Development/minecraft_devlop/我的世界风格指南.md"
+    },
+    {
+      "basename": "Daily Diet",
+      "path": "BodyExercise/Daily Diet.md"
+    },
+    {
+      "basename": "2024-06-06",
+      "path": "Diary/2024-06-06.md"
+    },
+    {
+      "basename": "2024-06-11",
+      "path": "Diary/2024-06-11.md"
+    },
+    {
+      "basename": "2024-06-12",
+      "path": "Diary/2024-06-12.md"
+    },
+    {
+      "basename": "2024-05-14",
+      "path": "Diary/2024-05-14.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

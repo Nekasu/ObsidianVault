@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"5832ccdad883105a","type":"group","x":1920,"y":100,"width":1439,"height":1200,"label":"block.py已完成"},
+		{"id":"e7989dbdf7d5cb41","type":"group","x":1960,"y":409,"width":1120,"height":861,"label":"KernelPredictor"},
+		{"id":"cb8b8e5d513aa2f3","type":"group","x":741,"y":160,"width":275,"height":179,"label":"networks.py已完成"},
+		{"id":"8ed1028d6f67828b","type":"group","x":1960,"y":160,"width":300,"height":109,"label":"OctConv"},
+		{"id":"e2c6c6f4040e9be5","type":"text","text":"本文件的目的在于以栈的形式记录下述工作的进度![[自己想法构建#代码适配工作]]","x":-740,"y":-360,"width":816,"height":481},
+		{"id":"c98e51c35fd708be","type":"text","text":"当前工作","x":20,"y":259,"width":250,"height":60},
+		{"id":"c711ab384781f03c","type":"text","text":"栈底","x":-887,"y":429,"width":110,"height":60},
+		{"id":"88642a1db1077a3a","type":"text","text":"train.py → main 函数","x":-687,"y":429,"width":260,"height":60},
+		{"id":"93cfc455c5adea32","type":"text","text":"train.py → main 函数","x":-332,"y":429,"width":260,"height":60},
+		{"id":"c837e1835205a95f","type":"text","text":"model.py → class AesFA","x":42,"y":429,"width":260,"height":60},
+		{"id":"30bea43227c441f7","type":"text","text":"networks.py → define_network 函数","x":420,"y":429,"width":235,"height":60},
+		{"id":"e63dfd862567554b","type":"text","text":"networks.py → Encoder 类 ","x":761,"y":180,"width":235,"height":60},
+		{"id":"591e3446c05d63a6","type":"text","text":"","x":761,"y":259,"width":235,"height":60},
+		{"id":"b546b1fd2d2b1deb","type":"text","text":"block.py → OctConv","x":1980,"y":180,"width":250,"height":60},
+		{"id":"bf7442116c2e8b0d","type":"text","text":"block.py → KernelPredictor 类","x":1980,"y":429,"width":250,"height":60},
+		{"id":"88ec65886868b725","type":"text","text":"在 2024 年 10 月 30 日17:26 周三, 测试 KernelPredictor 类的时候, 发现了问题, 为了以后能了解自己的思路, 此处记录遇到的问题与可能的解决方案\n\n## KernelPredictor 的 forward 函数 中, reshape 操作的问题\n\n在该操作中, reshape 函数试图将一个张量变为一个卷积核的形式, 但是我通过 block.py->main_test_KernelPredictor 函数测试 KernelPredictor 类 (以下简称 KP 类)时, 出现报错如下：\n\n`[1, 3, 3, 3, 3]' is invalid for input of size 14745`\n\n该报错表明, reshape 函数无法将一个 14745 大小的张量变形为 `[1,3,3,3,3]` 的卷积核.\n\n导致这个问题的可能原因有：\n1. 输入数据大小问题. 由于 main_test_KernelPredictor 函数中, 使用了随意的 `x = torch.rand(size=(1,3,128,128)).to(device=\"cuda:1\")` 作为输入, 该张量的大小与通道数是随便写的, 可能导致无法适配\n\t1. 为了验证这个猜想, 可以运行原始的 AesFA 代码, 如果没有出现报错, 则说明该猜想正确. 因为我并未将 KP 类中的卷积替换为部分卷积, 所以 KP 类的运行问题不应与部分卷积有关. 也即, 模型中 KP 类在构造时的参数是由上一层类计算决定的, 是不能随意确定的. 具体验证步骤如下：\n\t\t1. 仓库克隆与名称修改\n\t\t\t1. 重新克隆一个 AesFA 仓库, 命名为 AesFA_origin, 表示这是一个没有被更改过的 AesFA 仓库 (除了 Config. Py 中的路径)\n\t\t\t2. 将原来的 AesFA 仓库命名为 AesFA_comment, 表示这是一个添加了 AesFA 注释的仓库\n\t\t\t3. 顺便一提, 开发中的 AesFA 仓库名称为 Partialconv_AesFA, 表示是一个用部分卷积代替了普通卷积的 AesFA 仓库.\n\t\t2. 修改 Config. Py 文件\n\t\t\t1. 阅读 AesFA_origin 中 README. Md 文件中的运行要求, 并按要求修改 Config 文件\n\t\t3. 测试并运行\n\n### 测试结果\n\n正常运行, 说明 KP 类没有问题.","x":1980,"y":500,"width":1080,"height":750}
+	],
+	"edges":[
+		{"id":"091683abb70038af","fromNode":"c98e51c35fd708be","fromSide":"bottom","toNode":"93cfc455c5adea32","toSide":"top"},
+		{"id":"a260d72e4b9760f3","fromNode":"e63dfd862567554b","fromSide":"right","toNode":"b546b1fd2d2b1deb","toSide":"left"},
+		{"id":"90435137db568ef7","fromNode":"30bea43227c441f7","fromSide":"right","toNode":"cb8b8e5d513aa2f3","toSide":"left"},
+		{"id":"1bfb6a03554e4be5","fromNode":"c711ab384781f03c","fromSide":"right","toNode":"88642a1db1077a3a","toSide":"left","color":"1"},
+		{"id":"38e0cf5597915ce0","fromNode":"88642a1db1077a3a","fromSide":"right","toNode":"93cfc455c5adea32","toSide":"left","color":"1"},
+		{"id":"b6d6c6b0f05d6e85","fromNode":"93cfc455c5adea32","fromSide":"right","toNode":"c837e1835205a95f","toSide":"left","color":"1"},
+		{"id":"71974a933531f68d","fromNode":"c837e1835205a95f","fromSide":"right","toNode":"30bea43227c441f7","toSide":"left","color":"1"}
+	]
+}

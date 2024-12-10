@@ -1,3 +1,7 @@
+>[!warning] 提示
+>推荐使用 [obsidian 软件](https://obsidian.md/), 以获得最好的阅读体验
+>点击右上角「书本」![](https://raw.githubusercontent.com/Nekasu/Blog_pics/main/20240910163022.png)图标, 进入阅读模式, 以获得更好的阅读体验！
+
 # 文件组织架构
 
 1. 在阅读笔记时, 请直接阅读`0_本节行文思路_目录_请直接看这个_不要翻文件夹`, 不要翻阅文件夹

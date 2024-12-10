@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "a4dd8c4c8e65c202",
+    "type": "split",
+    "children": [
+      {
+        "id": "da6a8e424e4ff63f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48142705f4f25ece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/2_部件1_text_encoder.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8253f3fe9fd458b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024-05-28.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35aed3297a23728e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8389029e3250b65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3382552b4ba5ce62",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "b70a1505259d4f6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20a6f84a6cca01b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "diffusion",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96a3f984070d6dd0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7bf503d9429739e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "85edeab5d5009266",
+        "type": "tabs",
+        "dimension": 39.67789165446559,
+        "children": [
+          {
+            "id": "f6ef76c3a24f2c56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2024-05-28.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5706060af4cd2a47",
+        "type": "tabs",
+        "dimension": 60.32210834553441,
+        "children": [
+          {
+            "id": "16b62709f18e5d66",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f00b07a97beb8756",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2024-05-28.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbb5c64fec246f72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2024-05-28.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed42b2e52ee85b22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f21cdb8840bfa7af",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 315.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "vscode-editor:新建代码文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-memos:Memos": false
+    }
+  },
+  "active": "8253f3fe9fd458b9",
+  "lastOpenFiles": [
+    "Neural Network/0_基础知识/1_名词解释/2_CLIP_Score.md",
+    "Diary/2024-05-28.md",
+    "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/2_部件1_text_encoder.md",
+    "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/4_部件3_generation_model.md",
+    "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/3_部件2_decoder.md",
+    "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/3_diffusion原理剖析/1_diffusion的Training过程.md",
+    "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/3_diffusion原理剖析/2_diffusion的Inference过程.md",
+    "Diary/2024-05-27.md",
+    "Diary/2024-05-14.md",
+    "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/1_图像生成模型总览.md",
+    "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/1_diffusion图像生成过程总览/2_denoise过程介绍.md",
+    "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/1_diffusion图像生成过程总览/1_diffusion图像生成过程.md",
+    "Diary/2024-05-24.md",
+    "Diary/2024-05-24-NekasuPCschool.md",
+    "SoftWare_Learning/服务器个人信息/1_代理设置_本机ip.md",
+    "Diary/2024-05-23.md",
+    "SoftWare_Learning/vscode/vscode与服务器/在云服务器重装系统后vscode连不上服务器的解决.md",
+    "SoftWare_Learning/git/1_git与github与ssh配置.md",
+    "Diary/2024-05-22.md",
+    "Diary/2024-05-21.md",
+    "ARTS/成一家之言/基本/绘画前的思考.md",
+    "ARTS/成一家之言/基本/0_塑造深度的方式与塑造体积的方式.md",
+    "ARTS/成一家之言/透视/物体在画面上的投影与透视与缩短效应.md",
+    "Diary/2024-05-20.md",
+    "SoftWare_Learning/github与图床设置/如何使用github创建图床.md",
+    "SoftWare_Learning/服务器/1_服务器配置/5_安装与配置nvcc.md",
+    "Daily/健身",
+    "SoftWare_Learning/服务器/服务器配置/未命名",
+    "SoftWare_Learning/服务器/服务器操作/未命名",
+    "SoftWare_Learning/服务器/2_服务器操作",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021508.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021353.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021316.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515020709.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments",
+    "研究生课程笔记/研一课程/下/高级计算机网络/5_周肖桐_7_LeakyScatter A Frequency-Agile Directional Backscatter Network Above 100 GHz.pdf",
+    "SoftWare_Learning/服务器/服务器配置/0_Attachments/Pasted image 20240512150628.png",
+    "SoftWare_Learning/服务器/服务器配置/0_Attachments",
+    "Excalidraw/Drawing 2024-05-11 17.46.08.excalidraw.png",
+    "Excalidraw/Drawing 2024-05-11 17.46.08.excalidraw.svg",
+    "Neural Network/0_基础知识/3_概念辨析/CUDA们",
+    "SoftWare_Learning/服务器/服务器配置/0_",
+    "SoftWare_Learning/服务器个人信息",
+    "研究生课程笔记/高级计算机网络/0_Attachments/Pasted image 20240423115005.png",
+    "研究生课程笔记/高级计算机网络/0_Attachments/Pasted image 20240423112307.png",
+    "研究生课程笔记/高级计算机网络/0_Attachments/Pasted image 20240423112037.png",
+    "Neural Network/style_stransfer/CANVAS/0_风格迁移领域文章发展关系.canvas",
+    "Neural Network/style_stransfer/CANVAS/1_风格迁移文章依赖关系.canvas"
+  ]
+}

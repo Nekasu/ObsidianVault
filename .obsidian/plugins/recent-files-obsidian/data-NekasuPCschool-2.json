@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "扩散模型过程整理",
+      "path": "Neural Network/Diffusion_Model/扩散模型过程整理.md"
+    },
+    {
+      "basename": "Diffusion_Model",
+      "path": "Neural Network/Diffusion_Model/Diffusion_Model.md"
+    },
+    {
+      "basename": "2024-06-06",
+      "path": "Diary/2024-06-06.md"
+    },
+    {
+      "basename": "2024-06-05",
+      "path": "Diary/2024-06-05.md"
+    },
+    {
+      "basename": "2024-06-03",
+      "path": "Diary/2024-06-03.md"
+    },
+    {
+      "basename": "1_代理设置_本机ip",
+      "path": "SoftWare_Learning/服务器个人信息/1_代理设置_本机ip.md"
+    },
+    {
+      "basename": "如何在校外使用学校图书馆",
+      "path": "SoftWare_Learning/NUIST/如何在校外使用学校图书馆.md"
+    },
+    {
+      "basename": "2_部件1_text_encoder",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/2_部件1_text_encoder.md"
+    },
+    {
+      "basename": "不解析导入函数的问题",
+      "path": "SoftWare_Learning/vscode/vscode与Python/不解析导入函数的问题.md"
+    },
+    {
+      "basename": "不自动补全函数、无法跳转函数定义的解决方案",
+      "path": "SoftWare_Learning/vscode/vscode与Python/不自动补全函数、无法跳转函数定义的解决方案.md"
+    },
+    {
+      "basename": "diffusion模型介绍_目录文件",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/diffusion模型介绍_目录文件.md"
+    },
+    {
+      "basename": "2024-05-14",
+      "path": "Diary/2024-05-14.md"
+    },
+    {
+      "basename": "2024-05-24",
+      "path": "Diary/2024-05-24.md"
+    },
+    {
+      "basename": "2024-05-31",
+      "path": "Diary/2024-05-31.md"
+    },
+    {
+      "basename": "垂直",
+      "path": "SoftWare_Learning/Latex/公式绘制/垂直.md"
+    },
+    {
+      "basename": "T2_5_1_矩阵的1-范数(列和范数)",
+      "path": "研究生课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C2矩阵的范数/C22几种常用的矩阵范数/定理与性质Theorem/T2_5_1_矩阵的1-范数(列和范数).md"
+    },
+    {
+      "basename": "大括号与多行公式",
+      "path": "SoftWare_Learning/Latex/公式绘制/大括号与多行公式.md"
+    },
+    {
+      "basename": "2024-05-28",
+      "path": "Diary/2024-05-28.md"
+    },
+    {
+      "basename": "2_CLIP_Score",
+      "path": "Neural Network/0_基础知识/1_名词解释/2_CLIP_Score.md"
+    },
+    {
+      "basename": "4_部件3_generation_model",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/4_部件3_generation_model.md"
+    },
+    {
+      "basename": "3_部件2_decoder",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/3_部件2_decoder.md"
+    },
+    {
+      "basename": "1_diffusion的Training过程",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/3_diffusion原理剖析/1_diffusion的Training过程.md"
+    },
+    {
+      "basename": "2_diffusion的Inference过程",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/3_diffusion原理剖析/2_diffusion的Inference过程.md"
+    },
+    {
+      "basename": "2024-05-27",
+      "path": "Diary/2024-05-27.md"
+    },
+    {
+      "basename": "1_图像生成模型总览",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/2_diffusion图像生成模型的三大组件/1_图像生成模型总览.md"
+    },
+    {
+      "basename": "2_denoise过程介绍",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/1_diffusion图像生成过程总览/2_denoise过程介绍.md"
+    },
+    {
+      "basename": "1_diffusion图像生成过程",
+      "path": "Neural Network/Diffusion_Model/扩散模型 - Diffusion Model【李宏毅2023】/1_diffusion图像生成过程总览/1_diffusion图像生成过程.md"
+    },
+    {
+      "basename": "2024-05-23",
+      "path": "Diary/2024-05-23.md"
+    },
+    {
+      "basename": "在云服务器重装系统后vscode连不上服务器的解决",
+      "path": "SoftWare_Learning/vscode/vscode与服务器/在云服务器重装系统后vscode连不上服务器的解决.md"
+    },
+    {
+      "basename": "1_git与github与ssh配置",
+      "path": "SoftWare_Learning/git/1_git与github与ssh配置.md"
+    },
+    {
+      "basename": "2024-05-22",
+      "path": "Diary/2024-05-22.md"
+    },
+    {
+      "basename": "2024-05-21",
+      "path": "Diary/2024-05-21.md"
+    },
+    {
+      "basename": "绘画前的思考",
+      "path": "ARTS/成一家之言/基本/绘画前的思考.md"
+    },
+    {
+      "basename": "0_塑造深度的方式与塑造体积的方式",
+      "path": "ARTS/成一家之言/基本/0_塑造深度的方式与塑造体积的方式.md"
+    },
+    {
+      "basename": "物体在画面上的投影与透视与缩短效应",
+      "path": "ARTS/成一家之言/透视/物体在画面上的投影与透视与缩短效应.md"
+    },
+    {
+      "basename": "2024-05-20",
+      "path": "Diary/2024-05-20.md"
+    },
+    {
+      "basename": "如何使用github创建图床",
+      "path": "SoftWare_Learning/github与图床设置/如何使用github创建图床.md"
+    },
+    {
+      "basename": "5_安装与配置nvcc",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/5_安装与配置nvcc.md"
+    },
+    {
+      "basename": "2024-05-15",
+      "path": "Diary/2024-05-15.md"
+    },
+    {
+      "basename": "2024-05-16",
+      "path": "Diary/2024-05-16.md"
+    },
+    {
+      "basename": "2024-05-18",
+      "path": "Diary/2024-05-18.md"
+    },
+    {
+      "basename": "1_补充",
+      "path": "Daily/健身/1_补充.md"
+    },
+    {
+      "basename": "邮件发送模板",
+      "path": "Daily/工作习惯养成/邮件发送模板.md"
+    },
+    {
+      "basename": "1_握笔姿势的修正",
+      "path": "Daily/生活习惯改正/1_握笔姿势的修正.md"
+    },
+    {
+      "basename": "2_腿部的画法",
+      "path": "ARTS/成一家之言/人体/人体基础/2_腿部的画法.md"
+    },
+    {
+      "basename": "1_服务器网络代理设置",
+      "path": "SoftWare_Learning/服务器个人信息/1_服务器网络代理设置.md"
+    },
+    {
+      "basename": "1_文件解压与批量解压",
+      "path": "SoftWare_Learning/服务器/2_服务器操作/1_文件解压与批量解压.md"
+    },
+    {
+      "basename": "T3_6_带有系数的幂级数收敛的充要条件",
+      "path": "研究生课程笔记/研一课程/上/矩阵论/D矩阵分析及其应用/D2_2方阵幂级数/定理与性质Theorem/T3_6_带有系数的幂级数收敛的充要条件.md"
+    },
+    {
+      "basename": "2023-10-19",
+      "path": "Diary/2023-10-19.md"
+    },
+    {
+      "basename": "2023-10-17",
+      "path": "Diary/2023-10-17.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

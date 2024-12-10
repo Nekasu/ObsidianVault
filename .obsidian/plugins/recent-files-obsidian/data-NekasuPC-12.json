@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "2024-09-02",
+      "path": "Diary/2024-09-02.md"
+    },
+    {
+      "basename": "6_网络嵌入_network_embedding",
+      "path": "Neural Network/0_基础知识/1_名词解释/数字图像_名词解释/6_网络嵌入_network_embedding.md"
+    },
+    {
+      "basename": "如何使用github创建图床",
+      "path": "SoftWare_Learning/github与图床设置/如何使用github创建图床.md"
+    },
+    {
+      "basename": "4_如何理解embedding？",
+      "path": "Neural Network/0_基础知识/1_名词解释/4_如何理解embedding？.md"
+    },
+    {
+      "basename": "不解析导入函数的问题",
+      "path": "SoftWare_Learning/vscode/vscode与Python/不解析导入函数的问题.md"
+    },
+    {
+      "basename": "实现思路",
+      "path": "论文/20240830空天会议论文撰写/实现思路/实现思路.md"
+    },
+    {
+      "basename": "0_目录",
+      "path": "SoftWare_Learning/Uniapp/B1_V命令/0_目录.md"
+    },
+    {
+      "basename": "5_信息最大化_information_maximization",
+      "path": "Neural Network/0_基础知识/1_名词解释/数字图像_名词解释/5_信息最大化_information_maximization.md"
+    },
+    {
+      "basename": "11_全聚焦图像",
+      "path": "Neural Network/0_基础知识/1_名词解释/11_全聚焦图像.md"
+    },
+    {
+      "basename": "4_互信息",
+      "path": "Neural Network/0_基础知识/1_名词解释/数字图像_名词解释/4_互信息.md"
+    },
+    {
+      "basename": "5_名词解释模板",
+      "path": "Template/5_名词解释模板.md"
+    },
+    {
+      "basename": "3_等变性",
+      "path": "Neural Network/0_基础知识/1_名词解释/数字图像_名词解释/3_等变性.md"
+    },
+    {
+      "basename": "2024-08-31",
+      "path": "Diary/2024-08-31.md"
+    },
+    {
+      "basename": "2024-08-21",
+      "path": "Diary/2024-08-21.md"
+    },
+    {
+      "basename": "2024-08-23",
+      "path": "Diary/2024-08-23.md"
+    },
+    {
+      "basename": "2024-08-26",
+      "path": "Diary/2024-08-26.md"
+    },
+    {
+      "basename": "2024-08-27",
+      "path": "Diary/2024-08-27.md"
+    },
+    {
+      "basename": "2024-08-29",
+      "path": "Diary/2024-08-29.md"
+    },
+    {
+      "basename": "标题",
+      "path": "论文/A论文技巧/标题.md"
+    },
+    {
+      "basename": "初步思路",
+      "path": "论文/20240830空天会议论文撰写/初步思路.md"
+    },
+    {
+      "basename": "README_信息汇总",
+      "path": "论文/20240830空天会议论文撰写/README_信息汇总.md"
+    },
+    {
+      "basename": "2024-05-24",
+      "path": "Diary/2024-05-24.md"
+    },
+    {
+      "basename": "数据准备",
+      "path": "论文/20240830空天会议论文撰写/实现思路/数据准备.md"
+    },
+    {
+      "basename": "2_配置cuda与PyTorch",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/2_配置cuda与PyTorch.md"
+    },
+    {
+      "basename": "0_readme",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/0_readme.md"
+    },
+    {
+      "basename": "0_运行git前的配置",
+      "path": "SoftWare_Learning/git/0_运行git前的配置.md"
+    },
+    {
+      "basename": "1_代理设置_本机ip",
+      "path": "SoftWare_Learning/服务器个人信息/1_代理设置_本机ip.md"
+    },
+    {
+      "basename": "1_服务器网络代理设置",
+      "path": "SoftWare_Learning/服务器个人信息/1_服务器网络代理设置.md"
+    },
+    {
+      "basename": "神经网络组件目录文件_README",
+      "path": "Neural Network/神经网络组件/神经网络组件目录文件_README.md"
+    },
+    {
+      "basename": "LaTeX公式转到Word中_SimpleTex网站或软件_Word公式",
+      "path": "SoftWare_Learning/Latex/LaTeX公式转到Word中_SimpleTex网站或软件_Word公式.md"
+    },
+    {
+      "basename": "3_嵌入空间_embedding_space",
+      "path": "Neural Network/0_基础知识/1_名词解释/3_嵌入空间_embedding_space.md"
+    },
+    {
+      "basename": "3_各文章对于风格迁移定义的描述",
+      "path": "Neural Network/style_stransfer/3_各文章对于风格迁移定义的描述.md"
+    },
+    {
+      "basename": "第一届空天信息技术大会（第三轮通知）",
+      "path": "Daily/0_Attachments/第一届空天信息技术大会（第三轮通知）.pdf"
+    },
+    {
+      "basename": "1_CUDA、cudatoolkit、cudnn三者概念的辨析",
+      "path": "Neural Network/0_基础知识/3_概念辨析/CUDA们/1_CUDA、cudatoolkit、cudnn三者概念的辨析.md"
+    },
+    {
+      "basename": "5_安装与配置nvcc",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/5_安装与配置nvcc.md"
+    },
+    {
+      "basename": "0_Anaconda国内下载与镜像",
+      "path": "SoftWare_Learning/Python/0_Anaconda国内下载与镜像.md"
+    },
+    {
+      "basename": "0_风格迁移领域文章发展关系",
+      "path": "Neural Network/style_stransfer/CANVAS/0_风格迁移领域文章发展关系.canvas"
+    },
+    {
+      "basename": "4_风格迁移领域的关键问题",
+      "path": "Neural Network/style_stransfer/4_风格迁移领域的关键问题.md"
+    },
+    {
+      "basename": "如何用tikz画一个神经网络",
+      "path": "Neural Network/如何用tikz画一个神经网络.md"
+    },
+    {
+      "basename": "2024-05-24-NekasuPCschool",
+      "path": "Diary/2024-05-24-NekasuPCschool.md"
+    },
+    {
+      "basename": "0_关于做好综合表现表填写的通知",
+      "path": "1_Temp/0_关于做好综合表现表填写的通知.md"
+    },
+    {
+      "basename": "2024-08-16",
+      "path": "Diary/2024-08-16.md"
+    },
+    {
+      "basename": "第一届空天信息技术大会（第三轮通知）",
+      "path": "Diary/0_Attachments/第一届空天信息技术大会（第三轮通知）.pdf"
+    },
+    {
+      "basename": "README_专利_内容分析与填充_思路整理",
+      "path": "论文/专利撰写/README_专利_内容分析与填充_思路整理.md"
+    },
+    {
+      "basename": "2024-08-02",
+      "path": "Diary/2024-08-02.md"
+    },
+    {
+      "basename": "2024-07-28",
+      "path": "Diary/2024-07-28.md"
+    },
+    {
+      "basename": "2024-08-08",
+      "path": "Diary/2024-08-08.md"
+    },
+    {
+      "basename": "2_第二节课_研究方向介绍与相应算法分享",
+      "path": "研究生课程笔记/研一课程/下/算法导论/2_第二节课_研究方向介绍与相应算法分享.md"
+    },
+    {
+      "basename": "2_课程论文与报告_报告与PPT制作思路",
+      "path": "研究生课程笔记/研一课程/上/网络与信息安全/课程报告与演示/2_课程论文与报告_报告与PPT制作思路.md"
+    },
+    {
+      "basename": "专利撰写套路",
+      "path": "论文/专利撰写/请阅读README文件/专利撰写套路.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

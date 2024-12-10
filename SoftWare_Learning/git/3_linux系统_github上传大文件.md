@@ -19,7 +19,7 @@ Git LFS 使得开发团队能够轻松地处理大型数据文件、多媒体文
 
 在 ubuntu 的命令行中运行以下代码可以安装 git gfs
 
-```console
+```bash
 sudo apt-get install git-lfs
 ```
 
@@ -31,7 +31,7 @@ sudo apt-get install git-lfs
 
 在命令行中输入以下命令：
 
-```console
+```bash
 git lfs install
 ```
 
@@ -43,13 +43,13 @@ git lfs install
 
 进入需要使用 git lfs 管理的 git 仓库, 使用以下命令将需要上传的大文件加入列表
 
-```console
+```bash
 git lfs track "大文件的文件名"
 ```
 
 如果想要加入一个类型的文件, 可以使用如下命令 (以.jpg 文件为例)
 
-```console
+```bash
 git lfs track ".jpg"
 ```
 
@@ -59,7 +59,7 @@ git lfs track ".jpg"
 
 使用以下命令提交".gitattributes"文件
 
-```console
+```bash
 git add .gitattributes 
 git commit -m "submit file"
 git push -u origin master

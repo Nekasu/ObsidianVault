@@ -23,7 +23,7 @@ Git 自带一个 `git config` 的工具来帮助设置控制 Git 外观和行�
 
 你可以通过以下命令查看所有的配置以及它们所在的文件：
 
-```console
+```bash
 $ git config --list --show-origin
 ```
 
@@ -31,7 +31,7 @@ $ git config --list --show-origin
 
 安装完 Git 之后，要做的第一件事就是设置你的用户名和邮件地址。 这一点很重要，因为每一个 Git 提交都会使用这些信息，它们会写入到你的每一次提交中，不可更改：
 
-```console
+```bash
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
@@ -46,7 +46,7 @@ $ git config --global user.email johndoe@example.com
 
 如果你想使用不同的文本编辑器，例如 Emacs，可以这样做：
 
-```console
+```bash
 $ git config --global core.editor emacs
 ```
 
@@ -54,7 +54,7 @@ $ git config --global core.editor emacs
 
 对于 Notepad++，一个流行的代码编辑器来说，你可能想要使用 32 位的版本， 因为在本书编写时 64 位的版本尚不支持所有的插件。 如果你在使用 32 位的 Windows 系统，或在 64 位系统上使用 64 位的编辑器，那么你需要输入如下命令：
 
-```console
+```bash
 $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notab
 ```
 
@@ -67,7 +67,7 @@ $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -m
 
 如果想要检查你的配置，可以使用 `git config --list` 命令来列出所有 Git 当时能找到的配置：
 
-```console
+```bash
 $ git config --list
 user.name=John Doe
 user.email=johndoe@example.com
@@ -82,11 +82,11 @@ color.diff=auto
 
 你可以通过输入 `git config <key>`： 来检查 Git 的某一项配置：
 
-```console
+```bash
 $ git config user.name
 John Doe
 ```
 
 |      |                                                                                                                                                                                                                       |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Note | 由于 Git 会从多个文件中读取同一配置变量的不同值，因此你可能会在其中看到意料之外的值而不知道为什么。 此时，你可以查询 Git 中该变量的 **原始** 值，它会告诉你哪一个配置文件最后设置了该值：<br><br>```console<br>$ git config --show-origin rerere.autoUpdate<br>file:/home/johndoe/.gitconfig	false<br>``` |
+| Note | 由于 Git 会从多个文件中读取同一配置变量的不同值，因此你可能会在其中看到意料之外的值而不知道为什么。 此时，你可以查询 Git 中该变量的 **原始** 值，它会告诉你哪一个配置文件最后设置了该值：<br><br>```bash<br>$ git config --show-origin rerere.autoUpdate<br>file:/home/johndoe/.gitconfig	false<br>``` |

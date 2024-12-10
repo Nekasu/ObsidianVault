@@ -1,0 +1,50 @@
+/* 设置容器样式 */
+.container {
+    width: 60%;
+    margin: 0 auto; /* 自动设置左右外边距，居中 */
+    background-color: #ffffff; /* 背景颜色可选 */
+    padding: 20px; /* 内边距 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影，增加视觉效果 */
+    border-radius: 10px; /* 圆角边框 */
+}
+
+/* 响应式设计：小屏幕下调整宽度 */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* 小屏幕占据更大比例 */
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3 {
+    color: #2c3e50;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.note-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+}
+.note-section:hover {
+    background: #f1f1f1;
+}
+.code {
+    font-family: "Courier New", Courier, monospace;
+    background: #f4f4f4;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+}

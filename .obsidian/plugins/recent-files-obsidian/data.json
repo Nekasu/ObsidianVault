@@ -1,204 +1,192 @@
 {
   "recentFiles": [
     {
-      "basename": "2_将本地仓库推送到远程仓库",
-      "path": "SoftWare_Learning/git/2_将本地仓库推送到远程仓库.md"
+      "basename": "NEUCOM-D-24-08078",
+      "path": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf"
     },
     {
-      "basename": "vscode_power_shell启动时报错的问题",
-      "path": "SoftWare_Learning/vscode/vscode与anaconda/vscode_power_shell启动时报错的问题.md"
+      "basename": "2024-12-01",
+      "path": "Diary/2024-12-01.md"
     },
     {
-      "basename": "重装系统后, vscode无法正常连接服务器",
-      "path": "SoftWare_Learning/服务器/服务器异常与解决/重装系统后, vscode无法正常连接服务器.md"
+      "basename": "2024-12-07",
+      "path": "Diary/2024-12-07.md"
     },
     {
-      "basename": "插件配置目录",
-      "path": "SoftWare_Learning/vim/nvim配置/插件配置目录.md"
+      "basename": "20241126接受审稿意见如下",
+      "path": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/20241126接受审稿意见如下.md"
+    },
+    {
+      "basename": "2024年12月1日_G_contrast函数检查",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/2024年12月1日_G_contrast函数检查.md"
+    },
+    {
+      "basename": "0_readme",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/0_readme.md"
+    },
+    {
+      "basename": "1_CUDA、cudatoolkit、cudnn三者概念的辨析",
+      "path": "Neural Network/0_基础知识/3_概念辨析/CUDA们/1_CUDA、cudatoolkit、cudnn三者概念的辨析.md"
+    },
+    {
+      "basename": "oh_my_zsh",
+      "path": "SoftWare_Learning/个人信息/linux系统美化/oh_my_zsh.md"
+    },
+    {
+      "basename": "5_安装与配置nvcc",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/5_安装与配置nvcc.md"
+    },
+    {
+      "basename": "2024-11-30",
+      "path": "Diary/2024-11-30.md"
+    },
+    {
+      "basename": "自己想法构建",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/自己想法构建.md"
+    },
+    {
+      "basename": "原始网络结构探究",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/原始网络结构探究.md"
+    },
+    {
+      "basename": "README_AesFA工作原理理解",
+      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/README_AesFA工作原理理解.md"
+    },
+    {
+      "basename": "2024-11-11",
+      "path": "Diary/2024-11-11.md"
+    },
+    {
+      "basename": "2024-11-18",
+      "path": "Diary/2024-11-18.md"
+    },
+    {
+      "basename": "自行搭建zerotier-one根服务器",
+      "path": "SoftWare_Learning/Zerotier/请阅读README文件/自行搭建zerotier-one根服务器.md"
+    },
+    {
+      "basename": "README_Zerotier",
+      "path": "SoftWare_Learning/Zerotier/README_Zerotier.md"
+    },
+    {
+      "basename": "常用命令",
+      "path": "SoftWare_Learning/Zerotier/请阅读README文件/常用命令.md"
+    },
+    {
+      "basename": "使用Zerotier进行内网穿透_使用阿里云",
+      "path": "SoftWare_Learning/Zerotier/请阅读README文件/使用Zerotier进行内网穿透_使用阿里云.md"
+    },
+    {
+      "basename": "linux 系统的 ubuntu 下 zerotier 的基本使用教程_ubuntu zerotier-CSDN博客",
+      "path": "SoftWare_Learning/Zerotier/请阅读README文件/linux 系统的 ubuntu 下 zerotier 的基本使用教程_ubuntu zerotier-CSDN博客.pdf"
+    },
+    {
+      "basename": "使用Zerotier进行内网穿透_面向用户",
+      "path": "SoftWare_Learning/Zerotier/请阅读README文件/使用Zerotier进行内网穿透_面向用户.md"
+    },
+    {
+      "basename": "使用Zerotier进行内网穿透_面向管理员",
+      "path": "SoftWare_Learning/Zerotier/请阅读README文件/使用Zerotier进行内网穿透_面向管理员.md"
+    },
+    {
+      "basename": "启动服务",
+      "path": "SoftWare_Learning/Zerotier/请阅读README文件/启动服务.md"
+    },
+    {
+      "basename": "阿里云",
+      "path": "SoftWare_Learning/Zerotier/请阅读README文件/阿里云.md"
+    },
+    {
+      "basename": "OctConv_八度卷积",
+      "path": "Neural Network/神经网络组件/OctConv_八度卷积.md"
+    },
+    {
+      "basename": "Template_神经网络组建",
+      "path": "Template/Template_神经网络组建.md"
+    },
+    {
+      "basename": "神经网络组件目录文件_README",
+      "path": "Neural Network/神经网络组件/神经网络组件目录文件_README.md"
+    },
+    {
+      "basename": "WTConv_小波卷积",
+      "path": "Neural Network/神经网络组件/WTConv_小波卷积.md"
+    },
+    {
+      "basename": "Zsh 安装与配置，使用 Oh-My-Zsh 美化终端 _ Leehow的小站",
+      "path": "SoftWare_Learning/个人信息/linux系统美化/Zsh 安装与配置，使用 Oh-My-Zsh 美化终端 _ Leehow的小站.pdf"
+    },
+    {
+      "basename": "NUIST智能视觉-服务器配置和使用",
+      "path": "SoftWare_Learning/服务器/NUIST智能视觉-服务器配置和使用.md"
+    },
+    {
+      "basename": "README",
+      "path": "SoftWare_Learning/服务器/README.md"
+    },
+    {
+      "basename": "ZeroTier 内网穿透，并搭建 moon 中转服务器 - jack_Meng - 博客园",
+      "path": "SoftWare_Learning/Zerotier/请阅读README文件/ZeroTier 内网穿透，并搭建 moon 中转服务器 - jack_Meng - 博客园.pdf"
+    },
+    {
+      "basename": "clash_verge下载地址",
+      "path": "SoftWare_Learning/clash/clash_verge下载地址.md"
+    },
+    {
+      "basename": "2024-01-22",
+      "path": "Diary/2024-01-22.md"
+    },
+    {
+      "basename": "2024-01-23",
+      "path": "Diary/2024-01-23.md"
     },
     {
       "basename": "1_代理设置_本机ip",
-      "path": "SoftWare_Learning/服务器/服务器基础信息/1_代理设置_本机ip.md"
+      "path": "SoftWare_Learning/个人信息/服务器个人信息/1_代理设置_本机ip.md"
+    },
+    {
+      "basename": "7_pycharm安装",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/7_pycharm安装.md"
+    },
+    {
+      "basename": "2_终端变量与export命令",
+      "path": "SoftWare_Learning/个人信息/服务器个人信息/2_终端变量与export命令.md"
+    },
+    {
+      "basename": "1_代理设置的持久化",
+      "path": "SoftWare_Learning/个人信息/服务器个人信息/1_代理设置的持久化.md"
+    },
+    {
+      "basename": "1_服务器网络代理设置",
+      "path": "SoftWare_Learning/个人信息/服务器个人信息/1_服务器网络代理设置.md"
+    },
+    {
+      "basename": "0_服务器ip地址与个人密码信息",
+      "path": "SoftWare_Learning/个人信息/服务器个人信息/0_服务器ip地址与个人密码信息.md"
+    },
+    {
+      "basename": "重装系统后, vscode无法正常连接服务器",
+      "path": "SoftWare_Learning/服务器/3_服务器异常与解决/重装系统后, vscode无法正常连接服务器.md"
     },
     {
       "basename": "0_运行git前的配置",
       "path": "SoftWare_Learning/git/0_运行git前的配置.md"
     },
     {
-      "basename": "oh_my_posh_powershell美化软件",
-      "path": "SoftWare_Learning/服务器/服务器基础信息/oh_my_posh_powershell美化软件.md"
-    },
-    {
-      "basename": "课程汇报大纲与讲稿",
-      "path": "研究生课程笔记/研一课程/下/大数据与遥感/课程汇报大纲与讲稿.md"
-    },
-    {
-      "basename": "0_Diary_Template",
-      "path": "Template/0_Diary_Template.md"
-    },
-    {
-      "basename": "1_for_notes_warining",
-      "path": "Template/1_for_notes_warining.md"
-    },
-    {
-      "basename": "课程汇报思路记录",
-      "path": "研究生课程笔记/研一课程/下/大数据与遥感/课程汇报思路记录.md"
-    },
-    {
-      "basename": "常用插件列表",
-      "path": "SoftWare_Learning/Zotro/常用插件/常用插件列表.md"
-    },
-    {
-      "basename": "Drawing 2024-04-26 20.18.50.excalidraw",
-      "path": "Excalidraw/Drawing 2024-04-26 20.18.50.excalidraw.md"
-    },
-    {
-      "basename": "2024-04-26",
-      "path": "Diary/2024-04-26.md"
-    },
-    {
-      "basename": "汇报讲稿",
-      "path": "研究生课程笔记/研一课程/下/高级计算机网络/汇报讲稿.md"
-    },
-    {
-      "basename": "2024-04-24",
-      "path": "Diary/2024-04-24.md"
-    },
-    {
-      "basename": "2024-04-23",
-      "path": "Diary/2024-04-23.md"
-    },
-    {
-      "basename": "第一节课",
-      "path": "研究生课程笔记/研一课程/下/算法导论/第一节课.md"
-    },
-    {
-      "basename": "2_配置cuda与PyTorch",
-      "path": "SoftWare_Learning/服务器/服务器配置/2_配置cuda与PyTorch.md"
-    },
-    {
-      "basename": "1_服务器网络代理设置",
-      "path": "SoftWare_Learning/服务器/服务器配置/1_服务器网络代理设置.md"
-    },
-    {
-      "basename": "在线学习的思想",
-      "path": "Neural Network/0_基础知识/5_神经网络的组件及其作用/在线学习的思想.md"
-    },
-    {
-      "basename": "用于定位的文件",
-      "path": "Neural Network/0_基础知识/5_神经网络的组件及其作用/用于定位的文件.md"
-    },
-    {
-      "basename": "2024-04-18",
-      "path": "Diary/2024-04-18.md"
-    },
-    {
-      "basename": "2024-04-19",
-      "path": "Diary/2024-04-19.md"
-    },
-    {
-      "basename": "高级计算机网络汇报_杨欢_张轩豪_周肖桐",
-      "path": "研究生课程笔记/研一课程/下/高级计算机网络/高级计算机网络汇报_杨欢_张轩豪_周肖桐.md"
-    },
-    {
-      "basename": "1_callouts",
-      "path": "SoftWare_Learning/Obsidian_Learning/obsidian美化/1_callouts.md"
-    },
-    {
-      "basename": "1_Obsidian的markdown语法",
-      "path": "SoftWare_Learning/Obsidian_Learning/0_基础教程/1_Obsidian的markdown语法.md"
-    },
-    {
-      "basename": "2_Obsidian的双链笔记",
-      "path": "SoftWare_Learning/Obsidian_Learning/0_基础教程/2_Obsidian的双链笔记.md"
-    },
-    {
-      "basename": "3_PPT",
-      "path": "SoftWare_Learning/Obsidian_Learning/0_基础教程/3_PPT.md"
-    },
-    {
-      "basename": "z_Obsidian的默认快捷键",
-      "path": "SoftWare_Learning/Obsidian_Learning/0_基础教程/z_Obsidian的默认快捷键.md"
-    },
-    {
-      "basename": "汇报2_陈天宇",
-      "path": "研究生课程笔记/研一课程/下/高级计算机网络/汇报2_陈天宇.md"
-    },
-    {
-      "basename": "2024-04-22",
-      "path": "Diary/2024-04-22.md"
-    },
-    {
-      "basename": "2024-04-08",
-      "path": "Diary/2024-04-08.md"
-    },
-    {
-      "basename": "第9周",
-      "path": "研究生课程笔记/研一课程/下/算法导论/第9周.md"
-    },
-    {
-      "basename": "2_第二节课_研究方向介绍与相应算法分享",
-      "path": "研究生课程笔记/研一课程/下/算法导论/2_第二节课_研究方向介绍与相应算法分享.md"
-    },
-    {
-      "basename": "3_第三节课",
-      "path": "研究生课程笔记/研一课程/下/高级计算机网络/3_第三节课.md"
-    },
-    {
-      "basename": "未命名 1",
-      "path": "Diary/未命名 1.md"
-    },
-    {
-      "basename": "2_最大似然估计的本质",
-      "path": "本质/概率论/2_最大似然估计的本质.md"
-    },
-    {
-      "basename": "1_将图像看作高斯分布的均值",
-      "path": "Neural Network/0_基础知识/2_一些难以理解的说法/1_将图像看作高斯分布的均值.md"
-    },
-    {
-      "basename": "1-3统计学习方法三要素",
-      "path": "Neural Network/1统计学习方法_李航/chapter1_监督学习/section1_监督学习及监督学习概论/1-3统计学习方法三要素.md"
-    },
-    {
-      "basename": "0_早期名词解释 1",
-      "path": "Neural Network/0_基础知识/1_名词解释/0_早期名词解释 1.md"
-    },
-    {
-      "basename": "2023-12-23",
-      "path": "Diary/2023-12-23.md"
-    },
-    {
-      "basename": "希腊字母",
-      "path": "SoftWare_Learning/Latex/公式绘制/希腊字母.md"
-    },
-    {
-      "basename": "10_信息检索领域的query与documents",
-      "path": "Neural Network/0_基础知识/1_名词解释/10_信息检索领域的query与documents.md"
-    },
-    {
-      "basename": "电脑装了pytorch没有安装cuda，nvcc -V没反应，但能正常使用gpu",
-      "path": "SoftWare_Learning/CUDA/电脑装了pytorch没有安装cuda，nvcc -V没反应，但能正常使用gpu.md"
+      "basename": "2_环境与PyTorch的配置",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/2_环境与PyTorch的配置.md"
     },
     {
       "basename": "1_git与github与ssh配置",
       "path": "SoftWare_Learning/git/1_git与github与ssh配置.md"
     },
     {
-      "basename": "3_linux系统_github上传大文件",
-      "path": "SoftWare_Learning/git/3_linux系统_github上传大文件.md"
+      "basename": "2024-05-24-NekasuPCschool",
+      "path": "Diary/2024-05-24-NekasuPCschool.md"
     },
     {
-      "basename": "如何使用github创建图床",
-      "path": "SoftWare_Learning/github与图床设置/如何使用github创建图床.md"
-    },
-    {
-      "basename": "3_conda与pip的冲突_不建议二者交替使用",
-      "path": "SoftWare_Learning/服务器/服务器配置/3_conda与pip的冲突_不建议二者交替使用.md"
-    },
-    {
-      "basename": "2024-04-17",
-      "path": "Diary/2024-04-17.md"
+      "basename": "不解析导入函数的问题",
+      "path": "SoftWare_Learning/vscode/vscode与Python/不解析导入函数的问题.md"
     }
   ],
   "omittedPaths": [],

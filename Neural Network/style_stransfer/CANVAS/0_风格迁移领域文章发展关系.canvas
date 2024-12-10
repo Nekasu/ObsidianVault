@@ -4,13 +4,13 @@
 		{"id":"3894743cf0f5cfa1","type":"text","text":"Gatys等人的原始工作","x":-920,"y":-120,"width":250,"height":55},
 		{"id":"01aad66c42edc590","type":"text","text":"(Ulyanov,2016) Texture Networks: Feed-forward Synthesis of Textures and Stylized Images","x":-520,"y":-257,"width":250,"height":137},
 		{"id":"b71c15ec6262f922","type":"text","text":"CIN, 将网络中的IN替换为CIN, 单模型多风格(Dumoulin V, 2016)A learned representation for artistic style[J]. arXiv preprint arXiv:1610.07629, 2016.","x":-520,"y":80,"width":250,"height":100,"color":"#6495ed"},
-		{"id":"4127b460782f306e","type":"text","text":"IN, 将网络中的BN替换为IN, 单模型单风格(Ulyanov D, 2016)Instance normalization: The missing ingredient for fast stylization[J]. arXiv preprint arXiv:1607.08022, 2016.","x":-880,"y":80,"width":250,"height":100,"color":"#6494ed"},
+		{"id":"4127b460782f306e","type":"text","text":"IN, 将网络中的BN替换为IN, 单模型单风格(Ulyanov D, 2016)Instance normalization: The missing ingredient for fast stylization[J]. arXiv preprint arXiv:1607.08022, 2016.","x":-880,"y":80,"width":260,"height":100,"color":"#6494ed"},
 		{"id":"a898dcc58b984ea0","type":"text","text":"AdaIN, 调整输入内容图像的特征图, 单模型任意风格(Huang, 2017)Arbitrary Style Transfer in Real-Time With Adaptive Instance Normalization","x":-520,"y":240,"width":250,"height":100,"color":"#6495ed"},
-		{"id":"756dea927a0dbde2","type":"text","text":"TIN, 超高分辨率图像快速风格迁移, 单模型任意风格(Chen, 2022)Towards Ultra-Resolution Neural Style Transfer via Thumbnail Instance Normalization","x":-520,"y":400,"width":250,"height":100,"color":"#6495ed"},
-		{"id":"b6acef012cb070e8","type":"text","text":"AdaConv, 在 AdaIN 的基础上, 能够同时使用统计量与图像结构信息进行风格迁移 (Prashanth, Adaptive Convolutions for Structure-Aware Style Transfer)","x":-180,"y":340,"width":250,"height":100,"color":"#6495ed"},
+		{"id":"b6acef012cb070e8","type":"text","text":"AdaConv, 在 AdaIN 的基础上, 能够同时使用统计量与图像结构信息进行风格迁移 (Prashanth, Adaptive Convolutions for Structure-Aware Style Transfer)","x":-180,"y":340,"width":250,"height":160,"color":"#6495ed"},
 		{"id":"307964b912aef18e","type":"text","text":"DIN","x":-180,"y":140,"width":250,"height":100,"color":"#6495ed"},
 		{"id":"1314ec1e2297e85a","type":"text","text":"AesFA, 结合了 OctConv 八度卷积与 AdaConv 的快速风格迁移成果 (Kwon, AesFA: An Aesthetic Feature-Aware Arbitrary Neural Style Transfer)","x":160,"y":340,"width":250,"height":100,"color":"#6495ed"},
-		{"id":"7a471bdfe2a2588b","x":-960,"y":-440,"width":250,"height":120,"type":"text","text":"本文件主要记录论文的发展顺序, 一条分支为一个大方向"}
+		{"id":"7a471bdfe2a2588b","type":"text","text":"本文件主要记录论文的发展顺序, 一条分支为一个大方向","x":-960,"y":-440,"width":250,"height":120},
+		{"id":"756dea927a0dbde2","type":"text","text":"TIN, 超高分辨率图像快速风格迁移, 单模型任意风格(Chen, 2022)Towards Ultra-Resolution Neural Style Transfer via Thumbnail Instance Normalization","x":-520,"y":400,"width":250,"height":100,"color":"#6495ed"}
 	],
 	"edges":[
 		{"id":"43932827751829fc","fromNode":"3894743cf0f5cfa1","fromSide":"right","toNode":"01aad66c42edc590","toSide":"left"},

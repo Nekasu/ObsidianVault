@@ -1,0 +1,1 @@
+https://github.com/xubiaolin/docker-zerotier-planet

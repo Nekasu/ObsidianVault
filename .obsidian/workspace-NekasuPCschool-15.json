@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "a4dd8c4c8e65c202",
+    "type": "split",
+    "children": [
+      {
+        "id": "1671d392162113d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ad40e263aeec428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024-07-01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5621996a7a785ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024-07-02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "614fff7517ccfbfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/请阅读README文件/1引言.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35aed3297a23728e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8389029e3250b65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3382552b4ba5ce62",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "b70a1505259d4f6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20a6f84a6cca01b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "photoroom",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96a3f984070d6dd0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 378.5
+  },
+  "right": {
+    "id": "7bf503d9429739e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "85edeab5d5009266",
+        "type": "tabs",
+        "dimension": 39.67789165446559,
+        "children": [
+          {
+            "id": "f6ef76c3a24f2c56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2024-07-02.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5706060af4cd2a47",
+        "type": "tabs",
+        "dimension": 60.32210834553441,
+        "children": [
+          {
+            "id": "16b62709f18e5d66",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f00b07a97beb8756",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2024-07-02.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbb5c64fec246f72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2024-07-02.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed42b2e52ee85b22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f21cdb8840bfa7af",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "vscode-editor:新建代码文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false
+    }
+  },
+  "active": "d5621996a7a785ca",
+  "lastOpenFiles": [
+    "Diary/2024-06-03.md",
+    "Diary/2024-07-02.md",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/README遥感与大数据课程设计初稿.md",
+    "Diary/2024-07-01.md",
+    "SoftWare_Learning/Latex/表格/使用booktabs宏包实现三线表.md",
+    "SoftWare_Learning/Latex/图像插入/插入图像太高.md",
+    "SoftWare_Learning/Latex/表格",
+    "SoftWare_Learning/Latex/图像插入/双栏模板的跨栏图像.md",
+    "SoftWare_Learning/Latex/图像插入/多个图片在同一行.md",
+    "SoftWare_Learning/Latex/文献引用/README_在LaTeX中引用文献需要的命令.md",
+    "SoftWare_Learning/Latex/文献引用/请阅读README文件/bib文件.md",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/请阅读README文件/1引言.md",
+    "Diary/2024-06-30.md",
+    "Diary/2024-06-12.md",
+    "Diary/2024-06-14.md",
+    "Diary/2024-06-28.md",
+    "Diary/2024-06-27.md",
+    "Diary/2024-06-26.md",
+    "Diary/2024-06-24.md",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/请阅读README文件/6未来展望.md",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/请阅读README文件/5农业遥感的挑战与解决方案.md",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/请阅读README文件/4农业遥感的应用案例.md",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/请阅读README文件/2遥感技术概述.md",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/请阅读README文件/3农业遥感数据处理与分析.md",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/请阅读README文件/7总结.md",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计/请阅读README文件",
+    "研究生课程笔记/研一课程/下/大数据与遥感/课程设计",
+    "SoftWare_Learning/服务器/4_打印机连接/如何连接打印机1.md",
+    "SoftWare_Learning/服务器/4_打印机连接/0_Attachments/7fc8385ad404d947925299b17b507fc.png",
+    "SoftWare_Learning/服务器/4_打印机连接/0_Attachments",
+    "SoftWare_Learning/服务器/4_打印机连接",
+    "SoftWare_Learning/Latex.zip",
+    "SoftWare_Learning/Latex/0_Attachments/Pasted image 20230923104617.png",
+    "SoftWare_Learning/Latex/文献引用/请阅读README文件",
+    "SoftWare_Learning/Latex/文献引用",
+    "Diary/论文审稿/20240627论文审稿.md",
+    "Diary/论文审稿",
+    "Diary/0_Attachments/Pasted image 20240627104636.png",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/风格迁移层面的问题",
+    "Excalidraw/Drawing 2024-05-11 17.46.08.excalidraw.png",
+    "SoftWare_Learning/NUIST/0_Attachments/Pasted image 20240605154338.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021508.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021353.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021316.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515020709.png",
+    "SoftWare_Learning/服务器/服务器配置/0_Attachments/Pasted image 20240512150628.png",
+    "Neural Network/style_stransfer/CANVAS/0_风格迁移领域文章发展关系.canvas",
+    "Neural Network/style_stransfer/CANVAS/1_风格迁移文章依赖关系.canvas"
+  ]
+}

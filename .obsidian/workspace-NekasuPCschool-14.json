@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "a4dd8c4c8e65c202",
+    "type": "split",
+    "children": [
+      {
+        "id": "abdc946097d350b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62faa28ee9f49292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/目录文件_README_0612.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22c51222af3967a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024-06-27.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8159b82599f44929",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/风格迁移层面的问题/基于预处理的解决方案.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35aed3297a23728e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8389029e3250b65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3382552b4ba5ce62",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "b70a1505259d4f6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20a6f84a6cca01b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96a3f984070d6dd0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7bf503d9429739e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "85edeab5d5009266",
+        "type": "tabs",
+        "dimension": 39.67789165446559,
+        "children": [
+          {
+            "id": "f6ef76c3a24f2c56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2024-06-27.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5706060af4cd2a47",
+        "type": "tabs",
+        "dimension": 60.32210834553441,
+        "children": [
+          {
+            "id": "16b62709f18e5d66",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f00b07a97beb8756",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2024-06-27.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbb5c64fec246f72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2024-06-27.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed42b2e52ee85b22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f21cdb8840bfa7af",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "vscode-editor:新建代码文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false
+    }
+  },
+  "active": "22c51222af3967a6",
+  "lastOpenFiles": [
+    "Diary/2024-06-24.md",
+    "Diary/2024-06-27.md",
+    "Diary/0_Attachments/Pasted image 20240627104636.png",
+    "Diary/2024-06-13审稿.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/输入数据处理问题.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/图像合并层面的问题.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/风格迁移层面的问题/基于修改网络的解决方案.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/风格迁移层面的问题/风格迁移层面的问题.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/目录文件_README_0612.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/风格迁移层面的问题/基于预处理的解决方案.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述/风格迁移层面的问题",
+    "Neural Network/style_stransfer/对于风格迁移领域的一些思考/2_某两篇研究生毕业论文引起的思考.md",
+    "Diary/2024-06-26.md",
+    "Template/0_Diary_Template.md",
+    "Neural Network/神经网络组件/神经网络组件目录文件_README.md",
+    "Neural Network/神经网络组件/OctConv_八度卷积.md",
+    "Neural Network/神经网络组件",
+    "SoftWare_Learning/服务器/1_服务器配置/4_修改用户密码.md",
+    "Neural Network/style_stransfer/4_风格迁移领域的关键问题.md",
+    "SoftWare_Learning/服务器个人信息/1_代理设置_本机ip.md",
+    "Neural Network/0_基础知识/6_XPU各种处理器.md",
+    "SoftWare_Learning/服务器/1_服务器配置/5_安装与配置nvcc.md",
+    "Neural Network/昇腾全栈架构设计/0专有名词.md",
+    "Neural Network/0_基础知识/1_名词解释/0_早期名词解释 1.md",
+    "Neural Network/如何用tikz画一个神经网络.md",
+    "Neural Network/Diffusion_Model/扩散模型过程整理_Nekasu.md",
+    "Neural Network/5_周肖桐_13_Toward Near-Zero Queuing Delay in Congestion Control for Cloud Gaming.md",
+    "SoftWare_Learning/服务器个人信息/0_服务器ip地址与个人密码信息.md",
+    "Diary/2024-06-19.md",
+    "Neural Network/Diffusion_Model/10个事故场景.pdf",
+    "Neural Network/Diffusion_Model/扩散模型过程整理_Nekasu.pdf",
+    "Excalidraw/Drawing 2024-05-11 17.46.08.excalidraw.png",
+    "Neural Network/Diffusion_Model/Diffusion Models生成扩散模型.pdf",
+    "Neural Network/Diffusion_Model/扩散模型过程整理.pdf",
+    "SoftWare_Learning/PPT",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/结果分析",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/解决方案",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240612为起始的工作/问题描述",
+    "SoftWare_Learning/NUIST/0_Attachments/Pasted image 20240605154338.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021508.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021353.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021316.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515020709.png",
+    "SoftWare_Learning/服务器/服务器配置/0_Attachments/Pasted image 20240512150628.png",
+    "Excalidraw/Drawing 2024-05-11 17.46.08.excalidraw.svg",
+    "研究生课程笔记/高级计算机网络/0_Attachments/Pasted image 20240423115005.png",
+    "Neural Network/style_stransfer/CANVAS/0_风格迁移领域文章发展关系.canvas",
+    "Neural Network/style_stransfer/CANVAS/1_风格迁移文章依赖关系.canvas"
+  ]
+}

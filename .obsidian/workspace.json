@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "da6a8e424e4ff63f",
+        "id": "d462cb0681923622",
         "type": "tabs",
         "children": [
           {
-            "id": "0d5ae0433c6cbbd1",
+            "id": "c6e8c16d0d1be857",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "SoftWare_Learning/服务器/服务器基础信息/1_代理设置_本机ip.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e9c26f59f0a7b8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoftWare_Learning/git/2_将本地仓库推送到远程仓库.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6abfd831835da5ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "研究生课程笔记/研一课程/下/高级计算机网络/汇报讲稿.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "NEUCOM-D-24-08078"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
@@ -72,7 +49,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -81,13 +60,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "zsh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -95,7 +76,39 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "815dea67bac94a71",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "503b56f3d546cf91",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "db10c3621f631923",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ],
@@ -103,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 335.5
   },
   "right": {
     "id": "7bf503d9429739e8",
@@ -121,8 +133,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoftWare_Learning/git/2_将本地仓库推送到远程仓库.md"
-              }
+                "file": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf"
+              },
+              "icon": "lucide-list",
+              "title": "NEUCOM-D-24-08078 的大纲"
+            }
+          },
+          {
+            "id": "e8124233764faba3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ]
@@ -137,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -146,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SoftWare_Learning/git/2_将本地仓库推送到远程仓库.md",
+                "file": "SoftWare_Learning/Chrome/黑色模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +180,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "黑色模式 的反向链接列表"
             }
           },
           {
@@ -163,10 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SoftWare_Learning/git/2_将本地仓库推送到远程仓库.md",
+                "file": "SoftWare_Learning/Chrome/黑色模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "黑色模式 的出链列表"
             }
           },
           {
@@ -177,7 +207,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -189,21 +221,19 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
-    "collapsed": true
+    "width": 295.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "vscode-editor:新建代码文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -211,58 +241,60 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "audio-recorder:开始/结束录音": false,
-      "obsidian-memos:Memos": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "vscode-editor:新建代码文件": false
     }
   },
-  "active": "b70a1505259d4f6a",
+  "active": "c6e8c16d0d1be857",
   "lastOpenFiles": [
-    "SoftWare_Learning/vscode/vscode与anaconda/vscode_power_shell启动时报错的问题.md",
-    "SoftWare_Learning/服务器/服务器异常与解决/重装系统后, vscode无法正常连接服务器.md",
-    "SoftWare_Learning/vscode/vscode与anaconda",
-    "SoftWare_Learning/vim/nvim配置/插件配置目录.md",
-    "SoftWare_Learning/服务器/服务器基础信息/1_代理设置_本机ip.md",
-    "SoftWare_Learning/vim/nvim配置",
-    "SoftWare_Learning/vim/未命名",
-    "SoftWare_Learning/git/2_将本地仓库推送到远程仓库.md",
-    "SoftWare_Learning/git/0_运行git前的配置.md",
-    "SoftWare_Learning/服务器/服务器基础信息/oh_my_posh_powershell美化软件.md",
-    "装机软件",
-    "研究生课程笔记/研一课程/下/大数据与遥感/课程汇报大纲与讲稿.md",
-    "Template/0_Diary_Template.md",
-    "Template/1_for_notes_warining.md",
-    "研究生课程笔记/研一课程/下/大数据与遥感/课程汇报思路记录.md",
-    "SoftWare_Learning/Zotro/常用插件/常用插件列表.md",
-    "Excalidraw/Drawing 2024-04-26 20.18.50.excalidraw.md",
-    "Diary/2024-04-26.md",
-    "研究生课程笔记/研一课程/下/高级计算机网络/汇报讲稿.md",
-    "研究生课程笔记/研一课程/下/大数据与遥感/课程汇报.pdf",
-    "Diary/2024-04-24.md",
-    "Diary/2024-04-23.md",
-    "研究生课程笔记/研一课程/下/算法导论/第一节课.md",
-    "研究生课程笔记/研一课程/下/大数据与遥感",
-    "研究生课程笔记/研一课程/下",
-    "研究生课程笔记/研一课程/上",
-    "研究生课程笔记/研一课程",
-    "SoftWare_Learning/服务器/服务器配置/2_配置cuda与PyTorch.md",
-    "SoftWare_Learning/服务器/服务器配置/1_服务器网络代理设置.md",
-    "Neural Network/0_基础知识/5_神经网络的组件及其作用/在线学习的思想.md",
-    "Neural Network/0_基础知识/5_神经网络的组件及其作用/用于定位的文件.md",
-    "SoftWare_Learning/Zotro/常用插件",
-    "Diary/2024-04-18.md",
-    "Diary/2024-04-19.md",
-    "研究生课程笔记/研一课程/下/高级计算机网络/高级计算机网络汇报_杨欢_张轩豪_周肖桐.md",
-    "SoftWare_Learning/Obsidian_Learning/obsidian美化/1_callouts.md",
-    "研究生课程笔记/高级计算机网络/0_Attachments/Pasted image 20240423115005.png",
-    "研究生课程笔记/高级计算机网络/0_Attachments/Pasted image 20240423112307.png",
-    "研究生课程笔记/高级计算机网络/0_Attachments/Pasted image 20240423112037.png",
+    "Diary/2024-12-01.md",
+    "Diary/2024-12-07.md",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.html",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.md",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.md.nssyncsc",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.htm",
+    "Template/styles.css",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/howtousehtml.html",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/未命名.html",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/styles.css",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/20241126接受审稿意见如下.md",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/新建 文本文档.txt",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/未命名.md",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/2024年12月1日_G_contrast函数检查.md",
+    "SoftWare_Learning/服务器/1_服务器配置/0_readme.md",
+    "Neural Network/0_基础知识/3_概念辨析/CUDA们/1_CUDA、cudatoolkit、cudnn三者概念的辨析.md",
+    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文",
+    "SoftWare_Learning/个人信息/linux系统美化/oh_my_zsh.md",
+    "SoftWare_Learning/服务器/1_服务器配置/5_安装与配置nvcc.md",
+    "Diary/2024-11-30.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/自己想法构建.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/原始网络结构探究.md",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/README_AesFA工作原理理解.md",
+    "Diary/2024-11-11.md",
+    "Diary/2024-11-18.md",
+    "SoftWare_Learning/Zerotier/请阅读README文件/自行搭建zerotier-one根服务器.md",
+    "SoftWare_Learning/Zerotier/README_Zerotier.md",
+    "SoftWare_Learning/Zerotier/请阅读README文件/常用命令.md",
+    "SoftWare_Learning/Zerotier/请阅读README文件/使用Zerotier进行内网穿透_使用阿里云.md",
+    "SoftWare_Learning/Zerotier/请阅读README文件/使用Zerotier进行内网穿透_面向用户.md",
+    "SoftWare_Learning/Zerotier/请阅读README文件/使用Zerotier进行内网穿透_面向管理员.md",
+    "SoftWare_Learning/Zerotier/请阅读README文件/启动服务.md",
+    "SoftWare_Learning/Zerotier/请阅读README文件/阿里云.md",
+    "Neural Network/神经网络组件/OctConv_八度卷积.md",
+    "SoftWare_Learning/服务器/0_Attachments/Pasted image 20241120195437.png",
+    "SoftWare_Learning/Zerotier/0_Attachments/14f861259003b3bd550961c2b3f50aa.png",
+    "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/AesFA代码修改工作栈.canvas",
+    "未命名.canvas",
+    "SoftWare_Learning/0_Attachments/bd03f7e8e835352151c4138dd25b7901228184051.jpg",
     "Neural Network/style_stransfer/CANVAS/0_风格迁移领域文章发展关系.canvas",
-    "Neural Network/style_stransfer/CANVAS/1_风格迁移文章依赖关系.canvas",
-    "Neural Network/2_paper_reading/0_Attachments/Pasted image 20240417164142.png",
-    "Neural Network/0_基础知识/1_名词解释/0_Attachments/Pasted image 20240407164524.png",
-    "Neural Network/0_基础知识/1_名词解释/数字图像_名词解释/0_Attachments/Pasted image 20240405180939.png",
-    "SoftWare_Learning/服务器/服务器配置/0_Attachments/Pasted image 20240326165951.png",
-    "Development/minecraft_devlop/0_Attachments/Pasted image 20240324162538.png",
-    "Development/minecraft_devlop/0_Attachments/Pasted image 20240324155712.png",
-    "Development/minecraft_devlop/0_Attachments/Pasted image 20240324151713.png"
+    "SoftWare_Learning/服务器个人信息/0_Attachments/Pasted image 20240914144112.png",
+    "Diary/0_Attachments/Pasted image 20240908145159.png",
+    "SoftWare_Learning/Latex/0_Attachments/Pasted image 20240731160641.png",
+    "SoftWare_Learning/服务器/4_打印机连接/0_Attachments/7fc8385ad404d947925299b17b507fc.png",
+    "SoftWare_Learning/Latex/0_Attachments/Pasted image 20230923104617.png",
+    "Diary/0_Attachments/Pasted image 20240627104636.png",
+    "Excalidraw/Drawing 2024-05-11 17.46.08.excalidraw.png",
+    "Neural Network/style_stransfer/CANVAS/1_风格迁移文章依赖关系.canvas"
   ]
 }

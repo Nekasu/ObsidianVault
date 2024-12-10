@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "a4dd8c4c8e65c202",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c288aa9ef4bd842",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "152e456bc77079ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文/20240830空天会议论文撰写/实现思路/数据准备.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35aed3297a23728e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8389029e3250b65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3382552b4ba5ce62",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "b70a1505259d4f6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20a6f84a6cca01b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96a3f984070d6dd0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314.49999618530273
+  },
+  "right": {
+    "id": "7bf503d9429739e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "85edeab5d5009266",
+        "type": "tabs",
+        "dimension": 39.67789165446559,
+        "children": [
+          {
+            "id": "f6ef76c3a24f2c56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "论文/20240830空天会议论文撰写/实现思路/数据准备.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5706060af4cd2a47",
+        "type": "tabs",
+        "dimension": 60.32210834553441,
+        "children": [
+          {
+            "id": "16b62709f18e5d66",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f00b07a97beb8756",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "论文/20240830空天会议论文撰写/实现思路/数据准备.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbb5c64fec246f72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "论文/20240830空天会议论文撰写/实现思路/数据准备.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed42b2e52ee85b22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f21cdb8840bfa7af",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "vscode-editor:新建代码文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false
+    }
+  },
+  "active": "152e456bc77079ed",
+  "lastOpenFiles": [
+    "Diary/2024-08-23.md",
+    "论文/20240830空天会议论文撰写/实现思路/实现思路.md",
+    "论文/20240830空天会议论文撰写/实现思路/数据准备.md",
+    "论文/20240830空天会议论文撰写/README_信息汇总.md",
+    "论文/20240830空天会议论文撰写/初步思路.md",
+    "论文/20240830空天会议论文撰写/实现思路",
+    "Diary/2024-08-21.md",
+    "Diary/2024-05-24.md",
+    "Diary/2024-05-24-NekasuPCschool.md",
+    "Daily/0_Attachments/第一届空天信息技术大会（第三轮通知）.pdf",
+    "SoftWare_Learning/服务器个人信息/1_代理设置_本机ip.md",
+    "1_Temp/0_关于做好综合表现表填写的通知.md",
+    "SoftWare_Learning/Latex/LaTeX公式转到Word中_SimpleTex网站或软件_Word公式.md",
+    "Diary/2024-08-16.md",
+    "Daily/第一届空天信息技术大会（第三轮通知）.pdf",
+    "论文/20240830空天会议论文撰写",
+    "Diary/0_Attachments/第一届空天信息技术大会（第三轮通知）.pdf",
+    "SoftWare_Learning/Python/0_Anaconda国内下载与镜像.md",
+    "论文/专利撰写/README_专利_内容分析与填充_思路整理.md",
+    "Diary/2024-08-02.md",
+    "Diary/2024-07-28.md",
+    "Diary/2024-08-08.md",
+    "研究生课程笔记/研一课程/下/算法导论/2_第二节课_研究方向介绍与相应算法分享.md",
+    "研究生课程笔记/研一课程/上/网络与信息安全/课程报告与演示/2_课程论文与报告_报告与PPT制作思路.md",
+    "论文/专利撰写/请阅读README文件/专利撰写套路.md",
+    "SoftWare_Learning/Latex/0_Attachments/Pasted image 20240731160641.png",
+    "研究生课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C1向量范数及其性质/0_向量范数的本质.md",
+    "研究生课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C1向量范数及其性质/C12线性空间上是向量范数的等价性/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
+    "研究生课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C1向量范数及其性质/C12线性空间上是向量范数的等价性/其他重要知识Others/0_本节的重要意义.md",
+    "研究生课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/1_Jordan标准形_索引文件.md",
+    "研究生课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/其他重要知识Others/O1_多项式矩阵：计算Jordan标准形的前置知识1.md",
+    "研究生课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B21线性变换及其运算/B121_线性变换及其运算.md",
+    "论文/专利撰写/专利撰写材料/未命名",
+    "论文/专利撰写/请阅读README文件",
+    "论文/专利撰写",
+    "研究生课程笔记/研一课程/下/计算机前沿讲座/2初稿",
+    "研究生课程笔记/研一课程/下/计算机前沿讲座/1原始笔记",
+    "SoftWare_Learning/服务器/4_打印机连接/0_Attachments/7fc8385ad404d947925299b17b507fc.png",
+    "SoftWare_Learning/Latex/0_Attachments/Pasted image 20230923104617.png",
+    "Diary/0_Attachments/Pasted image 20240627104636.png",
+    "Excalidraw/Drawing 2024-05-11 17.46.08.excalidraw.png",
+    "SoftWare_Learning/NUIST/0_Attachments/Pasted image 20240605154338.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021508.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021353.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021316.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515020709.png",
+    "Neural Network/style_stransfer/CANVAS/0_风格迁移领域文章发展关系.canvas",
+    "Neural Network/style_stransfer/CANVAS/1_风格迁移文章依赖关系.canvas"
+  ]
+}

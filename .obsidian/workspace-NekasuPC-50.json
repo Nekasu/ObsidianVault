@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "a4dd8c4c8e65c202",
+    "type": "split",
+    "children": [
+      {
+        "id": "fefd6ef850bc9a1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2cef4cda736eaf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diary/2024-09-12.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35aed3297a23728e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8389029e3250b65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3382552b4ba5ce62",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "b70a1505259d4f6a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20a6f84a6cca01b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "pdf",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "96a3f984070d6dd0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 335.5
+  },
+  "right": {
+    "id": "7bf503d9429739e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "85edeab5d5009266",
+        "type": "tabs",
+        "dimension": 39.67789165446559,
+        "children": [
+          {
+            "id": "f6ef76c3a24f2c56",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diary/2024-09-12.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5706060af4cd2a47",
+        "type": "tabs",
+        "dimension": 60.32210834553441,
+        "children": [
+          {
+            "id": "16b62709f18e5d66",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f00b07a97beb8756",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diary/2024-09-12.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbb5c64fec246f72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diary/2024-09-12.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed42b2e52ee85b22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f21cdb8840bfa7af",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "vscode-editor:新建代码文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "audio-recorder:开始/结束录音": false
+    }
+  },
+  "active": "d2cef4cda736eaf0",
+  "lastOpenFiles": [
+    "Neural Network/0_基础知识/1_名词解释/数字图像_名词解释/10_Alpha_Blending.md",
+    "Diary/2024-09-12.md",
+    "Diary/2024-09-11.md",
+    "Papers_Notes/Image-neural-style-transfer--A-review-L655E6MQ.md",
+    "SoftWare_Learning/vscode/vscode与copilot/淘宝买的码.md",
+    "Diary/2024-09-09.md",
+    "Diary/2024-09-10.md",
+    "Template/0_Diary_Template.md",
+    "Diary/2024-09-08.md",
+    "研究生课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B1集合与映射_线性空间及其性质/B1_线性空间与线性变换.md",
+    "研究生课程笔记/研一课程/上/矩阵论/A重要理解、常用字母与课程安排/A2课程要求与安排/A3_考点.md",
+    "研究生课程笔记/研一课程/上/矩阵论/A重要理解、常用字母与课程安排/A2课程要求与安排/A1_课程要求、总览与提醒.md",
+    "研究生课程笔记/研一课程/上/矩阵论/A重要理解、常用字母与课程安排/A2课程要求与安排/联动书籍_同济大学高等数学.md",
+    "研究生课程笔记/研一课程/上/矩阵论/A重要理解、常用字母与课程安排/A2课程要求与安排/课程所用书籍.md",
+    "研究生课程笔记/研一课程/上/矩阵论/A重要理解、常用字母与课程安排/A0一些底层理解/A02_有关向量与坐标的理解.md",
+    "研究生课程笔记/研一课程/上/矩阵论/A重要理解、常用字母与课程安排/A0一些底层理解/A01_有关数乘的理解.md",
+    "研究生课程笔记/研一课程/上/矩阵论/README.md",
+    "研究生课程笔记/研一课程/上/矩阵论.zip",
+    "Template/1_for_notes_warining.md",
+    "Diary/0_Attachments/浙江大学_风格迁移.xlsx",
+    "Diary/0_Attachments/~建 Microsoft Excel 工作表.tmp",
+    "Diary/0_Attachments/新建 Microsoft Excel 工作表.xlsx",
+    "Daily/0_Attachments/浙江大学_风格迁移统计.xlsx",
+    "Daily/0_Attachments/~建 Microsoft Excel 工作表.tmp",
+    "Daily/0_Attachments/新建 Microsoft Excel 工作表.xlsx",
+    "SoftWare_Learning/vscode/vscode与服务器/在云服务器重装系统后vscode连不上服务器的解决.md",
+    "Diary/2024-09-06.md",
+    "Diary/0_Attachments/Pasted image 20240908145159.png",
+    "Diary/小组会议",
+    "Neural Network/style_stransfer/2_风格迁移领域评价标准.md",
+    "Neural Network/style_stransfer/风格迁移_国内外团队研究/风格迁移团队研究.md",
+    "Diary/2024-09-03.md",
+    "Diary/2024-09-02.md",
+    "Neural Network/0_基础知识/1_名词解释/数字图像_名词解释/9_对比学习中的“查询数据”.md",
+    "Neural Network/0_基础知识/1_名词解释/数字图像_名词解释/8_借口任务.md",
+    "Neural Network/style_stransfer/风格迁移_国内外团队研究",
+    "Daily/0_Attachments/第一届空天信息技术大会（第三轮通知）.pdf",
+    "Neural Network/style_stransfer/CANVAS/0_风格迁移领域文章发展关系.canvas",
+    "SoftWare_Learning/Latex/0_Attachments/Pasted image 20240731160641.png",
+    "SoftWare_Learning/服务器/4_打印机连接/0_Attachments/7fc8385ad404d947925299b17b507fc.png",
+    "SoftWare_Learning/Latex/0_Attachments/Pasted image 20230923104617.png",
+    "Diary/0_Attachments/Pasted image 20240627104636.png",
+    "Excalidraw/Drawing 2024-05-11 17.46.08.excalidraw.png",
+    "SoftWare_Learning/NUIST/0_Attachments/Pasted image 20240605154338.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021508.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021353.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20240515021316.png",
+    "Neural Network/style_stransfer/CANVAS/1_风格迁移文章依赖关系.canvas"
+  ]
+}

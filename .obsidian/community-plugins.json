@@ -3,18 +3,18 @@
   "recent-files-obsidian",
   "obsidian-mind-map",
   "calendar",
-  "obsidian-memos",
-  "obsidian-excalidraw-plugin",
   "quick-explorer",
   "highlightr-plugin",
   "obsidian-pandoc",
   "obsidian-tikzjax",
   "obsidian-image-toolkit",
-  "obsidian-jupyter",
   "mousewheel-image-zoom",
   "table-editor-obsidian",
-  "obsidian-icon-folder",
   "obsidian-wakatime",
   "vscode-editor",
-  "easy-typing-obsidian"
+  "easy-typing-obsidian",
+  "obsidian-icon-folder",
+  "mathlinks",
+  "math-booster",
+  "auto-card-link"
 ]
