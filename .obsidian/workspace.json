@@ -113,8 +113,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,10 +134,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diary/2024-12-01.md"
+                "file": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/20241126接受审稿意见如下.md"
               },
               "icon": "lucide-list",
-              "title": "2024-12-01 的大纲"
+              "title": "20241126接受审稿意见如下 的大纲"
             }
           },
           {
@@ -247,7 +246,7 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "b70a1505259d4f6a",
+  "active": "3382552b4ba5ce62",
   "lastOpenFiles": [
     "Diary/2024-12-07.md",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/20241126接受审稿意见如下.md",
