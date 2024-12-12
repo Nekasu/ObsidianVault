@@ -155,6 +155,38 @@
             <p>自建</p>
             <p> Wen等人(118wen2023cap)提出了一种名为CAP-VSTNet的通用风格迁移框架，旨在解决现有方法在保真度和一致性方面的不足。 CAP-VSTNet的核心是可逆残差网络和无偏线性变换模块，并结合了遮罩拉普拉斯损失进行训练。 可逆残差网络能够有效地保留内容亲和度，并通过通道细化模块避免冗余信息的积累，从而实现更好的风格迁移效果。 遮罩拉普拉斯损失则用于解决线性变换带来的像素亲和度损失问题，确保生成图像的清晰度和一致性。 </p>
             <h3>Caster: Cartoon style transfer via dynamic cartoon style casting</h3>
+            <p><span style="color: #FF5582A6;">本文不应写在任意风格迁移中.</span></p>
+            <p>Zhang等人(119zhang2023caster)针对现有卡通风格迁移方法无法同时学习特定卡通风格和领域风格信息的缺陷，提出了Caster方法。 Caster基于变分自编码器，设计了卡通风格投射模块 (CSCM)，将特定卡通图像的风格信息编码为潜在码，并动态地投射到内容特征上，实现更精准的风格迁移。 此外，Caster引入了卡通对比学习损失 (CCLS)，通过拉近相同风格的风格化图像，拉远不同风格的风格化图像，进一步提升了风格迁移的质量和颜色一致性</p>
+        </div>
+        <div class="note-section">
+            <h2>领域相关性</h2>
+            咨询了父亲的意见, 决定将审稿人2给出的文章加入文章中, 现可以分析其给出的文章如下：
+            <ol>
+                <li>
+                    Visual Recognition with Deep Nearest Centroids: 图像识别相关
+                    <ul>
+                        <li>可以在未来与展望中, 添加相关内容：风格迁移的人机交互与图像识别问题</li>
+                    </ul>
+                </li>
+                <li>
+                    Learning Equivariant Segmentation with Instance-Unique Querying:实例分割相关
+                    <ul>
+                        <li>可以在未来与展望中, 添加相关内容：风格迁移的人机交互与实例分割</li>
+                    </ul>
+                </li>
+                <li>
+                    Diffusion Attack: Leveraging Stable Diffusion for Naturalistic Image Attacking: 对抗攻击
+                    <ul>
+                        <li>可以在未来与展望中, 添加相关内容：风格迁移的实际应用--对抗攻击</li>
+                    </ul>
+                </li>
+            </ol>
+            在最终的未来与展望中, 可以提一下领域自适应、图像分割内容, 尤其注意需要将审稿人给出的论文添加到文章中.
+            <ul>
+                <li>目标检测与风格迁移：107yu2024foreground</li>
+                <li>图像分割与风格迁移：109ding2024regional</li>
+                <li>风格迁移的实际应用：AR、VR、对抗攻击</li>
+            </ul>
         </div>
     </div>
 </body>
