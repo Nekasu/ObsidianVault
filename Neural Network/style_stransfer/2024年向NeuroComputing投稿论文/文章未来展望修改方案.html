@@ -9,10 +9,16 @@
 <body>
     
     <div class="container">
+        <ul>
+            <li>2024-12-13-11:15 周五：完成未来展望部分的思路撰写, 下午准备进行该部分的编写工作.</li>
+            <li>2024-12-13-16:19 周五：完成人机交互与实际应用的挑战两节的撰写工作</li>
+            <li>2024-12-13-16:52 周五：完成可解释性问题的撰写</li>
+        </ul>
         <h1>文章未来展望修改方案</h1>
         <div class="note-section">
-            <h2>人机交互与可控性</h2>
+            <del><h2>人机交互与可控性</h2>
             <p>以下内容应添加到5.5节中</p>
+            <p>人机交互、可控性与实际应用应该为一个小节. 可控性面对的是非计算机人员, 他们只想用风格迁移简化工作流程, 并希望能随心所欲的完成任务.</p>
             <ul>
                 <li>
                     介绍风格迁移任务的应用场景：医学领域、AR、VR、辅助设计. 并介绍这些领域需要较高的定制性. 如何提升现有成果的交互性是一个重要的课题.
@@ -34,6 +40,7 @@
             尽管风格迁移技术在字体生成、环境渲染等领域显示了巨大的潜力，其应用仍面临许多挑战。例如，在电影制作中，大规模视频风格迁移的计算成本限制了其广泛应用。此外，高分辨率图片处理所需的资源需求显著增加了实时风格迁移的难度。
             <br>
             <p>也可以从跨模态角度考虑, 歌曲风格迁移、视频风格迁移、图像风格迁移等</p>
+            </del>
             <h2>可解释性问题</h2>
             <p>将以下内容补充到5.2节</p>
             <ul>
@@ -76,8 +83,48 @@
                 <li>现在的风格迁移成果可能从内容损失与风格损失进行考虑, 可能忽略的生成图像与艺术图像在视觉上的相似程度(视觉保真度)</li>
             </ul>
         </div>
+    </div>
+    <br>
+    <div class="container">
+        <h1>修改方案执行</h1>
         <div class="note-section">
-            <h1>修改方案执行</h1>
+            <h2>实际应用和挑战</h2>
+            <p>人机交互、可控性与实际应用应该为一个小节. 可控性面对的是非计算机人员, 他们只想用风格迁移简化工作流程, 并希望能随心所欲的完成任务, 而这也是实际应用中的挑战, 所以将1.1与1.2结合成一个小节, 并重新命名为“实际应用与挑战”</p>
+            <p>风格迁移任务可以应用在多个领域, 如医学领域、虚拟现实、增强现实、辅助设计等. </p>
+            <h3>控制性问题</h3>
+            <p> 阻止风格迁移工作广泛应用于医学、3D场景和辅助设计等领域的一个重大难题在于风格迁移的难以控制性。这些领域的专业人员通常并非计算机专业背景，他们在尝试应用风格迁移方法时，希望能够根据实际需求实现较高的定制性。然而，现有的方法往往是黑箱式操作，对生成结果缺乏直观的控制手段。 
+                <ul>
+                    <li> 在医学领域，医生在诊断时可能需要对病理图像的不同区域进行差异化的风格化处理。例如，医生可能希望将某些关键区域（如病灶部位）进行高亮风格化，以突出结构特征，而对其他区域（如背景）保持低程度或不进行风格迁移。然而，现有的风格迁移方法通常对整幅图像进行统一的风格化处理，缺乏对局部区域的精细控制。这种局限性在实际操作中增加了图像解释的复杂性，可能影响诊断的准确性和效率。 </li>
+                    <li> 在3D场景风格迁移所面向的AR和VR领域，设计师通常需要对虚拟环境中的不同部分施加多样化的风格。例如，他们可能希望将某些对象（如建筑物）进行具象风格的渲染，而对其他对象（如自然场景）应用抽象风格。同时，同一场景中不同风格之间的自然过渡与融合也是当前技术的薄弱环节。这种能力的欠缺限制了风格迁移在高保真虚拟环境和游戏设计中的实际应用，使得生成的场景缺乏细节上的一致性和艺术表现力。 </li>
+                    <li>在辅助设计领域，风格迁移的可控性对于满足用户的个性化创作需求尤为重要。设计师可能需要在同一个项目中整合多种风格，例如在用户界面设计中对按钮、背景和字体分别应用不同的风格。然而，现有的风格迁移技术难以实现针对具体元素的独立风格控制。此外，设计师还可能希望动态调整风格迁移的强度，以便实时预览和优化设计，但这一需求在当前技术框架中尚未得到充分解决。</li>
+                </ul>
+            </p>
+            <p>实际上, 有现有的部分工作(引用文章)也一定程度上探究了风格迁移的可控制性问题. 有一些文章试图将目标检测与图像分割技术融入风格迁移. 这些技术的引入为风格迁移提供了更加细粒度和目标导向的能力，特别是在局部风格迁移和多目标场景中表现出强大的潜力。
+                <ul>
+                    <li> 在图像分割方面，分割技术能够将输入图像分解为具有语义意义的不同区域，例如前景、背景或特定物体类别。这样的区域划分为风格迁移提供了精确的操作基础，使得风格迁移不仅限于全局图像的统一处理，还可以实现对特定区域的差异化风格化。例如，在医学影像风格迁移中，通过对病灶区域的精确分割，医生可以针对病灶部位应用更高对比度或特定风格的迁移，从而提高诊断的可视化效果。而在艺术图像风格迁移中，分割技术可以帮助实现复杂场景中不同对象的独立风格迁移，例如将建筑、天空和人物分别应用不同的艺术风格，从而提升整体艺术表达的多样性。 </li>
+                    <li> 目标检测技术进一步增强了风格迁移任务的目标导向性。通过目标检测模型，风格迁移可以识别并选择特定类别的对象进行风格化，而不受无关背景的干扰。例如，在虚拟现实（VR）设计中，目标检测可以自动识别场景中的特定元素（如树木、建筑或车辆），并针对这些元素应用所需的风格，而非对整个场景进行笼统的风格迁移。这样的细粒度控制不仅增强了风格迁移的灵活性，也提升了生成结果的实用性。 </li>
+                    <li>此外，图像分割和目标检测技术还可以用于多风格融合的实现。通过分割技术识别不同区域，再结合目标检测确定其语义类别，风格迁移模型可以实现同一图像中不同区域风格的无缝过渡。这在游戏设计、广告制作等领域具有广泛的应用前景。例如，设计师可以将场景中的天空部分应用印象派风格，而地面部分应用抽象艺术风格，同时保持二者之间的风格过渡自然流畅。</li>
+                </ul>
+            </p>
+            <h3>效率问题</h3>
+            <p> 在处理高分辨率图像或高精度场景时，风格迁移的效率问题是较为重大的挑战。当前的研究更多集中于提升风格迁移模型的质量和多样性，而对高分辨率图像下的计算资源消耗问题关注较少。然而，在实际应用场景中，高分辨率的需求无处不在，例如4K及以上分辨率的图像风格化在电影制作、虚拟现实（VR）渲染和广告设计中已成为标准，而现有方法的高资源占用往往难以满足这些需求。 </p>
+            <p> 随着图像分辨率的增加，模型需要处理的像素数量呈指数级增长，导致计算时间和显存需求急剧上升。尽管当前有工作试图解决高分辨率情况下的图像风格迁移效率问题, 但对高精度视频、3D风格迁移的研究较少. </p>
+            <p> 为了应对这些挑战，一些研究开始探索提升高分辨率风格迁移效率的方法。例如，分块处理技术（Patch-based Processing）可以将图像分割为较小的区域分别进行风格迁移，然后再通过无缝拼接重建整体风格化结果。然而，这种方法可能导致不同区域之间风格不一致的问题。另一种有效方法是使用轻量级网络架构（Lightweight Networks），通过减少网络参数和优化计算路径来显著降低资源消耗。 </p>
+            <p> 未来，如何进一步优化模型结构、提升硬件利用率、以及设计针对高分辨率风格迁移的专用算法，将是推动风格迁移技术落地高精度场景的关键方向。 </p>
+            <h3>跨模态风格迁移</h3>
+            <p>当前的风格迁移研究成果主要针对某个特定的模态，如静态图像、视频、3D场景或音频。然而，在实际应用中，不同模态的数据往往是同时出现并彼此关联的。</p>
+            <p>例如，在电影制作、虚拟现实（VR）和多媒体创作中，视频与音频通常需要协同工作，以共同呈现完整的艺术风格和情感表达。但现有的风格迁移方法大多局限于单一模态，难以满足多模态场景中风格迁移的一致性需求。现有方法通常分别针对不同模态单独进行风格迁移，忽略了模态之间的语义联系与风格匹配。例如，在一段视频中实现视觉风格迁移后，音频部分的风格可能完全未被考虑，这导致视觉效果与声音氛围之间出现明显的风格不一致，削弱了用户的沉浸感。</p>
+            <p>同时, 多模态数据的风格迁移需要在不同模态间保持风格表达的统一性，而这一点在现有研究中几乎未被充分关注。例如，3D场景中的风格迁移需要与伴随的音效或动态视频的风格协调，但现有方法对如何在模态之间建立风格的一致性缺乏研究。
+            <p>在多模态场景中，数据规模庞大且特征复杂，例如4K视频与高质量音频的协同风格迁移需要极高的计算资源，而现有方法往往在单一模态的高分辨率处理上已经面临效率瓶颈，难以扩展到多模态任务。此外，用户在实际应用中需要灵活控制多模态风格迁移的效果，而这一需求在现有方法中也未得到充分满足。 
+            <p>多模态风格迁移的不足直接限制了风格迁移技术在多个实际场景中的应用潜力，尤其是在虚拟现实、电影制作和多媒体艺术创作等领域。这种割裂性不仅削弱了整体体验，还给创作者带来了额外的负担，迫使他们采用繁琐的手动方式来协调不同模态的风格，从而降低了工作效率。</p>
+        </div>
+        <div class="note-section">
+            <h2>可解释性问题</h2>
+            <p>以下内容补充到5.5节</p>
+            <p>Current research on style transfer develops limited research on explicit interpretability (120wang2022visual, 121angelov2020towards, 122li2018deep, 123qin2023unified). While Transformer-based models have demonstrated significant success in capturing global context and fine-grained details through self-attention mechanisms, the interpretability of their multi-head attention layers remains a major challenge. Specifically, it is often unclear how individual attention heads contribute to the disentanglement of content and style features, making the style transfer process opaque to users (126xu2022transformer, 127chen2023visual).</p>
+            <p>Attention maps are a promising avenue for enhancing the interpretability of style transfer models, as they provide visual insights into how the model attends to different regions of the input during the style transfer process. In Transformer-based style transfer, attention maps generated by multi-head self-attention layers can reveal the relationship between content and style features, helping to understand which regions of the content image are most influenced by the style image. However, current research rarely incorporates attention map visualizations, leaving the decision-making process of these models largely opaque (133vaswani2017attention, 134xu2022transformer).</p> 
+            <p>Some diffusion models use visual programming-based approaches to achieve controllability (124gupta2023visual, 125han2024image); however, the transferring process is not transparent. Diffusion models typically rely on iterative noise removal processes that involve multiple stochastic steps, which are difficult to interpret. It is challenging to determine how intermediate representations evolve towards the final style-transferred output, and this "black-box" nature limits their usability in applications requiring high transparency and user control (128song2023diffusion, 129liu2024enhanced).</p> 
+            <p>Similarly, GAN-based style transfer models, while capable of generating high-quality stylized outputs, often lack interpretability due to their adversarial training paradigm. The generator network focuses solely on minimizing the loss function provided by the discriminator, without providing insights into how style features are applied or modified during the generation process. Additionally, GANs are prone to mode collapse and instability during training, further complicating their interpretability and making it difficult to diagnose errors or optimize style transfer results (130goodfellow2020gan, 131radford2021stylegan, 132choi2023conditional).</p>
         </div>
     </div>
 </body>
