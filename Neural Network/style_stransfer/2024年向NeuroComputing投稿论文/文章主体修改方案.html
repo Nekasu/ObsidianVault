@@ -51,12 +51,14 @@
     <div class="container">
         <h1>修改方案执行</h1>
         <div class="note-section">
-            <h2>细分领域-原始文稿撰写(该章节名为"扩展领域：视频三位与多模态风格迁移")</h2>
+            <h2>细分领域-原始文稿撰写(该章节名为"风格迁移：从二维到多模态的探索")</h2>
             <h3>引言：领域推广的意义</h3>
             <ul>
                 <li>强调这些领域不属于文章核心, 但是与2D基础密切相关
                     <p>风格迁移任务以二维图像作为为原始的输入(Gatys),  但是也有一些工作在扩展风格迁移的边界, 如视频风格迁移(引用一些文章), 3D风格迁移(引用一些文章), 多模态风格迁移(引用一些文章). </p>
                     <p>尽管本文重点在于介绍二维图像风格迁移成果, 但是为了能使研究者对这些领域有一些简单的认知, 所以该部分简单介绍一些风格迁移下细分领域的研究现状.</p>
+                    <p> 风格迁移任务最初是基于二维图像进行的，其中Gatys等人于2015年提出的基于深度神经网络的风格迁移方法开创了这一领域。自此，风格迁移技术便主要集中于图像风格的迁移，通过对输入图像的内容和风格特征进行提取和结合，实现了高质量的艺术风格图像生成。然而，随着研究的不断深入，风格迁移的应用边界逐渐扩展，不仅涵盖了视频风格迁移（如[引用文章]）、3D风格迁移（如[引用文章]）和多模态风格迁移（如[引用文章]）等多个领域，也引发了关于如何在这些新领域中保持风格一致性与跨模态协调性的研究。 </p>
+                    <p> 尽管本文的重点在于介绍二维图像风格迁移的最新成果，但为了让研究者对风格迁移在其他领域的应用有一个初步的了解，本文将简要概述风格迁移在视频、3D及多模态场景中的研究现状。特别是随着计算能力的提升和技术的不断演进，风格迁移从二维图像扩展到视频、3D场景以及多模态数据处理，不仅拓宽了应用场景，也为实际问题提供了更灵活、更具创意的解决方案。 </p>
                 </li>
                 <li>风格迁移从2D扩展到视频、3D与多模态的背景与驱动力</li>
             </ul>
@@ -84,7 +86,6 @@
             <br>
             <p>3D纹理迁移技术近年来逐渐兴起，其核心挑战在于如何在保留三维物体几何形状的同时，将目标风格准确地映射到表面纹理和细节上。与2D图像风格迁移相比，3D纹理风格迁移需要处理额外的复杂性，包括多视角一致性（Multi-view Consistency）、三维形状的几何完整性（Geometric Integrity）以及高分辨率纹理映射（High-resolution Texture Mapping）。这些特性使得3D风格迁移在虚拟现实（VR）、游戏开发和建筑渲染等领域具有广泛的应用前景。</p>
             <p>Huang等人(87huang2021learning)提出了一种基于点云的3D场景风格化方法，通过将图像特征反投影到3D空间来构建点云，并使用点云变换模块将参考图像的风格信息转移到点云上，最终生成具有一致风格的新视角图像。 </p>
-            <p>Wu等人(88wu2021styleformer)核心目标是实现任意且实时的风格迁移, 为此他们提出了一种名为 StyleFormer 的前馈3D风格迁移方法. StyleFormer由Style Bank Generation Module, Transformer-driven Style Composition Module与Parametric Content Modulation Module三个模块组成, 三者协同工作, 能够生成具有连贯内容结构的3D迁移结果.</p>
             <p>Yin等人(89yin20213dstylenet)提出了一种名为 3DStyleNet 的神经风格迁移方法，它能够同时迁移 3D 物体的几何形状和纹理风格。 3DStyleNet 首先通过学习语义部件之间的全局几何关系来定义风格，然后预测一个部件感知仿射变换场来扭曲源形状，使其模仿目标形状的整体几何风格。 此外，3DStyleNet 还利用可微渲染器和预训练的图像风格迁移网络，将目标形状的纹理风格迁移到扭曲后的源物体上。 通过联合优化几何形状和纹理，3DStyleNet 可以生成具有逼真风格细节和连贯内容结构的 3D 物体，并将其应用于 3D 内容创建和风格化数据增强等任务。</p>
             <p>Chiang等人(90chiang2022stylizing)以3D风格迁移中的视角不一致性问题为切入点,提出了一种基于NeRF的3D场景风格迁移方法.该方法通过学习3D场景的隐式表示，使用超网络将参考图像的风格信息转移到场景表示中，最终生成具有一致风格的任意新视角图像。</p>
            <p>Huang等人提出了名为StylizedNeRF(93huang2022stylizednerf) 的 3D 场景风格化方法，它通过 2D-3D 互学习框架，将 2D 图像风格化网络和 NeRF 结合，实现了高质量且保持几何一致性的 3D 场景风格化。 该方法首先训练一个标准的 NeRF 来表示 3D 场景，并用风格化网络替换其颜色预测模块，得到一个风格化的 NeRF。 然后，通过引入一致性损失，将 NeRF 中的空间一致性先验知识蒸馏到 2D 风格化网络中。 此外，该方法还引入了可学习的潜在码，以处理 2D 风格化结果的歧义性，并实现条件风格化。 </p>
@@ -126,9 +127,9 @@
             <ol>
                 <li>应添加于3.3.3 基于注意力机制的风格迁移一段的开篇, 作为第一篇文章讲解.</li>
                 <li>本文(110wu2021styleformer)发表于2021年, 其核心目标是实现任意且实时的风格迁移.<span style="color: #6495EDA6;">实际上并不是3D风格迁移.</span></li>
-                <li>本文观察到了Transformer的多头注意力机制能捕获长程依赖性的特点, 并认为该特点使得Transformer在捕捉全局风格信息与内容语义上具有较大优势. 本文使用Transformer的主要目的是提升风格迁移过程中对全局风格信息的建模能力. </li>
+                <li>Wu(110wu2021styleformer)等人观察到了Transformer的多头注意力机制能捕获长程依赖性的特点, 并认为该特点使得Transformer在捕捉全局风格信息与内容语义上具有较大优势, 故而提出了StyleFormer. </li>
                 <li>
-                    本文网络架构可以描述为Encoder-基于Transformer的风格迁移核心-Decoder. 除了基于VGG16的Encoder与Decoder之外, 本文网络核心可以细化为三个部分：1. Style Bank Generation Module 2. 基于Transformer的风格组合模块Transformer-driven Style Composition Module, 3. 参数化内容调制模块(Parametric Content Modulation Module)
+                    StyleFormer的网络架构可以描述为Encoder-基于Transformer的风格迁移核心-Decoder. 除了基于VGG16的Encoder与Decoder之外, 本文网络核心可以细化为三个部分：1. Style Bank Generation Module 2. 基于Transformer的风格组合模块Transformer-driven Style Composition Module, 3. 参数化内容调制模块(Parametric Content Modulation Module)
                     <ul>
                         <li>Style Bank Generation Module: 该模块以风格图像的编码结果作为输入, 并将其表示为有限数量的风格代码（Style Codes），每个代码包含一个风格键(Key)以及对应的风格值(Value). 风格键(Key)用于表示风格特征, 而对应的风格值(Value)是一个仿射变换矩阵, 用于根据风格特征调整内容图像.</li>
                         <li>Transformer-driven Style Composition Module: 该模块根据内容特征动态组合风格代码(Style Codes)，通过多头注意力机制实现风格与内容的全局一致性。该模块使用风格键(Key)和风格值(Value)分别作为Transformer的Key和Value，将内容特征作为Query。并多头注意力机制（Multi-head Attention）学习风格与内容的全局关联，为不同组别生成内容一致的仿射系数, 从而确保风格迁移结果在全局上保持风格特征的细腻表达，同时语义结构与内容特征一致。</li>
