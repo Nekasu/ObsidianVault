@@ -11,13 +11,21 @@
     <div class="container">
         <h1>文章未来展望修改方案</h1>
         <div class="note-section">
+            <h2>人机交互与可控性</h2>
+            <p>以下内容应添加到5.5节中</p>
+            <ul>
+                <li>
+                    介绍风格迁移任务的应用场景：医学领域、AR、VR、辅助设计. 并介绍这些领域需要较高的定制性. 如何提升现有成果的交互性是一个重要的课题.
+                    <p>此处将审稿人2的几篇文章加进去：可能需要目标检测、图像分割作为辅助.</p>
+                </li>
+            </ul>
             <h2> 实际应用和挑战的覆盖有限 </h2>
             <br>
             问题: 对实际应用和实践挑战的讨论不足。
             <br>
             建议:
             <br>
-            扩展关于风格迁移在实际场景中的应用讨论，例如虚拟现实、广告设计、电影制作等。
+            扩展关于风格迁移在实际场景中的应用讨论，例如虚拟现实、广告设计、电影制作、医学图像风格迁移、信息攻防等。
             <br>
             增加对实践挑战的讨论，例如高分辨率图像的处理速度瓶颈、多样化样式的准确迁移，以及模型在低资源设备上的适配性。
             <br>
@@ -26,13 +34,50 @@
             尽管风格迁移技术在字体生成、环境渲染等领域显示了巨大的潜力，其应用仍面临许多挑战。例如，在电影制作中，大规模视频风格迁移的计算成本限制了其广泛应用。此外，高分辨率图片处理所需的资源需求显著增加了实时风格迁移的难度。
             <br>
             <p>也可以从跨模态角度考虑, 歌曲风格迁移、视频风格迁移、图像风格迁移等</p>
-            <h2>火花记录</h2>
+            <h2>可解释性问题</h2>
+            <p>将以下内容补充到5.2节</p>
+            <ul>
+                <li>需要讨论当前工作在可解释性上的努力与不足, 并指明未来发展方向. </li>
+                <li>审稿人1给出了范例：Current research on style transfer develops limited research on explicit interpretability [1-4]. Some diffusion model, use visual programming based approaches to achieve controllability [5-6], however, the transferring process is not transparent (This topic can be included in Sec. 5.5 in human-computer interaction).</li>
+                <li>照这个实例, 我们可以有如下撰写方法：
+                    <ul>扩散模型使用xxxx方法, 试图控制风格化生成, 但是在xxx方面有所欠缺</ul>
+                    <ul>Transformer模型使用xxxx方法, 试图控制风格化生成, 但是在xxx方面有所欠缺</ul>
+                    <ul>xxx模型使用xxxx方法, 试图控制风格化生成, 但是在xxx方面有所欠缺</ul>
+                </li>
+            </ul>
+            <h2>高屋建瓴的前景</h2>
+            <ol>
+                <li>
+                    方法的核心目标：按风格迁移任务的目标, 当前的工作可以分成以下几类
+                    <ul>
+                        <li>提升风格迁移质量</li>
+                        <li>增加提升风格迁移速度</li>
+                        <li>人机交互</li>
+                        <li>……</li>
+                        <li>这一部分需要看自己做的Excel表格</li>
+                    </ul>
+                </li>
+                <li>
+                    风格迁移的技术趋势：从2016年现在, 风格迁移的技术趋势可以概括为(最后分别介绍技术的优点与缺点, 这里可以参考本文最后的<a href="#spark">"火花记录"</a>)：
+                    <ul>
+                        <li>基于迭代</li>
+                        <li>基于GAN</li>
+                        <li>基于Transformer</li>
+                        <li>基于大模型</li>
+                        <li>总结来说, 当前的风格迁移技术是从单一模态到多模态的</li>
+                    </ul>
+                </li>
+            </ol>
+            <h2 id="spark">火花记录</h2>
             <ul>
                 <li>CLP往往用于对文字进行处理</li>
                 <li>基于Diffusion的方法比起风格迁移, 往往具有一定的图像生成的感觉, 而且生成的图像具有较高的同质化</li>
                 <li>基于窗口注意力机制的Transformer模型用于风格迁移工作时, 容易产生类似于网格的图案, 导致风格迁移效果不佳.</li>
                 <li>现在的风格迁移成果可能从内容损失与风格损失进行考虑, 可能忽略的生成图像与艺术图像在视觉上的相似程度(视觉保真度)</li>
             </ul>
+        </div>
+        <div class="note-section">
+            <h1>修改方案执行</h1>
         </div>
     </div>
 </body>
