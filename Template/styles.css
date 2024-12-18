@@ -14,6 +14,7 @@
         width: 90%; /* 小屏幕占据更大比例 */
     }
 }
+/* ---------------------------------------------------------- */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -21,6 +22,7 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+
 h1, h2, h3 {
     color: #2c3e50;
 }
@@ -48,56 +50,49 @@ a:hover {
     border-radius: 3px;
     display: inline-block;
 }
-
-/* 初始化计数器 */
-body {
-  counter-reset: h1 h2 h3 h4 h5;
-}
-
-/* h1 自动编号 */
 h1 {
-  counter-reset: h2; /* h1 内重置 h2 */
+  font-size: 250%;
 }
-h1::before {
-  counter-increment: h1;
-  content: counter(h1) ". ";
-}
-
-/* h2 自动编号 */
 h2 {
-  counter-reset: h3; /* h2 内重置 h3 */
+  font-size: 200%;
 }
-h2::before {
-  counter-increment: h2;
-  content: counter(h1) "." counter(h2) " ";
+h3{
+  font-size: 150%;
 }
-
-/* h3 自动编号 */
-h3 {
-  counter-reset: h4; /* h3 内重置 h4 */
-}
-h3::before {
-  counter-increment: h3;
-  content: counter(h1) "." counter(h2) "." counter(h3) " ";
+h4, h5, h6 {
+  font-size: 100%;
 }
 
-/* h4 自动编号 */
-h4 {
-  counter-reset: h5; /* h4 内重置 h5 */
+/* 表格设置 */
+/* Table Head */
+table{
+    width: 100%; /* 设置表格宽度 */
+    border-collapse: collapse; /* 合并边框 */
 }
-h4::before {
-  counter-increment: h4;
-  content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) " ";
+th, td {
+    padding: 8px; /* 设置单元格内边距 */
+    text-align: center; /* 水平居中 */
+    vertical-align: middle; /* 垂直居中 */
 }
-
-/* h5 自动编号 */
-h5::before {
-  counter-increment: h5;
-  content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " ";
+#table-blue thead th {
+background-color: rgb(81, 130, 187);
+color: #fff;
+border-bottom-width: 0;
 }
-
-/* 可选样式：设置标题间距和字体 */
-h1, h2, h3, h4, h5 {
-  margin: 10px 0;
-  font-family: Arial, sans-serif;
+/* Column Style */
+#table-blue td {
+color: #000;
+}
+/* Heading and Column Style */
+#table-blue tr, #table-blue th {
+border-width: 1px;
+border-style: solid;
+border-color: rgb(81, 130, 187);
+}
+/* Padding and font style */
+#table-blue td, #table-blue th {
+padding: 5px 10px;
+font-size: 12px;
+font-family: Verdana;
+font-weight: bold;
 }
