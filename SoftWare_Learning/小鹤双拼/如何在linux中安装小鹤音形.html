@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>如何在 Linux 中安装小鹤音形</title>
+    <link rel="stylesheet" href="/Template/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>如何在 Linux 中安装小鹤音形</h1>
+        <h2>安装 rime</h2>
+        <pre>
+            sudo apt-get install fcitx5
+            sudo apt-get install fcitx5-rime
+        </pre>
+        <hr>
+
+        <h2>下载挂载码</h2>
+        下载<a href="http://flypy.ysepan.com/">「小鹤音形 " 鼠须管”for macOS.zip」</a>, 并解压
+        <p>使用这些官方提供的挂接文件，我们可很简单地参照 MAC鼠须管小鹤音形挂接说明.txt 的部署说明，将 rime 目录中的所有文件复制到 /usr/share/rime-data 目录下，便能完成了 rime 挂接小鹤音形。</p>
+        <h2>配置fcitx5</h2>
+        完成小鹤音形挂接文件部署后，对 fcitx5 服务进行重启，然后打开配置，添加 rime 输入法。
+        完成配置后，便开始愉快地使用小鹤音形了😊。
+    </div>
+</body>
+</html>
