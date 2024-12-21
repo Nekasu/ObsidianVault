@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>如何在linux下玩windows游戏</title>
+    <link rel="stylesheet" href="/Template/styles.css">
+</head>
+<body>
+    <div class="container">
+        <ol>
+            <li>下载 steam: 实际上是需要 steam 的 proton 兼容层. wine 之类的也行</li>
+            <li>下载 你需要玩的 windows 游戏.</li>
+            <li>点击 Steam 左下角 "添加游戏 → 添加非steam游戏"
+                <ul>
+                    <li><img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/Snipaste_2024-12-21_22-22-11.png"/></li>
+                </ul>
+            </li>
+            <li>找到添加的游戏, 然后 "右键 → 属性 → 兼容性", 勾选其中的 "强制使用特定 Steam Play 兼容性工具", 并在下拉框中选中一个版本的 proton.
+                <ul>
+                    <li>
+                        <img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/Snipaste_2024-12-21_22-25-43.png"/>
+                    </li>
+                    <li><img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/3.png"/></li>
+                </ul>
+            </li>
+            <li>然后就可以正常运行啦！</li>
+            <li>如果是 MIHOYO 的游戏, 可以将官网上的下载器按上面的方式添加到 Steam 库中, 修改兼容性并启动, 点击获取游戏, 如下图所示：
+                <ul>
+                    <li><img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/4.png"/></li>
+                </ul>
+            </li>
+            <li>这时候直接下载安装原神即可，但是你会发现你找不到c盘的那个安装文件，以下是寻找方法：
+                <ul>
+                    <li>来到"~/.local/share/Steam/steamapps/compdata"文件夹, 你会看到一串以数字为名字的文件夹, 那么我们怎么知道哪个是我们安装的游戏呢？</li>
+                    <li>将文件按修改时间排序, 最上面那个就大概率是我们才下载的游戏. </li>
+                    <li>顺着路径"一串数字/pfx/dosdevices/c:/ProgramFiles/游戏名/launcker.exe", 然后把这个exe文件用1-5步重新处理一下, 就可以通过 steam 运行啦！
+                        <ul>
+                            <li>以绝区零为例， exe文件在 "/home/nekasu/.local/share/Steam/steamapps/compatdata/3177456653/pfx/dosdevices/c:/Program Files/miHoYo Launcher/games/ZenlessZoneZero Game/"中</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
