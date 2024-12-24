@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>如何在linux下安装AMD显卡驱动</title>
+    <link rel="stylesheet" href="/Template/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="note-section">
+            本教程来自于 <a href="https://www.bilibili.com/video/BV1Hw4m1Z7e5">该 bilibili 视频</a>, 或可以阅读 <a href="https://amdgpu-install.readthedocs.io/en/latest/install-prereq.html#installing-the-installer-package">AMD 官方安装教程</a>以获取更详细的信息.
+            <ol>
+                <li>进入 <a href="https://www.amd.com/zh-cn/support/download/drivers.html">AMD官网下载驱动。</a></li>
+                <li>更新 apt-get 包管理器
+                    <pre>
+                        sudo apt-get update 
+                        sudo apt-get upgrade
+                    </pre>
+                </li>
+                <li>安装 AMD 独显驱动的 安装包
+                    <pre>
+                        sudo apt-get install ./amdgpu-install-VERSION.deb
+                        sudo apt-get update //检测更新
+                        sudo apt upgrade //在线进行更新
+                    </pre>
+                </li>
+                <li>
+                    使用 AMD 独显驱动安装包 安装必要的 包
+                    <pre>
+                        sudo amdgpu-install --usecase=rocm,hip,graphics --opencl=rocr //安装大部分图形驱动，已经可以打游戏跑AI了
+                        sudo amdgpu-install --vulkan=amdvlk //安装vulkan
+                    </pre>
+                </li>
+                <li>
+                    <pre>
+                        ls -l /dev/dri/render*
+                        sudo usermod -a -G render "用户名"
+                        sudo usermod -a -G video "用户名"
+                    </pre>
+                </li>
+                <li>重启开始玩steam</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

@@ -18,6 +18,8 @@ UltraISO： https://cn.ultraiso.net
 
 https://blog.csdn.net/qq_48559526/article/details/134070092
 
+- 如果安装失败，可能是gcc版本过低导致的, 可以用如下方法修改gcc版本：https://blog.csdn.net/weixin_43356770/article/details/139072376
+
 ### 3.安装远程连接
 
 **安装**
