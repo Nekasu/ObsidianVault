@@ -96,3 +96,14 @@ font-size: 12px;
 font-family: Verdana;
 font-weight: bold;
 }
+
+/* 颜色定义 */
+.color-kachina-yellow {
+    color: #ecac3d;
+}
+.color-nahida-green {
+    color: #b9c78d;
+}
+.color-hutao-red {
+    color: #c94737;
+}
