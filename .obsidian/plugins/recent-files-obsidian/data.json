@@ -1,6 +1,118 @@
 {
   "recentFiles": [
     {
+      "basename": "云天C语言_3月15日下午",
+      "path": "FuShi/云天/云天C语言_3月15日下午.md"
+    },
+    {
+      "basename": "技巧总结",
+      "path": "FuShi/云天/技巧总结.md"
+    },
+    {
+      "basename": "cpp",
+      "path": "FuShi/基础知识/cpp.md"
+    },
+    {
+      "basename": "操作系统",
+      "path": "FuShi/基础知识/操作系统.md"
+    },
+    {
+      "basename": "Pasted image 20230313111326",
+      "path": "FuShi/0_Attachments/Pasted image 20230313111326.png"
+    },
+    {
+      "basename": "设计3_递推累加",
+      "path": "FuShi/0_Attachments/设计3_递推累加.jpg"
+    },
+    {
+      "basename": "改错2_最短单词",
+      "path": "FuShi/0_Attachments/改错2_最短单词.jpg"
+    },
+    {
+      "basename": "改错1_删除星号",
+      "path": "FuShi/0_Attachments/改错1_删除星号.jpg"
+    },
+    {
+      "basename": "809325266559023427",
+      "path": "FuShi/0_Attachments/809325266559023427.jpg"
+    },
+    {
+      "basename": "462696290498038292",
+      "path": "FuShi/0_Attachments/462696290498038292.jpg"
+    },
+    {
+      "basename": "我的世界风格指南",
+      "path": "Development/minecraft_devlop/我的世界风格指南.md"
+    },
+    {
+      "basename": "Blockbench总览与提示",
+      "path": "Development/minecraft_devlop/Blockbench总览与提示.md"
+    },
+    {
+      "basename": "README_信息汇总",
+      "path": "论文/20240830空天会议论文撰写/README_信息汇总.md"
+    },
+    {
+      "basename": "初步思路",
+      "path": "论文/20240830空天会议论文撰写/初步思路.md"
+    },
+    {
+      "basename": "数据准备",
+      "path": "论文/20240830空天会议论文撰写/实现思路/数据准备.md"
+    },
+    {
+      "basename": "实现思路",
+      "path": "论文/20240830空天会议论文撰写/实现思路/实现思路.md"
+    },
+    {
+      "basename": "2023-04-12",
+      "path": "Diary/2023-04-12.md"
+    },
+    {
+      "basename": "2023-04-09",
+      "path": "Diary/2023-04-09.md"
+    },
+    {
+      "basename": "0_readme",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/0_readme.md"
+    },
+    {
+      "basename": "oh_my_posh_powershell美化软件",
+      "path": "SoftWare_Learning/服务器/1_服务器配置/oh_my_posh_powershell美化软件.md"
+    },
+    {
+      "basename": "1_服务器网络代理设置",
+      "path": "SoftWare_Learning/个人信息/服务器个人信息/1_服务器网络代理设置.md"
+    },
+    {
+      "basename": "1_文件解压与批量解压",
+      "path": "SoftWare_Learning/服务器/2_服务器操作/1_文件解压与批量解压.md"
+    },
+    {
+      "basename": "一些实用的论文网站",
+      "path": "SoftWare_Learning/服务器/5_实用网站/一些实用的论文网站.md"
+    },
+    {
+      "basename": "NUIST智能视觉-服务器配置和使用",
+      "path": "SoftWare_Learning/服务器/NUIST智能视觉-服务器配置和使用.md"
+    },
+    {
+      "basename": "README",
+      "path": "SoftWare_Learning/服务器/README.md"
+    },
+    {
+      "basename": "2024-10-12",
+      "path": "Diary/2024-10-12.md"
+    },
+    {
+      "basename": "2024-12-01",
+      "path": "Diary/2024-12-01.md"
+    },
+    {
+      "basename": "2024-12-07",
+      "path": "Diary/2024-12-07.md"
+    },
+    {
       "basename": "2024-11-30",
       "path": "Diary/2024-11-30.md"
     },
@@ -25,20 +137,8 @@
       "path": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/20241126接受审稿意见如下.md"
     },
     {
-      "basename": "2024-12-01",
-      "path": "Diary/2024-12-01.md"
-    },
-    {
-      "basename": "2024-12-07",
-      "path": "Diary/2024-12-07.md"
-    },
-    {
       "basename": "NEUCOM-D-24-08078",
       "path": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf"
-    },
-    {
-      "basename": "0_readme",
-      "path": "SoftWare_Learning/服务器/1_服务器配置/0_readme.md"
     },
     {
       "basename": "1_CUDA、cudatoolkit、cudnn三者概念的辨析",
@@ -99,94 +199,6 @@
     {
       "basename": "阿里云",
       "path": "SoftWare_Learning/Zerotier/请阅读README文件/阿里云.md"
-    },
-    {
-      "basename": "OctConv_八度卷积",
-      "path": "Neural Network/神经网络组件/OctConv_八度卷积.md"
-    },
-    {
-      "basename": "Template_神经网络组建",
-      "path": "Template/Template_神经网络组建.md"
-    },
-    {
-      "basename": "神经网络组件目录文件_README",
-      "path": "Neural Network/神经网络组件/神经网络组件目录文件_README.md"
-    },
-    {
-      "basename": "WTConv_小波卷积",
-      "path": "Neural Network/神经网络组件/WTConv_小波卷积.md"
-    },
-    {
-      "basename": "Zsh 安装与配置，使用 Oh-My-Zsh 美化终端 _ Leehow的小站",
-      "path": "SoftWare_Learning/个人信息/linux系统美化/Zsh 安装与配置，使用 Oh-My-Zsh 美化终端 _ Leehow的小站.pdf"
-    },
-    {
-      "basename": "NUIST智能视觉-服务器配置和使用",
-      "path": "SoftWare_Learning/服务器/NUIST智能视觉-服务器配置和使用.md"
-    },
-    {
-      "basename": "README",
-      "path": "SoftWare_Learning/服务器/README.md"
-    },
-    {
-      "basename": "ZeroTier 内网穿透，并搭建 moon 中转服务器 - jack_Meng - 博客园",
-      "path": "SoftWare_Learning/Zerotier/请阅读README文件/ZeroTier 内网穿透，并搭建 moon 中转服务器 - jack_Meng - 博客园.pdf"
-    },
-    {
-      "basename": "clash_verge下载地址",
-      "path": "SoftWare_Learning/clash/clash_verge下载地址.md"
-    },
-    {
-      "basename": "2024-01-22",
-      "path": "Diary/2024-01-22.md"
-    },
-    {
-      "basename": "2024-01-23",
-      "path": "Diary/2024-01-23.md"
-    },
-    {
-      "basename": "1_代理设置_本机ip",
-      "path": "SoftWare_Learning/个人信息/服务器个人信息/1_代理设置_本机ip.md"
-    },
-    {
-      "basename": "7_pycharm安装",
-      "path": "SoftWare_Learning/服务器/1_服务器配置/7_pycharm安装.md"
-    },
-    {
-      "basename": "2_终端变量与export命令",
-      "path": "SoftWare_Learning/个人信息/服务器个人信息/2_终端变量与export命令.md"
-    },
-    {
-      "basename": "1_代理设置的持久化",
-      "path": "SoftWare_Learning/个人信息/服务器个人信息/1_代理设置的持久化.md"
-    },
-    {
-      "basename": "1_服务器网络代理设置",
-      "path": "SoftWare_Learning/个人信息/服务器个人信息/1_服务器网络代理设置.md"
-    },
-    {
-      "basename": "0_服务器ip地址与个人密码信息",
-      "path": "SoftWare_Learning/个人信息/服务器个人信息/0_服务器ip地址与个人密码信息.md"
-    },
-    {
-      "basename": "重装系统后, vscode无法正常连接服务器",
-      "path": "SoftWare_Learning/服务器/3_服务器异常与解决/重装系统后, vscode无法正常连接服务器.md"
-    },
-    {
-      "basename": "0_运行git前的配置",
-      "path": "SoftWare_Learning/git/0_运行git前的配置.md"
-    },
-    {
-      "basename": "1_git与github与ssh配置",
-      "path": "SoftWare_Learning/git/1_git与github与ssh配置.md"
-    },
-    {
-      "basename": "2024-05-24-NekasuPCschool",
-      "path": "Diary/2024-05-24-NekasuPCschool.md"
-    },
-    {
-      "basename": "不解析导入函数的问题",
-      "path": "SoftWare_Learning/vscode/vscode与Python/不解析导入函数的问题.md"
     }
   ],
   "omittedPaths": [],

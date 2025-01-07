@@ -1,8 +1,10 @@
-/* 设置容器样式 */
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* 占满视口高度 */
     width: 60%;
     margin: 0 auto; /* 自动设置左右外边距，居中 */
-    background-color: #ffffff; /* 背景颜色可选 */
     padding: 20px; /* 内边距 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加轻微阴影，增加视觉效果 */
     border-radius: 10px; /* 圆角边框 */
@@ -18,13 +20,11 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
-    background-color: #f9f9f9;
     color: #333;
 }
 
 h1, h2, h3 {
-    color: #2c3e50;
+    color: #C1C1CF;
 }
 a {
     color: #3498db;
@@ -38,10 +38,7 @@ a:hover {
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background: #fff;
-}
-.note-section:hover {
-    background: #f1f1f1;
+    background: #ffffff10;
 }
 .code {
     font-family: "Courier New", Courier, monospace;
@@ -75,13 +72,13 @@ th, td {
     vertical-align: middle; /* 垂直居中 */
 }
 #table-blue thead th {
-background-color: rgb(81, 130, 187);
-color: #fff;
-border-bottom-width: 0;
+    background-color: rgb(81, 130, 187);
+    color: #fff;
+    border-bottom-width: 0;
 }
 /* Column Style */
 #table-blue td {
-color: #000;
+    color: #C1C1CF;
 }
 /* Heading and Column Style */
 #table-blue tr, #table-blue th {
@@ -106,4 +103,37 @@ font-weight: bold;
 }
 .color-hutao-red {
     color: #c94737;
+}
+.color-DrRatio-blue{
+    color: #6456A9
+}
+.color-huohuo-green{
+    color: #98B6A3
+}
+
+/* 网页背景 */
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    background-color: #2F343F;
+    color: #C1C1CF;
+}
+body::before {
+    margin: 0;
+    padding: 0;
+    content: ""; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://raw.githubusercontent.com/Nekasu/Blog_pics/main/ya-long6-opacity0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: calc(50vw - 1650px) ;
+    opacity: 0.1; 
+    z-index: -1; 
 }
