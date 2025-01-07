@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wakatime无法在远程服务器上使用</title>
+    <link rel="stylesheet" href="/Template/styles.css">
+</head>
+<body>
+    <div class="container">
+        有时，可能发现远程服务器上的 wakatime 没有在正确计时，令人很苦恼。在这种情况下，我们可以将 wakatime 放到本地运行，而非在远程服务器上运行，具体操作如下。
+        <ol>
+            <li>打开vscode的settings.json文件</li>
+            <li>输入以下代码：<br>
+                "remote.extensionKind": { "WakaTime.vscode-wakatime": ["ui"] },<br>
+                其原理为将 wakatime 放到本地运行，这一点在 vscode-wakatime 的github官网上有介绍，在<a href="https://github.com/wakatime/vscode-wakatime">官网</a>→ troubleshooting → SHH configuration 中。
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
