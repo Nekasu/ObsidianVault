@@ -127,11 +127,12 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('https://raw.githubusercontent.com/Nekasu/Blog_pics/main/sunset_superresolution.jpg');
-    background-position: 65% 50%; /* 调整视觉中心位置 */
+    /* Herta_sunset */
+        /* background-image: url('https://raw.githubusercontent.com/Nekasu/Blog_pics/main/sunset_superresolution.jpg');
+        background-position: 65% 50%;  */
     /* ZZZ-YA */
-        /* background-image: url('https://raw.githubusercontent.com/Nekasu/Blog_pics/main/ya-long6-opacity0.png'); */
-        /* background-position: calc(50vw - 1650px) ; */
+    background-image: url('https://raw.githubusercontent.com/Nekasu/Blog_pics/main/ya-long6-opacity0.png');
+    background-position: calc(50vw - 1650px) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
