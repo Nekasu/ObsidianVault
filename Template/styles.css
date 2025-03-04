@@ -43,7 +43,7 @@ a:hover {
 }
 .code {
     font-family: "Courier New", Courier, monospace;
-    background: #f4f4f4;
+    background: #f4f4f42f;
     padding: 5px;
     border-radius: 3px;
     display: inline-block;
@@ -147,4 +147,17 @@ body::before {
     body::before {
         background-position: 50% 30%; /* 调整视觉中心位置 */
     }
+}
+/* 针对图像过大的问题 */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 设置del标签格式 */
+del {
+    color: #3b454e;
 }

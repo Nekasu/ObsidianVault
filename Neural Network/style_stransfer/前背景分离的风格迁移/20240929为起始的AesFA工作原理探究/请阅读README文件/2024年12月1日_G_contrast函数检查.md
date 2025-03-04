@@ -50,7 +50,7 @@
 在猜想 1 被验证为错误的情况下验证猜想 2, 具体到时候再说.
 
 ### 详细输出结果
-
+```
 /mnt/sda/zxt/3_code_area/code_develop/PartialConv_AesFA/log/dunhuanglog. Txt
 Cuda: cuda:1
 Version: dunhuang
@@ -293,3 +293,4 @@ NaN or Inf found in input tensor.
 NaN or Inf found in input tensor.
 NaN or Inf found in input tensor.
 NaN or Inf found in input tensor.
+```

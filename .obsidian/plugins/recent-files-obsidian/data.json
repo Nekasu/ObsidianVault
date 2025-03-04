@@ -1,6 +1,82 @@
 {
   "recentFiles": [
     {
+      "basename": "D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系.md"
+    },
+    {
+      "basename": "正规矩阵的分类.excalidraw",
+      "path": "Excalidraw/正规矩阵的分类.excalidraw.md"
+    },
+    {
+      "basename": "D1_31酉空间的定义",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_31酉空间的定义.md"
+    },
+    {
+      "basename": "O3酉空间中模长、长度的定义",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O3酉空间中模长、长度的定义.md"
+    },
+    {
+      "basename": "O2酉空间的内积相关性质_酉空间的性质1",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O2酉空间的内积相关性质_酉空间的性质1.md"
+    },
+    {
+      "basename": "O1酉空间与欧式空间的关系",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O1酉空间与欧式空间的关系.md"
+    },
+    {
+      "basename": "0_讨论本节的意义",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/0_讨论本节的意义.md"
+    },
+    {
+      "basename": "O9定理：「酉矩阵」、「正交矩阵」用于上三角化",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O9定理：「酉矩阵」、「正交矩阵」用于上三角化.md"
+    },
+    {
+      "basename": "O10Herimite矩阵的谱分解、矩阵的第三种表示方式",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O10Herimite矩阵的谱分解、矩阵的第三种表示方式.md"
+    },
+    {
+      "basename": "T1_28Jardan引理",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/定理与性质Theorem/T1_28Jardan引理.md"
+    },
+    {
+      "basename": "README_专利_内容分析与填充_思路整理",
+      "path": "论文/专利撰写/README_专利_内容分析与填充_思路整理.md"
+    },
+    {
+      "basename": "6_XPU各种处理器",
+      "path": "Neural Network/0_基础知识/6_XPU各种处理器.md"
+    },
+    {
+      "basename": "1_由AseFA论文思考的「解纠缠」",
+      "path": "Neural Network/style_stransfer/对于风格迁移领域的一些思考/1_由AseFA论文思考的「解纠缠」.md"
+    },
+    {
+      "basename": "0_本节行文思路_目录_请直接看这个_不要翻文件夹",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C31矩阵的非奇异性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md"
+    },
+    {
+      "basename": "0_本节行文思路_目录_请直接看这个_不要翻文件夹C32",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/0_本节行文思路_目录_请直接看这个_不要翻文件夹C32.md"
+    },
+    {
+      "basename": "0_本节行文思路_目录_请直接看这个_不要翻文件夹",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md"
+    },
+    {
+      "basename": "0_本节行文思路_目录_请直接看这个_不要翻文件夹",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md"
+    },
+    {
+      "basename": "0_本节行文思路_目录_请直接看这个_不要翻文件夹C33",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹C33.md"
+    },
+    {
+      "basename": "前言",
+      "path": "研究生/课程笔记/研一课程/上/矩阵论/D矩阵分析及其应用/D0写在章节开始前/前言.md"
+    },
+    {
       "basename": "云天C语言_3月15日下午",
       "path": "FuShi/云天/云天C语言_3月15日下午.md"
     },
@@ -123,82 +199,6 @@
     {
       "basename": "2024-11-11",
       "path": "Diary/2024-11-11.md"
-    },
-    {
-      "basename": "2024-11-18",
-      "path": "Diary/2024-11-18.md"
-    },
-    {
-      "basename": "2_环境与PyTorch的配置",
-      "path": "SoftWare_Learning/服务器/1_服务器配置/2_环境与PyTorch的配置.md"
-    },
-    {
-      "basename": "20241126接受审稿意见如下",
-      "path": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/20241126接受审稿意见如下.md"
-    },
-    {
-      "basename": "NEUCOM-D-24-08078",
-      "path": "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf"
-    },
-    {
-      "basename": "1_CUDA、cudatoolkit、cudnn三者概念的辨析",
-      "path": "Neural Network/0_基础知识/3_概念辨析/CUDA们/1_CUDA、cudatoolkit、cudnn三者概念的辨析.md"
-    },
-    {
-      "basename": "oh_my_zsh",
-      "path": "SoftWare_Learning/个人信息/linux系统美化/oh_my_zsh.md"
-    },
-    {
-      "basename": "5_安装与配置nvcc",
-      "path": "SoftWare_Learning/服务器/1_服务器配置/5_安装与配置nvcc.md"
-    },
-    {
-      "basename": "自己想法构建",
-      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/自己想法构建.md"
-    },
-    {
-      "basename": "原始网络结构探究",
-      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/原始网络结构探究.md"
-    },
-    {
-      "basename": "README_AesFA工作原理理解",
-      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/README_AesFA工作原理理解.md"
-    },
-    {
-      "basename": "自行搭建zerotier-one根服务器",
-      "path": "SoftWare_Learning/Zerotier/请阅读README文件/自行搭建zerotier-one根服务器.md"
-    },
-    {
-      "basename": "README_Zerotier",
-      "path": "SoftWare_Learning/Zerotier/README_Zerotier.md"
-    },
-    {
-      "basename": "常用命令",
-      "path": "SoftWare_Learning/Zerotier/请阅读README文件/常用命令.md"
-    },
-    {
-      "basename": "使用Zerotier进行内网穿透_使用阿里云",
-      "path": "SoftWare_Learning/Zerotier/请阅读README文件/使用Zerotier进行内网穿透_使用阿里云.md"
-    },
-    {
-      "basename": "linux 系统的 ubuntu 下 zerotier 的基本使用教程_ubuntu zerotier-CSDN博客",
-      "path": "SoftWare_Learning/Zerotier/请阅读README文件/linux 系统的 ubuntu 下 zerotier 的基本使用教程_ubuntu zerotier-CSDN博客.pdf"
-    },
-    {
-      "basename": "使用Zerotier进行内网穿透_面向用户",
-      "path": "SoftWare_Learning/Zerotier/请阅读README文件/使用Zerotier进行内网穿透_面向用户.md"
-    },
-    {
-      "basename": "使用Zerotier进行内网穿透_面向管理员",
-      "path": "SoftWare_Learning/Zerotier/请阅读README文件/使用Zerotier进行内网穿透_面向管理员.md"
-    },
-    {
-      "basename": "启动服务",
-      "path": "SoftWare_Learning/Zerotier/请阅读README文件/启动服务.md"
-    },
-    {
-      "basename": "阿里云",
-      "path": "SoftWare_Learning/Zerotier/请阅读README文件/阿里云.md"
     }
   ],
   "omittedPaths": [],

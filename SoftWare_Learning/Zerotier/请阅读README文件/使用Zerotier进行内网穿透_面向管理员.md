@@ -31,7 +31,7 @@ NetworkID 需要分发给其他用户.
 
 ## 步骤 2：客户端操作
 
-下载 [Zerotie](https://www.zerotier.com/download) 客户端, 并安装
+下载 [Zerotier](https://www.zerotier.com/download) 客户端, 并安装
 
 ###  windows
 
@@ -59,4 +59,4 @@ NetworkID 需要分发给其他用户.
 
 ## 步骤 3：管理员告知用户 ip
 
-将设备 ip 告知给用户, 完成.
+将设备 ip 告知给用户, 完成. 在一个网络中的所有用户可以通过管理端随机分配的ip地址相互访问

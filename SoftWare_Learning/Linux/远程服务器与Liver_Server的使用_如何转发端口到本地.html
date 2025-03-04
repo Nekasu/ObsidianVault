@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>转发远程服务器的live server端口到本地</title>
+    <link rel="stylesheet" href="/Template/styles.css">
+</head>
+<body>
+    <div class="container">
+        <p> &ensp; &ensp;有时，在使用 remote-ssh 插件连接远程服务器时, 可能发现远程服务器上的 live server 的端口无法在本地访问, 可以使用以下方法将远程服务器上端口转发到本地. </p>
+        本笔记参考<a href="https://code.visualstudio.com/docs/remote/ssh#_forwarding-a-port-creating-ssh-tunnel">vscode官方教程</a>
+        <hr>
+        <h1>临时转发</h1>
+        <ol>
+            <li>按下 ctrl+` 键打开终端, 选择最后的 “端口”.</li>
+            <li>新增转发端口, 在第一栏中填写远程的 ip与端口号, 如 “10.15.114.228:5500”</li>
+            <li>复制第二栏中的 “转发地址”, 在浏览器地址栏粘贴即可</li>
+        </ol>
+        <h1>永久转发</h1>
+        <ol>
+            <li>打开 remote-ssh 插件的配置文件</li>
+            <li>按下面的代码配置(一般在ssh配置好的基础上, 加上最后一行即可)<br>
+            <code>
+                <span class="line"><span style="color: #569CD6">Host</span><span style="color: #BBBBBB"> remote-linux-machine</span></span><br>
+                <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #569CD6">User</span><span style="color: #BBBBBB"> myuser</span></span><br>
+                <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #569CD6">HostName</span><span style="color: #BBBBBB"> remote-linux-machine.mydomain</span></span> <br>
+                <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #569CD6">LocalForward</span><span style="color: #BBBBBB"> </span><span style="color: #B5CEA8">[本机ip(127:0.0.1)]</span><span style="color: #BBBBBB">:</span><span style="color: #B5CEA8">[本机转发的端口]</span><span style="color: #BBBBBB"> </span><span style="color: #B5CEA8">[远程服务器ip]</span><span style="color: #BBBBBB">:</span><span style="color: #B5CEA8">[远程服务器需要被转发的端口]</span></span> <br>
+                <span class="line"><span style="color: #BBBBBB">    </span><span style="color: #569CD6">LocalForward</span><span style="color: #BBBBBB"> </span><span style="color: #B5CEA8">127:0.0.1</span><span style="color: #BBBBBB">:</span><span style="color: #B5CEA8">5501</span><span style="color: #BBBBBB"> </span><span style="color: #B5CEA8">10.15.114.228</span><span style="color: #BBBBBB">:</span><span style="color: #B5CEA8">5500</span></span><span style="color: #888888;">   # 这是一个例子, 表示将 10.15.114.228:5500 转发到  127.0.0.0:5501 上</span><br>
+                <span class="line"></span>
+            </code>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>

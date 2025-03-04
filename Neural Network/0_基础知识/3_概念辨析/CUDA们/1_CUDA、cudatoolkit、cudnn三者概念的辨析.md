@@ -11,6 +11,7 @@
 
 ![](https://raw.githubusercontent.com/Nekasu/Blog_pics/main/Drawing%202024-05-11%2017.46.08.excalidraw.svg)
 
+export https_proxy='http://10.15.138.52:7890'
 
 # CUDA 既是架构, 又是框架
 

@@ -8,7 +8,8 @@
 </head>
 <body>
     <div class="container">
-        有时，可能发现远程服务器上的 wakatime 没有在正确计时，令人很苦恼。在这种情况下，我们可以将 wakatime 放到本地运行，而非在远程服务器上运行，具体操作如下。
+        有时，可能发现远程服务器上的 wakatime 没有在正确计时，令人很苦恼。
+        <h1>方法一: 修改 vscode 中 wakatime 的配置(有时不起作用)</h1>
         <ol>
             <li>打开vscode的settings.json文件</li>
             <li>输入以下代码：<br>
@@ -16,6 +17,53 @@
                 其原理为将 wakatime 放到本地运行，这一点在 vscode-wakatime 的github官网上有介绍，在<a href="https://github.com/wakatime/vscode-wakatime">官网</a>→ troubleshooting → SHH configuration 中。
             </li>
         </ol>
+        <hr>
+        <h1>方法二: 下载wakatime-cli, 并使用命令行手动提交(待验证) 2025年2月27日</h1>
+        <ol>
+            <li>
+                在 wakatime 的 github 网站上下载对应版本的 wakatime 命令行软件, <a href="https://github.com/wakatime/wakatime-cli/releases/">wakatime-cli</a>.
+            </li>
+            <li>
+                解压 zip 文件
+            </li>
+            <li>
+                将解压后的文件移动到 /usr/local/bin/ 下, 并更名为 wakatime-cli. 具体来说, 可以使用如下命令 <br>
+                sudo mv ./解压后的文件 /usr/local/bin/wakatime
+            </li>
+            <li>
+                编辑 ~/.wakatime.cfg 文件, 添加自己的wakatime api. 该 api 可以从<a href="https://wakatime.com/dashboard">该网站</a>获取. 该 .cfg 文件中内容如下： <br>
+                <div class="code">
+                [settings] <br>
+                api_key = waka_d0940581-b3e8-40a3-9d65-0e59b2f6819 <br>
+                </div>
+            </li>
+            <li>
+                使用如下命令测试 wakatime-cli 是否安装成功: <br>
+                <div class="code">
+                    wakatime-cli --version # 该命令能输出wakatime的版本, 如无法输出, 则说明安装有误. <br>
+                    wakatime-cli --today # 该命令能输出今天的coding时长, 如无法输入, 则说明 api 配置可能有问题. <br>
+                </div>
+            </li>
+            <li>安装成功后, 使用如下命令将本地数据同步到云端. 该命令将同步本地的9999条heartbeat数据至服务器<br>
+                <div class="code">
+                    wakatime --sync-offline-activity 9999
+                </div>
+            </li>
+        </ol>
+        <hr>
+        <h1> 问题解决记录</h1>
+        2025-02-27, 决心解决 wakatime 在服务器端不计时的问题, 做出了如下尝试:
+        <ol>
+            <li>卸载重装wakatime</li>
+            <li>重新输入api</li>
+            <li>在服务器端安装wakatime-cli, 一个wakatime的命令行工具</li>
+        </ol>
+        <span class="color-hutao-red">并未</span>做出如下尝试:
+        <ol>
+            <li>关闭服务器防火墙</li> 
+            <li>开启服务器代理</li>
+        </ol>
+        以上几个方法中, 导致了最终wakatime可以正常工作, 若以后遇到相同的问题, 可以测试上述三个方法. 个人感觉在服务器端安装wakatime-cli最可能是解决问题的关键.
     </div>
 </body>
 </html>

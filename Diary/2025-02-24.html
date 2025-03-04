@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025-02-24</title>
+    <link rel="stylesheet" href="/Template/styles.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>今日生活</h1>
+        <table id="table-blue">
+            <thead>
+                <tr>
+                    <th>日期</th>
+                    <th>昨天睡觉时间</th>
+                    <th>今天起床时间</th>
+                    <th>今日体重</th>
+                    <th>昨日锻炼</th>
+                    <th>昨日资金剩余(支付宝)</th>
+                    <th>昨日资金剩余(微信)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025-02-24</td>
+                    <td>02:02</td>
+                    <td>08:59</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>6.69</td>
+                    <td>5001.01</td>
+                </tr>
+                <tr>
+                    <td>2025-02-25</td>
+                    <td>01:57</td>
+                    <td>09:04</td>
+                    <td>-</td>
+                    <td>胸+三头肌</td>
+                    <td>6.69</td>
+                    <td>4862.91</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>新年计划</h1>
+        <span class="color-DrRatio-blue">“要么立刻行动, 要么一事无成.” </span> -- 真理医生\(\cdot\)星野<br>
+        <span class="color-huohuo-green">“太大的目标容易吓到自己……所以要把大目标化成多个小目标哦……”</span>--藿藿\(\cdot\)星野
+        <ol>
+            <li>早睡早起</li>
+            <li>坚持锻炼</li>
+        </ol>
+        <hr>
+        <h1>近日安排</h1>
+
+        <hr>
+        <h1>今日计划</h1>
+        <h2>科研</h2>
+        <ol>
+            <li>
+                &ensp; &ensp;<span class="color-huohuo-green">背景介绍:</span>在 <a href="/Diary/2025-01-05.html">/Diary/2025-01-05.html</a> 的“科研”第6项中进行了一项名为 "re-dh-white-main" 实验. 该项目是为了排查是否由于训练轮次过少, 导致"dunhuang_white_main"项目中的 PartailAesFA训练成果 比 原始的 AesFA的成果要差很多. 同时也是为了排查上述相同项目中, 是否是由于训练陷入了局部最优, 最终导致效果很差的原因.(这两个原因也记录在了dunhuang_white_main项目的readme文件中.)<br>
+                &ensp; &ensp;<span class="color-huohuo-green">工作内容:</span>现检查该 "re-dh-white-main" 实验的成果, 如果结果依旧难以令人满意, 则需要执行第二项工作, 即修改 PartailAesFA 的代码. <br>
+                2025-02-25-15:46 周二: re-dh-white-main 实验成果难以令人满意, 实验记录存储在 Yuhui_4090 服务器中的 /mnt/sda/zxt/3_code_area/code_develop/PartialConv_AesFA/ckpt/dunhuang_white_main/readme_dunhuang_white_main.html 文件中. 现根据该文件的安排进行部分卷积的代码修改工作
+            </li>
+            <li>
+                修改 PartailAesFA 的代码. 尤其是 <span class="color-huohuo-green">部分卷积</span>的代码.  <span class="color-huohuo-green">可以将任务分成多个步骤, 逐个解决.</span>现有如下安排.<br>
+                <ol>
+                    <li>观察 AesFA_origin 的训练日志, 与 dunhuang_white_main 及其衍生实验 re-dh-white-main、re-dh-white-main2 的训练日志对比, 从表象上观察二者的差别. <span class="color-hutao-red">可以发现, 二者的损失函数值(Loss值)有差别.</span>所以可以认为, 部分卷积放大了图像中的像素值, 导致像素不断变大, 最终导致了损失函数计算时出现问题.</li>
+                    <li>根据观察到的表象上的差别, 阅读并运行部分卷积的代码, 以查看是哪里出了问题. 
+                        <ol>
+                            <li>从数学上检查代码是否出错: 将阅读部分卷积代码, 从数学上分析部分卷积是否会导致像素值变大, 以检测自己的代码是否写错.<br>
+                                &ensp;&ensp;<span class="color-hutao-red">结论:</span> 从数学上来说, 部分卷积代码不会导致整体的值不断变大.<br>
+                                &ensp;&ensp;<span class="color-hutao-red">论证过程如下.</span> 我们首先观察 部分卷积的核心公式:<br>
+                                \[
+                                    \begin{equation}
+                                        X'_{(i,j)} = \begin{cases}
+                                            W^T (X_{(i,j)} \odot M_{i,j})r_{i,j} + b,\quad \sum\limits_{i,j}M_{i,j}>0\\
+                                            0, \quad else
+                                        \end{cases}
+                                    \end{equation}
+                                \]
+                                可以发现, 其中核心在于公式的第一行, 也即掩膜中有内容的情况. 下面我们介绍一下公式中各个符号的意义.
+                                <ul>
+                                    <li>
+                                        \(W^T\) 表示一个正常的卷积.
+                                    </li>
+                                    <li>\(X_{(i,j)}\)表示输入图像中, 一个以像素\((i,j)\)为核心, 与卷积核大小相同的像素区域</li>
+                                    <li>\(M_{i,j}\)表示\(X_{(i,j)}\)区域对应的掩膜</li>
+                                    <li>\(r_{i,j} = \frac{\text{卷积核大小}}{\sum\limits_{i,j}M_{i,j}}\). 当卷积核大小为3*3时, \(r_{i,j} = \frac{9}{\sum\limits_{i,j}M_{i,j}}\in\{\frac91,\frac92,\frac93,\frac94,\frac95,\frac96,\cdots,\frac99\}\). 当掩膜中含 0 的数量越多, 那么该值就越大.<br>
+                                        举个例子, 若 掩膜中含 4个 0与 5个 1, 那么该\(r_{i,j}=\frac95\), 若 掩膜中含 1个 0与 8个 1, 那么该\(r_{i,j}=\frac98\). 
+                                    </li>
+                                </ul>
+                                在了解了各个符号的意义后, 我们来逐步看看整体公式的作用. 整个公式可以看成以下几个步骤: 
+                                <ol>
+                                    <li>部分卷积第一步: 图像矩阵 \(X_{(i,j)}\)与掩膜矩阵 \(M_{i,j}\)之间的逐元素相乘. 该运算表明, 图像矩阵\(X_{i,j}\)按掩膜\(M_{i,j}\)的指导, 将其中部分像素设置为0, 以下是一个例子:
+                                        \[
+                                            \begin{equation}
+                                            \begin{aligned}
+                                                X_{(i,j)}\odot M_{i,j} &= \begin{bmatrix}255&255&255\\255&255&255\\255&255&255\end{bmatrix}\odot \begin{bmatrix}1&0&0\\0&1&1\\1&0&1\end{bmatrix}\\
+                                                &= \begin{bmatrix}255&0&0\\0&255&255\\255&0&255\end{bmatrix}
+                                            \end{aligned}
+                                            \end{equation}
+                                        \]
+                                        该步骤中丢失了部分信息
+                                    </li>
+                                    <li>部分卷积第二步: 随后进行一个再简单不过的卷积运算 \(W^T (X_{(i,j)} \odot M_{i,j})\), 由于卷积是<span class="color-DrRatio-blue">对应位置相乘并相加</span>的运算, 所以该步骤的结果是一个数, 而非一个矩阵.</li>
+                                    <li>
+                                        部分卷积第三步: 在第一步中, 我们提到, 这种与掩膜运算的结果导致了信息丢失, 所以作者想将丢失的信息补回来, 而这正是通过 系数\(r_{i,j}\)做到的.
+                                        举个例子, 若 掩膜中含 4个 0与 5个 1, 那么表明图像中丢失了4个位置的信息, 仅保留了5个位置的信息. 为了补全获取全部9个位置的信息, 我们将结果 \(\times \frac95\). 也即我们认为, 当前的结果中, 仅有5个位置的信息, 为了保留9个位置的信息, 需要将除以5, 再乘以9.<br>
+                                        尽管 \(r_{i,j}\)是一个大于1的数, 但是由于一开始信息的丢失, 导致计算结果本来就小了一些, 所以这一步也不应该导致数据量的爆炸.
+                                    </li>
+                                </ol>
+                                根据以上从数学角度的分析, 可以知道, 部分卷积是不应该导致数据量膨胀的. 所以应该是我编写的代码出现了问题.
+                            </li>
+                            <li>从实验上检查代码是否出错: 使用一个简单的 3*3 张量(Tensor)测试部分卷积代码是否正确.
+                                <ol>
+                                    <li>问题1: PartConv.py 105行. \(r_{i,j}\) 的分母 \(sum(I)\)不是kernel_size \(\times\) kernel_size, 还应与卷积核的"厚度"有关.</li>
+                                    <li>问题2: PartConv.py 109行. 计算sum_mask的代码也可能有误, 这些错误记录在平板中了, 吃完饭回来看看.</li>
+                                    <li>问题3: 可能是训练数据有问题, 晚饭后使用训练数据检查代码.</li>
+                                </ol>
+                            </li>
+                            <li>同时不再使用 PartConv.py 中的测试代码, 而是直接使用 train.py 进行测试, 以进行实际的测试.</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <h2>兴趣</h2>
+        <h2>工作</h2>
+        <h2>生活</h2>
+
+        <h1>今日趣事</h1>
+        <hr>
+    </div>
+</body>
+</html>
