@@ -167,3 +167,15 @@ img {
     width: 100%;
     height: auto; /* 保持原始宽高比 */
 }
+
+/* 为ul与ol添加类似于vscode的代码块左侧竖线 */
+ol, ul {
+    list-style-position: inside; /* 保持列表标记在可视区域 */
+    padding-left: 20px; /* 为竖线留出空间 */
+    border-left: 3px solid transparent; /* 初始隐藏竖线 */
+    transition: border-color 0.3s ease-in-out; /* 平滑动画 */
+}
+
+ol:hover, ul:hover {
+    border-left: 3px solid #cccccc40; /* 鼠标悬停时显示竖线 */
+}
