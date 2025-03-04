@@ -161,3 +161,9 @@ body::before {
 del {
     color: #3b454e;
 }
+
+/* 设置图像随页面宽度而变化 */
+img {
+    width: 100%;
+    height: auto; /* 保持原始宽高比 */
+}
