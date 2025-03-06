@@ -166,6 +166,7 @@ del {
 img {
     width: 100%;
     height: auto; /* 保持原始宽高比 */
+    opacity: 70%;
 }
 
 /* 为ul与ol添加类似于vscode的代码块左侧竖线 */
@@ -175,7 +176,6 @@ ol, ul {
     border-left: 3px solid transparent; /* 初始隐藏竖线 */
     transition: border-color 0.3s ease-in-out; /* 平滑动画 */
 }
-
 ol:hover, ul:hover {
     border-left: 3px solid #cccccc40; /* 鼠标悬停时显示竖线 */
 }
