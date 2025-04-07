@@ -115,15 +115,59 @@
                             </li>
                             <li>从实验上检查代码是否出错: 使用一个简单的 3*3 张量(Tensor)测试部分卷积代码是否正确.
                                 <ol>
-                                    <li>问题1: PartConv.py 105行. \(r_{i,j}\) 的分母 \(sum(I)\)不是kernel_size \(\times\) kernel_size, 还应与卷积核的"厚度"有关.</li>
-                                    <li>问题2: PartConv.py 109行. 计算sum_mask的代码也可能有误, 这些错误记录在平板中了, 吃完饭回来看看.</li>
+                                    <li><span class="color-hutao-red">问题1</span>: PartConv.py 105行. \(r_{i,j}\) 的分母 \(sum(I)\)不是kernel_size \(\times\) kernel_size, 还应与卷积核的"厚度"有关.<br>
+                                        <span class="color-huohuo-green">解决: 目前以将卷积核"厚度"(即输入维度)纳入 \(sum(I)\) 的计算中.</span>
+                                    </li>
+                                    <li><span class="color-hutao-red">问题2</span>: PartConv.py 109行. 计算sum_mask的代码也可能有误, 这些错误记录在平板中了, 吃完饭回来看看.
+                                        <span class="color-huohuo-green">解决: 目前已经完善了 sum_mask 代码的编写. 具体来说, 同样添加了输入维度的信息.</span>
+                                    </li>
                                     <li>问题3: 可能是训练数据有问题, 晚饭后使用训练数据检查代码.</li>
                                 </ol>
                             </li>
-                            <li>同时不再使用 PartConv.py 中的测试代码, 而是直接使用 train.py 进行测试, 以进行实际的测试.</li>
+                            <li>同时不再使用 PartConv.py 中的测试代码, 而是直接使用 train.py 进行测试, 以进行实际的测试. 由于数据维度太大, 无法完全观察, 所以仅观察必要数据的最大与最小值<br>
+                                &ensp;&ensp;<span class="color-kachina-yellow">2025-03-04-20:20 周二</span>: 训练时发现, 如果在PartialConv 中乘以系数矩阵 ratio, 则会在很短的时间内出现 nan 问题. 而不与系数矩阵相乘时, 观察了较长的一段时间后, 发现并未出现nan问题. 推测为 系数矩阵ratio 计算有误.<br>
+                                &ensp;&ensp;<span class="color-kachina-yellow">2025-03-04-20:32 周二</span>: 打印后发现, 系数矩阵并非是核心问题, 真正的问题在 sum_mask 计算错误. 在某一个时刻, 可以发现 sum_mask 的值变为了带有小数的值, 这与常识相悖, 如下图所示.<br>
+                                <img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/20250304210419.png"/>
+                                &ensp;&ensp;<span class="color-kachina-yellow">2025-03-04-21:11 周二:</span> 根据 deepseek 的提示, 我打印了 conv_1 卷积核的最大最小值, 以检查该卷积核是否全为1. 结果发现 conv_1 中数据并非全部为1. 那么 ratio计算问题、sum_mask计算问题的核心, 均在于 conv_1 中数据不全为1. 仔细检查后发现, 代码中存在一句 self.conv_1 = self.conv, 将这一句删除, 并将sum_mask进行了四舍五入、限制最小值为+0.0的处理后, 上述的 ratio计算问题、sum_mask计算问题均在短期内得到解决. 需要重新训练一次该项目, 以检查上述两个计算问题是否真正被解决. <br>
+                            </li>
                         </ol>
                     </li>
+                    <li>
+                        <span class="color-kachina-yellow">2025-03-04-21:31 周二</span>: 代码问题暂时得到解决, 需要训练后再做检查. 新训练项目记作 "dh_white_main3_recode"
+                    </li>
                 </ol>
+            </li>
+            <li><span class="color-DrRatio-blue">2025-03-06-10:24 周四: 在 "dh_white_main3_recode" 项目训练过程中, 编写论文初稿.</span> 这个任务需要分步骤进行, 具体步骤如下:
+                <ol>
+                    <li>
+                       首先应该思考现在可以写哪些内容, 为此我需要回顾一篇论文由什么内容组成. 一篇论文通常包括: Abstract, Introduction, Related Work, Methodology, Experiments, Conclusion, Reference, 大量的图片与表格数据. 
+                    </li>
+                    <li>
+                        根据这些内容, 应该进一步思考哪些是可以在实验结果出来之前就可以先写的. <br>
+                        &ensp;&ensp;Abstract 应该是最后写的, 是全文的总结, 可以用 AI 写. Introduction 主要包含 4 个部分: 介绍当前领域的主要任务, 介绍前人工作的不足之处, 介绍自己工作解决的问题, 介绍自己工作的成果与贡献. 这样看来, Introduction 也是可以提前写的;<br>
+                        &ensp;&ensp;Related Work 也一个可以提前写的部分. 该部分主要介绍文章中使用到技术的前人工作情况, 对于我自己来说, 应该主要包括"风格迁移"、"部分卷积"内容. 如果想更进一步, 则应该加上深度估计等内容. 如果时间来得及, 可以加上, 如果来不及, 就只能不加然后投一个烂刊或烂会; <br>
+                        &ensp;&ensp;Methodology 也可以写, 因为我文章的理论基础已经定型. 当然, 是否要加深度估计与目标检测的内容, 取决于时间是否充足(我的动作是否足够迅速), 这一部分可能会涉及大量的图片, 还需要了解怎么画出美观的图片; <br>
+                        &ensp;&ensp;对于 Experiments 部分, 可以将其框架先搭起来, 等有结果直接往里填; <br>
+                        &ensp;&ensp;Conclusion 中, 把自己的再说一次贡献重新复述一遍, 也是可以写的内容; <br>
+                        &ensp;&ensp;参考文献可以在写文章过程中直接添加.<br>
+                    </li>
+                    <li>
+                        根据上述第二点的分析, 可以做出如下判断: 全文都可以撰写了, 但是需要注意顺序: Abstract 部分放到最后写, 其他部分顺次进行即可.
+                    </li>
+                </ol>
+            </li>
+            <li><span class="color-DrRatio-blue">完成南京信息工程大学博士生报考, 以防有什么需要在工作日办的材料.</span>
+                <ul>
+                    <li>
+                        2025-03-06-16:21 周四: 还好今天看见一下, 发现 <a href="https://yzb.nuist.edu.cn/info/1011/2850.htm">网站上</a>报名时间截止到2025-03-07晚上. 
+                        我的用户名为20252300034, 密码为 color_6495ED
+                    </li>
+                    <li>
+                        计算机学院、网络空间安全学院的报考细则如下图:<br><img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/20250306162521.png"/><br>
+                        需要阅读<a href="/Diary/0_Attachments/南京信息工程大学2025年博士研究生招生简章.pdf">招生简章</a>(<a href="https://yzb.nuist.edu.cn/info/1009/2846.htm">官网原文件地址</a>)和<a href="/Diary/0_Attachments/南京信息工程大学关于2025年博士研究生招生考试报名的通知.pdf">招生考试报名通知</a>(<a href="https://yzb.nuist.edu.cn/info/1011/2850.htm">原网站</a>).<br>
+                        ……要三甲医院的体检报告……来不及了……和父亲通了个电话……他也同意我不报名了……以后引以为戒, 做事一定不能拖延……真理医生说的太对了…… "要么立刻行动, 要么一事无成".
+                    </li>
+                </ul>
             </li>
         </ol>
         <h2>兴趣</h2>

@@ -1,3 +1,0 @@
-Body {
-  --text-normal: red;
-}
