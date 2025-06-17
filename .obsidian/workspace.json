@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "d462cb0681923622",
+        "id": "30031b6c71fe61f5",
         "type": "tabs",
         "children": [
           {
-            "id": "94f4e9343828b578",
+            "id": "5d7c8f71c1e83011",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系.md",
+                "file": "ARTS/成一家之言/人体/人体基础/5_1如何绘制胸腔.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系"
+              "title": "5_1如何绘制胸腔"
+            }
+          },
+          {
+            "id": "76cdc4c5ea0f20b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ARTS/成一家之言/人体/人体基础/4_眼睛的球与透视.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4_眼睛的球与透视"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -50,7 +65,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -118,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 564.5
+    "width": 298.5086555480957
   },
   "right": {
     "id": "7bf503d9429739e8",
@@ -135,10 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系.md"
+                "file": "ARTS/成一家之言/人体/人体基础/4_眼睛的球与透视.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系 的大纲"
+              "title": "4_眼睛的球与透视 的大纲"
             }
           },
           {
@@ -247,10 +266,28 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "b70a1505259d4f6a",
+  "active": "76cdc4c5ea0f20b3",
   "lastOpenFiles": [
-    "Excalidraw/正规矩阵的分类.excalidraw.md",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607032541.png",
+    "ARTS/成一家之言/人体/人体基础/5_1如何绘制胸腔.md",
+    "ARTS/成一家之言/人体/人体基础/6_胸部的画法.md",
+    "ARTS/成一家之言/人体/人体基础/4_眼睛的球与透视.md",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607032300.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607022229.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607022211.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607022145.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607022135.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607022027.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/b731cee1b3825bcbe14083b05235937.jpg",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607022002.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607013126.png",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607012245.png",
+    "ARTS/成一家之言/人体/人体基础/3_鞋与脚的画法.md",
+    "ARTS/成一家之言/人体/人体基础/2_腿部的画法.md",
+    "ARTS/成一家之言/人体/人体基础/0_人体比例关系.md",
+    "ARTS/成一家之言/人体/人体基础/1_脸颊的转折在哪里.md",
     "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系.md",
+    "Excalidraw/正规矩阵的分类.excalidraw.md",
     "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_31酉空间的定义.md",
     "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O3酉空间中模长、长度的定义.md",
     "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O2酉空间的内积相关性质_酉空间的性质1.md",
@@ -267,22 +304,8 @@
     "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
     "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
     "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹C33.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/D矩阵分析及其应用/D0写在章节开始前/前言.md",
-    "FuShi/云天/云天C语言_3月15日下午.md",
-    "研究生/开题报告/新思路记录.md",
     "研究生/开题报告/新思路记录.md.nssyncsc",
     "研究生/开题报告/开题报告撰写.html",
-    "FuShi/云天/技巧总结.md",
-    "FuShi/基础知识/cpp.md",
-    "FuShi/基础知识/操作系统.md",
-    "FuShi/0_Attachments/Pasted image 20230313111326.png",
-    "FuShi/0_Attachments/设计3_递推累加.jpg",
-    "FuShi/0_Attachments/改错2_最短单词.jpg",
-    "FuShi/0_Attachments/改错1_删除星号.jpg",
-    "FuShi/0_Attachments/809325266559023427.jpg",
-    "FuShi/0_Attachments/462696290498038292.jpg",
-    "Development/minecraft_devlop/我的世界风格指南.md",
-    "Development/minecraft_devlop/Blockbench总览与提示.md",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.html",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.md.nssyncsc",
@@ -291,13 +314,9 @@
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/howtousehtml.html",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/未命名.html",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/styles.css",
-    "SoftWare_Learning/服务器/0_Attachments/Pasted image 20241120195437.png",
-    "SoftWare_Learning/Zerotier/0_Attachments/14f861259003b3bd550961c2b3f50aa.png",
     "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/AesFA代码修改工作栈.canvas",
     "未命名.canvas",
-    "SoftWare_Learning/0_Attachments/bd03f7e8e835352151c4138dd25b7901228184051.jpg",
     "Neural Network/style_stransfer/CANVAS/0_风格迁移领域文章发展关系.canvas",
-    "SoftWare_Learning/服务器个人信息/0_Attachments/Pasted image 20240914144112.png",
     "Neural Network/style_stransfer/CANVAS/1_风格迁移文章依赖关系.canvas"
   ]
 }

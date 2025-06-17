@@ -102,6 +102,45 @@
                         &ensp; &ensp;整个结果与内容 png 图像的 alpha 通道无关, 所以并不需要找内容图像的 png 图像, 找到风格图像的 png 图像, 并构建数据集即可. 该数据集中需要有两种风格的风格图像: 仅有完全透明和完全不透明两种alpha信息的风格图像、alpha通道在0~255之间变化的风格图像. 前者比较好获取, 直接将现有的风格图像掩膜贴到jpg格式的风格图像后即可, 而后者比较麻烦, 需要思考怎么处理(实际上, 也是后者导致了希望实现功能与已实现功能的冲突, 或者 <span class="color-huohuo-green">我可以在论文里可以回避这种情况?</span> ) 还是先回避这种可能性吧, 先把论文写出来.<br>
                         <span class="color-DrRatio-blue">2025年4月7日-15:18 周一: 决定先忽略这个问题, 继续撰写论文. </span>
                     </li>
+                    <li>
+                        &ensp; &ensp;<span class="color-DrRatio-blue">2025年4月7日-21:05 周一: 开始撰写论文 Method 部分</span>. 由于我的工作实际上仅仅是将 AesFA 中的传统卷积换成了部分卷积, 也没有怎么动网络结果, 所以需要思考一下如何 "吹" 自己的工作. 首先, 我思考后发现, 可以有如下几个创新点: 1. 将部分卷积引入风格迁移中; 2. 使用多尺度信息, 提取局部风格信息与整体风格信息; 3. Decoder 中采用 AesFA 的自适应卷积核; 4. 构建了一个风格图像的 png 图像(杨钧茗似乎给了我一个内容图像png图像的论文, 记录在此处: <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Burgert_MAGICK_A_Large-scale_Captioned_Dataset_from_Matting_Generated_Images_using_CVPR_2024_paper.html">MAGICK: A Large-scale Captioned Dataset from Matting Generated Images using Chroma Keying</a>). <span class="color-alice-red">下面开始考虑如何将这些 "创新点" 优化成自己的, 或者在思考中想出一些更好的方法.  </span><br>
+                        <ul>
+                            <li>
+                                <span class="color-kachina-yellow">创新点总览.</span> 
+                            </li>
+                            <li>
+                                <span class="color-kachina-yellow">创新点1: 部分卷积与风格迁移.</span><br>
+                                &ensp; &ensp;2025年4月7日-21:33 周一: 看了 Part Conv 2018发表在 ECCV 上的论文, 我可以将自己的创新点定为 "no-human-made mask". 传统的部分卷积需要在传入时给出图像的 mask, 而我们的方法有一个自动提取 mask 的方法.<br>
+                                &ensp; &ensp;2025年4月7日-22:09 周一: 发现 部分卷积 有后续工作--门控卷积, 所以需要澄清为何不使用门控卷积或注意力机制, 而是使用更传统的部分卷积.<br>
+                                2025年4月7日-22:19 周一: 阅读的 门控卷积 的原始论文, 可以仿照 门控卷积 论文里 介绍成果的方式, 写自己的论文. 门控卷积是部分卷积的一个改进工作, 其改进仅有一处: 将掩膜更新策略由规则设定改成网络学习生成. 而在介绍时, 门控卷积一文先介绍了香草卷积的缺陷, 再介绍了部分卷积的缺陷, 最后提出了自己的方法. 我也可以仿照这种模式, 首先介绍图像的格式问题, 以 jpg 图像与 png 图像的对比作为切入点, 介绍不透明度信息的重要性以及当前被忽略的现状. 其次介绍传统香草卷积处理png图像时具有信息丢失的失误, 再引出使用部分卷积作为代替, 最后指明为何不使用门控卷积.
+                            </li>
+                            <li>
+                                <span class="color-kachina-yellow">创新点2: 多尺度信息.</span>
+                            </li>
+                            <li>
+                                <span class="color-kachina-yellow">创新点3: 自适应卷积.</span>
+                            </li>
+                            <li>
+                                <span class="color-kachina-yellow">创新点4: 数据集.</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="color-DrRatio-blue">2025年4月14日-11:18 周一: 完成论文时, 需要进行实验:</span>
+                        <ol>
+                            <li>实验一: 使用门控卷积代替部分卷积</li>
+                            <li>实验二: 其他风格迁移成果迁移png图像</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <span class="color-DrRatio-blue">2025-04-16-10:19 周三: 完成论文后, 需要根据 chatpgt 的提出, 对全文进行优化</span>
+                    </li>
+                    <li>
+                        &ensp; &ensp;<span class="color-DrRatio-blue">2025-04-16-10:20 周三: 目前工作是使用sam将数据集构建出来.</span> 说到底, 我是否真的需要构建数据集?<br>
+                        &ensp; &ensp;从学术的角度上来说, 我做了什么就应该说什么. 但现在时间有些不足, 可以一遍跑 segment anything model 的代码, 同时将对于数据集的描述添加到论文中. <br>
+                        &ensp; &ensp;从我的私心上来说, 是否可以先忽略数据集? 为了思考这个问题, 我们需要找到初衷--为何我需要构建数据集? 因为我的工作量不饱和, 所以想用构建数据集来填充工作. 为何现在就部署sam以进行数据集构建? 因为在论文中, 我需要详细描述自己构建的数据集. 那么论文中对数据集详细的描述是否一定需要真正有数据集? 从学术诚信的角度上来说, 确实是这样的. 所以我决定, 一边写论文, 一边部署 sam, 以进行数据集构建.<br>
+                        2025年4月16日-10:46 周三:  目前显卡被占用, 无法使用 sam 进行图像分割. 所以目前先继续撰写论文.
+                    </li>
                 </ol>
             </li>
             <li>

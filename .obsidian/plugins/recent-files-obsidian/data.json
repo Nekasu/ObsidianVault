@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "4_眼睛的球与透视",
+      "path": "ARTS/成一家之言/人体/人体基础/4_眼睛的球与透视.md"
+    },
+    {
+      "basename": "5_1如何绘制胸腔",
+      "path": "ARTS/成一家之言/人体/人体基础/5_1如何绘制胸腔.md"
+    },
+    {
+      "basename": "6_胸部的画法",
+      "path": "ARTS/成一家之言/人体/人体基础/6_胸部的画法.md"
+    },
+    {
+      "basename": "3_鞋与脚的画法",
+      "path": "ARTS/成一家之言/人体/人体基础/3_鞋与脚的画法.md"
+    },
+    {
+      "basename": "2_腿部的画法",
+      "path": "ARTS/成一家之言/人体/人体基础/2_腿部的画法.md"
+    },
+    {
+      "basename": "0_人体比例关系",
+      "path": "ARTS/成一家之言/人体/人体基础/0_人体比例关系.md"
+    },
+    {
+      "basename": "1_脸颊的转折在哪里",
+      "path": "ARTS/成一家之言/人体/人体基础/1_脸颊的转折在哪里.md"
+    },
+    {
       "basename": "D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系",
       "path": "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "NUIST智能视觉-服务器配置和使用",
       "path": "SoftWare_Learning/服务器/NUIST智能视觉-服务器配置和使用.md"
-    },
-    {
-      "basename": "README",
-      "path": "SoftWare_Learning/服务器/README.md"
-    },
-    {
-      "basename": "2024-10-12",
-      "path": "Diary/2024-10-12.md"
-    },
-    {
-      "basename": "2024-12-01",
-      "path": "Diary/2024-12-01.md"
-    },
-    {
-      "basename": "2024-12-07",
-      "path": "Diary/2024-12-07.md"
-    },
-    {
-      "basename": "2024-11-30",
-      "path": "Diary/2024-11-30.md"
-    },
-    {
-      "basename": "2024年12月1日_G_contrast函数检查",
-      "path": "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/2024年12月1日_G_contrast函数检查.md"
-    },
-    {
-      "basename": "2024-11-11",
-      "path": "Diary/2024-11-11.md"
     }
   ],
   "omittedPaths": [],

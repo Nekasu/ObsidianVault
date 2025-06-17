@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <link rel="stylesheet" href="../../Template/styles.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>今日生活</h1>
+        <table id="table-blue">
+            <thead>
+                <tr>
+                    <th>日期</th>
+                    <th>昨天睡觉时间</th>
+                    <th>今天起床时间</th>
+                    <th>今日体重</th>
+                    <th>昨日锻炼</th>
+                    <th>昨日资金剩余(支付宝)</th>
+                    <th>昨日资金剩余(微信)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025-04-19</td>
+                    <td>4:20</td>
+                    <td>12:34</td>
+                    <td>-</td>
+                    <td>腹部</td>
+                    <td>450.89</td>
+                    <td>238.88</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>2025-04-21</td>
+                    <td>3:28</td>
+                    <td>12:33</td>
+                    <td>-</td>
+                    <td>胸部</td>
+                    <td>346.82</td>
+                    <td>138.14</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>新年计划</h1>
+        <span class="color-DrRatio-blue">“要么立刻行动, 要么一事无成.” </span> -- 真理医生\(\cdot\)星野<br>
+        <span class="color-huohuo-green">“太大的目标容易吓到自己……所以要把大目标化成多个小目标哦……”</span>--藿藿\(\cdot\)星野<br>
+        <img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/20250505160303.png"/>
+        <img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/20250505160335.png"/>
+        <ol>
+            和 deepseek 学习了两种技巧:
+            <li>
+                如何快速进入工作状态. 我经常难以开始工作, 所以向 deepseek 请教如何快速开始工作. deepseek 给了我 7 个可行的方案, 我在此记录最容易执行的几个.
+                <ol>
+                    <li>
+                        首先, deepseek 分析了 "启动困难" 的根本原因: <span class="color-alice-red">大脑对能量消耗的本能抗拒</span>, 下面介绍几个解决方案.
+                    </li>
+                    <li>
+                        观念升级: <span class="color-alice-red">放弃完美主义, 完成比完美重要.</span><br>
+                        &ensp; &ensp; 科学依据: 前额叶皮层在任务初期最脆弱, 完美注意会额外消耗意志力.<br> 所以允许自己以最潦草的方式开始工作, <span class="color-alice-red">故意把第一版做的足够烂</span>, 完成后再优化.
+                        <span class="color-alice-red">完成比完美更重要</span>
+                    </li>
+                    <li>
+                        立即开始的方法: <span class="color-alice-red">火箭发射法: 5-4-3-2-1, 立刻开始!</span><br>
+                        &ensp; &ensp; 科学依据: NASA 发现, 人在5秒内不行动, 大脑就会找借口.<br>
+                        &ensp; &ensp; 执行规则: <span class="color-alice-red">在想开始工作时, 倒记时5s, 数到1时, 立刻进行物理行动(如起身、打开文档等).</span> 重点在于 "动作优先于思考". 持续21天可重建「决策-行动」直连通道<br>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                如何获得学习内驱力.
+                <ul>
+                    <li>
+                        先天天赋: 每天留15分钟「无目的思考」时间，允许大脑自由联想知识碎片
+
+                    </li>
+                    <li>
+                        早期环境影响: 成年人可通过「破坏性学习」重燃好奇心，例如：拆解旧手机观察内部结构, 故意写错代码观察系统崩溃模式
+                    </li>
+                    <li>
+                        后天养成习惯: 用「2分钟挑战法」测试难度适配性——如果某个任务开始2分钟后仍无进展，立即调整难度<br>
+                        每天进行「5分钟极限学习」：选择完全陌生的领域（如量子物理基础），在强烈困惑中坚持探索，刺激新神经回路生长
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+        <h1>近日安排</h1>
+
+        <hr>
+        <h1>今日计划</h1>
+        <h2>科研</h2>
+        <ol>
+            <li>
+                <span class="color-kachina-yellow">2025-04-19-15:25 周六: 构建不透明度的数据集--内容图像.</span> 我现在有了用 Segment Anything Model 构建的内容图像掩膜, 需要构建一个思路, 将这些掩膜与图像结合, 变成具有不透明度信息的图像.<br>
+                &ensp;&ensp;我认为, 可以进行这样的操作: 每个图像都被分割成了多个二值掩膜, 将这些多个二值掩膜均与对应的原图结合, 将黑色部分的 alpha通道 通道值设置为 0, 以分割图像. 使用Python脚本完成.<br>
+            </li>
+            <li>
+                <span class="color-kachina-yellow">2025-04-21-14:52 周一: 构建不透明度的数据集--风格图像.</span><br>
+                &ensp;&ensp;为了模拟 png 图像 alpha通道 数值在 \([0,255]\) 之前变化的情况, 拟进行如下模拟. 由于一张风格图像会被 Segment Anything Model 分割成多个掩膜, 而掩膜中主要区域(即白色的部分)的大小各不相同, 所以可以根据掩膜中主要区域的大小分配 alpha 通道的数值. 主要区域较大者, 分配较大的 alpha值; 主要区域较小者, 分配较小的 alpha值. 具体步骤如下:<br>
+                <ol>
+                    <li>使用 SAM 模型为第 \(i\) 个风格图像生成多个掩膜\(\{M_i^1, M_i^2, M_i^3, \cdot, M_i^n\}\)</li>
+                    <li>为第 \(i\) 个风格图像的掩膜排序, 按其中白色区域从小到大排列, 形成掩膜新名称 \(\{M_i^1, M_i^2, M_i^3, \cdot, M_i^n\}\) </li>
+                    <li>设置第 \(i\) 个图像的 第 \(j\) 个掩膜 \(M_i^j\) 的不透明度通道的值为 \(\frac{j+1}{n}\cdot 255\), 白色区域最大的则视为图像背景, 编号为0 </li>
+                    <li>将该排序后的掩膜合成为一张掩膜, 舍弃每张掩膜的alpha 通道为 0 的部分 </li>
+                    <li>将该掩膜应用到原始风格图像上, 成为原始风格图像的 alpha 通道.</li>
+                </ol>
+            </li>
+            <li>
+                <span class="color-kachina-yellow">2025-04-22-16:13 周二. 完善原来的 PartialAesFA 项目, 修改为 SoftPartialAesFA, 从而与我文章中一致. 需要修改三个部分</span>
+                <ol>
+                    <li>
+                        &ensp;&ensp;预处理, 使模型能直接处理 png 图像. 想法如下. <br>
+                        &ensp;&ensp;对于 风格图像而言, 以 RGBA 的格式读入, 将 RGB 通道与 alpha 通道分离, RGB通道正常进入网络, alpha 通道进行归一化处理, 当作掩膜输入网络. <br>
+                        &ensp;&ensp;对于内容图像而言, 以 RGBA 的格式读入, 将 RGB 通道与 alpha 通道分离. RGB通道部分正常进入网络, alpha通道信息保留, 供后处理使用.<br>
+                        &ensp;&ensp;<span class="color-huohuo-green">2025-04-23-15:23 周三, 完成 </span>
+                    </li>
+                    <li>
+                        后处理, 能将原始内容图像的 alpha 通道 应用到生成的 风格化图像 上. 将预处理阶段暂留的内容图像的 alpha 通道直接应用到 风格化图像上.
+                    </li>
+                    <li>
+                        将 PartialConv 改写成 SoftPartialConv, 能接收 0~255 之间变化的掩膜作为输入. <br>
+                        &ensp;&ensp;<span class="color-huohuo-green">2025-04-22-17:10, 完成</span>
+                    </li>
+                    <li>
+                        <span class="color-kachina-yellow">2025-04-23-15:27 周三. 训练配置文件修改完毕, 等待服务器资源释放后开始训练. </span>此次训练名称为 "SoftPartialConv", 训练记录存放在 Yuhui_4090 号服务器 (现ip为 10.15.92.100)中, 路径为 /mnt/sda/zxt/3_code_area/code_develop/PartialConv_AesFA/ckpt/SoftPartialConv/log.txt 
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <span class="color-kachina-yellow">2025-06-03-14:03 周二. 上述 SoftPartialAesFA 实验失败了. 运行 test.py 后的结果难看, 需要找到原因并解决. </span>现在现象是: test.py 生成结果很差. 导致这个结果的原因有很多, 不同的原因对应了需要修改内容的多少. 按原因导致的需要修改内容由少到多排列, 分析可能存在的原因如下.
+                <ol>
+                    <li>
+                        原因1: 训练陷入局部最优. 正好我使用与上述 SoftPartialAesFA 项目相同的代码、数据训练了一份 SoftPartialAesFA2 项目, 先测试该项目. 若该项目运行效果良好, 则说明该原因为真. <br>
+                        &ensp; &ensp; 2025-06-03-14:16 周二. 运行 SoftPartialAesFA2 的 test.py 文件后, 发现结果很差, 且与 SoftPartialAesFA 项目具有类似的差效果, 更加能够说明造成问题的原因不是 "陷入局部最优".
+                    </li>
+                    <li>
+                        原因2: test.py 涉及的代码有问题. test.py 调用的代码与 train.py 调用的代码有所不同. train.py 调用的是 AesFA 类(下称训练类), 而test.py 调用的是 AesFA_test 类(下称测试类). 这两者我没有同步修改, 可能导致 test.py 程序出错, 导致结果变差.<br>
+                        &ensp; &ensp; 2025-06-03-14:45 周二. 现排查是否是该原因导致了结果差的问题.<br>
+                        2025-06-03-16:06 周二. 在 cursor 的协助下修改了测试代码, 使其与训练代码保持相同. 运行后结果没有改善, 所以不是该原因导致了上述较差的结果.
+                    </li>
+                    <li>
+                        原因3: train.py 涉及代码有问题.<br>
+                        &ensp;&ensp;2025-06-03-17:00 周二. 在 cursor 的协助下修改了 SoftPartialConv.py 的代码, 为数据传输加上了数值限制. 现重新训练, 项目记录为 SoftPartialAesFA_limited.<br>
+                        &ensp;&ensp;2025-06-09-21:08 周一. 训练完毕, 现查看训练结果.<br>
+                        &ensp;&ensp;2025-06-09 22:03 周一. 发现 test.py 与 DataSplit.py(也即 train.py 中读取数据的逻辑) 中读取数据的逻辑有差异. 具体来说, 没有修改归一化时的参数, 现已修改确保二者一致.<br>
+                        &ensp;&ensp;2025-06-09 22:49 周一. 效果不错, 开始写补充实验部分.
+                    </li>
+                    <li>
+                        原因4: Soft掩膜 思想不成立.
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <span class="color-kachina-yellow">2025-04-23-16:00 周三. 等待服务器资源释放过程中, 继续撰写论文.</span> 2025-04-24-16:27 周四: 论文初稿撰写完毕.
+            </li>
+            <li>
+                <span class="color-kachina-yellow">2025-04-24-16:26 周四. 论文初稿基本完成, 开始绘制论文图像. </span>
+                <ol>
+                    <li>
+                        等待此次 "SoftPartialConv" 训练完毕后, 进行对比实验训练.
+                    </li>
+                    <li>
+                        等待论文图片绘制完毕后, 按 chatgpt 所说(提出新领域与新任务), 开始润色初稿. 同时, 需要注意前后说辞一致.
+                    </li>
+                    <li>
+                        <span class="color-kachina-yellow">2025-04-29-15:48 周二. 发现风格数据集有问题:</span> SAM 模型没有处理完全部的风格图像, 导致风格图像只有 300 张. 同时, 当前 Yuhui_4090 正在被使用, 最快还有两天释放. 为了加速工作进度, 我决定在自己电脑上部署 SAM 与 WikiART 数据集. 部署在 WSL 上.<br>
+                        &ensp; &ensp;2025-04-29 15:52 周二. 发现在 WSL 上存在 anaconda, 现下载数据集与 SAM 模型. <br>
+                        &ensp;&ensp;2025-04-29 16:22 周二. 已从 'https://www.kaggle.com/datasets/steubk/wikiart?resource=download' 开始下载 wikiart 数据集的进程. 目前本地 wsl 出现问题, 正在从 C 盘导出, 并试图导入 D 盘. <br>
+                        &ensp;&ensp;2025-04-29 17:31 周二. 风格数据集 wikiart 下载完毕, 正在进行整合工作, 以将不同文件夹中的图像合并到同一文件夹中. 等待程序运行完毕……<br>
+                    </li>
+                    <li>
+                        <span class="color-kachina-yellow">2025-05-13 17:17 周二. 准备进行 Qualative Comparision 图片绘制.</span> <br>
+                        2025-05-13 17:18 周二: 完成对比项目环境配置. <br>
+                        2025-05-13 21:00 周二. 发现部分项目缺少必要的 pth 文件, 无法直接生成数据. 现记录实验信息如下.
+                        <ol>
+                            <li>
+                                AdaIN: 环境部署完毕, 环境名为 zxt_python37.
+                            </li>
+                            <li>
+                                AesFA: 环境部署完毕, 数据可以生成.
+                            </li>
+                            <li>
+                                CAST: 环境部署完毕, 环境名为 zxt_python37. 数据可以生成.
+                            </li>
+                            <li>
+                                CycleGAN: 环境部署完毕, 环境名为 pytorch-CycleGAN-and-pix2pix. <span class="color-alice-red">缺少必要 pth 文件, 需要重新训练.</span>
+                            </li>
+                            <li>
+                                QuantArt: 环境部署完毕, 环境名为 quantart, <span class="color-alice-red">缺少必要 pth 文件, 需要重新训练.</span><br>
+                                2025-05-27 15:22 周二. 该项目缺少必要文件, 无法训练, 无法推理, 舍弃该项目.
+                            </li>
+                            <li>
+                                S2WAT: 环境部署完毕, 环境名为 s2wat. 修改 tools.py → content_style_transTo_pt函数 后, 可正常生成数据.
+                            </li>
+                            <li>
+                                StyTR-2: 环境部署完毕, 环境名为stytr2. 无法正常生成数据: 要求环境为 python3.6、PyTorch1.4. 该要求与 RTX 4090 无法满足, 需要更换对比项目. 现删除该项目, 并更换新项目. AesFA 使用 MicroAST 作为对比, 我也可以使用该论文作为对比. 现尝试配置环境.<br>
+                                &ensp;&ensp;2025-05-20 15:57 周二. StyTR-2 项目版本过低, 无法使用官方提供的 .pth 文件, 先进行权重文件重新保存处理. <br>
+                                &ensp;&ensp;2025-05-20 17:07 周二. StyTR-2 可以正常生成数据. 目前项目保存在 2080(记录时ip为 10.15.156.175)"/mnt/sda2/zxt/Experiments-for-SoftPartial/StyTR-2" 中.
+                            </li>
+                            <li>
+                                <span style="font-weight: bolder;">MicroAST.</span> 出现了与 StyTR-2 相同的问题, 4090 无法满足过低的版本需求. 但我不打算继续更换项目了, 我准备在 2080 服务器 上部署 StyTR-2 与 MicroAST 两个项目, 以后这两个项目的测试均在该上进行. <br>
+                                &ensp;&ensp;2025-05-27 16:18 周二. 使用 featurzie 平台租用 2080 服务器, 训练进行中. 
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <span class="color-kachina-yellow">2025-05-01 15:11 周四. 目前正在使用 SAM 模型处理 WikiArt 图像, 目前已获取 8k 多张图像的掩膜数据. 当前可以思考下一个创新点.</span>
+            </li>
+        </ol>
+        <h2>兴趣</h2>
+        <ol>
+            <li>
+                <span class="color-kachina-yellow">2025-05-19 21:15 周一. 找图来源: 双希壁纸, 以图搜图</span>
+                2025-05-20 15:10 周二. 使用 google、 百度搜索, 未找到结果. 我这几个图像是哪里来的……
+            </li>
+            <li>
+                <span class="color-kachina-yellow">2025-05-19 21:16 周一. 重新理清了 CUDA, cudatoolit, cuDNN, pytorch 之间的关系, 需要重新记录.</span> <br>
+                &ensp;&ensp;2025-05-20 15:07 周二, 该工作已完成. <br>
+            </li>
+        </ol>
+        <h2>工作</h2>
+        <ol>
+            <li>
+                <span class="color-alice-red">了解南京大学教师信息, 确定今后研究方向, 与父母讨论, 最后回复傅老师信息</span>. 为了能够更好的审查南京大学的各个老师, 决定从以下几个方面列表考察: 学术能力、指导风格、资源支持、职业发展. 首先是学术能力方面 <br>
+                &ensp; &ensp; 首先需要确定的是, 南京大学的好多老师不做深度学习方面的内容, 而本人则是在深度学习方面花了较多时间, 所以希望博士期间继续研究深度学习与人工智能. 以此为切入, 可以排除许多不做深度学习的老师. 不考虑苏州的两个学院, 我们现在需要考察三个学院: 计算机学院、软件学院、人工智能学院. 按以下顺序排查老师: 首先看看老师的研究方向是否为深度学习(机器学习), 可以通过 google scholar、教师主页、学校官网查看; 在查看老师研究方向后, 了解老师的学术能力, 看看老师发顶会顶刊的多少; 最后查看老师的指导风格, 这一点可以从小红书购买的南大老师上找.
+                <table class="table-blue">
+                    <thead>
+                        <tr>
+                            <th>所在项目组</th>
+                            <th>姓名</th>
+                            <th>所在学院</th>
+                            <th>研究方向</th>
+                            <th>学术能力</th>
+                            <th>指导风格</th>
+                            <th>资源支持</th>
+                            <th>职业发展</th>
+                            <th>其他</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="16">LAMBDA</td>
+                            <td>周志华</td>
+                            <td>计算机学院, 人工智能学院</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td rowspan="16">查看了 Labmda 实验室发表的论文, 是更偏向于机器学习底层, 而非 CV 方面的内容, 所以将 Lambda 组的优先级降低.</td>
+                        </tr>
+                        <tr>
+                            <td>高尉</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>姜远</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>黎铭</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>李宇峰</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>钱超</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>陈开明</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>王天佐</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>王魏</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>吴建鑫</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>叶翰嘉</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>俞扬</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>詹德川</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>张利军</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>章宗长</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>赵鹏</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">⭐媒体计算组</td>
+                            <td>武港山</td> 
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>⭐王利民</td> 
+                            <td>计算机学院</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">NLP组</td>
+                            <td>陈家俊</td>
+                            <td>计算机学院</td>
+                        </tr>
+                        <tr>
+                            <td>戴新宇</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>黄书剑</td>
+                            <td>计算机学院</td>
+                        </tr>
+                        <tr>
+                            <td>张建兵</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>智能规划与决策实验室</td>
+                            <td>卓汉逵</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>计算机软件新技术国家重点实验室</td>
+                            <td>张杰</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>计算机软件新技术国家重点实验室</td>
+                            <td>赵一铮</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>吕建(院士)</td>
+                            <td>计算机学院</td>
+                        </tr>
+                        <tr>
+                            <td>计算机软件新技术国家重点实验室</td>
+                            <td>李宣东</td>
+                            <td>计算机学院</td>
+                            <td><del>软件工程与系统方向</del></td>
+                        </tr>
+                        <tr>
+                            <td>计算机软件新技术国家重点实验室</td>
+                            <td>路通</td>
+                            <td>计算机学院</td>
+                            <td>⭐计算机视觉、模式识别</td>
+                        </tr>
+                        <tr>
+                            <td>/</td>
+                            <td>⭐宋宇航</td>
+                            <td>人工智能学院</td>
+                        </tr>
+                        <tr>
+                            <td>/</td>
+                            <td>谭铁牛(院士, 校书记)</td>
+                            <td>计算机学院</td>
+                            <td>⭐图像处理、计算机视觉、模式识别</td>
+                        </tr>
+                        <tr>
+                            <td>/</td>
+                            <td>宋方敏</td>
+                            <td>计算机学院</td>
+                            <td><del>量子机器</del></td>
+                        </tr>
+                        <tr>
+                            <td>/</td>
+                            <td>陈贵海 (博导)</td>
+                            <td>计算机学院</td>
+                            <td><del>网络</del></td>
+                        </tr>
+                        <tr>
+                            <td>/</td>
+                            <td>陈家俊</td>
+                            <td>计算机学院</td>
+                            <td>NLP</td>
+                        </tr>
+                        <tr>
+                            <td>Magic(仅南大校园网可访问)</td>
+                            <td>孙正兴</td>
+                            <td>计算机学院</td>
+                            <td>⭐计算机图形学</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="7">推理与学习研究组</td>
+                            <td>高阳</td>
+                            <td>计算机学院</td>
+                            <td>人工智能、机器学习、多智能体系统、大数据、图像和视频分析</td>
+                        </tr>
+                        <tr>
+                            <td>史颖欢</td>
+                            <td>计算机学院</td>
+                            <td>机器学习、模式识别、计算机视觉、医学影像分析</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td><a href="https://cs.nju.edu.cn/shiyh/">个人主页</a>中有接受博士生的相关信息</td>
+
+                        </tr>
+                        <tr>
+                            <td>藿静</td>
+                            <td>计算机学院</td>
+                        </tr>
+                        <tr>
+                            <td>李文斌</td>
+                            <td>计算机学院</td>
+                        </tr>
+                        <tr>
+                            <td>⭐范琦</td>
+                            <td>计算机学院</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>/</td>
+                            <td>个人在网络活跃, 在小红书中有宣传自己</td>
+                        </tr>
+                        <tr>
+                            <td>杨天培</td>
+                            <td>计算机学院</td>
+                        </tr>
+                        <tr>
+                            <td>史桀绮</td>
+                            <td>计算机学院</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">Meta Graphics & 3D Vision Lab</td>
+                            <td>郭延文</td>
+                            <td>计算机学院</td>
+                            <td>三维计算机视觉和智能图形学、人工智能</td>
+                        </tr>
+                        <tr>
+                            <td>过洁</td>
+                            <td>计算机学院</td>
+                            <td>三维计算机视觉和智能图形学、人工智能</td>
+                        </tr>
+                        <tr>
+                            <td>李元琪</td>
+                            <td>计算机学院</td>
+                            <td>三维计算机视觉和智能图形学、人工智能</td>
+                        </tr>
+                        <tr>
+                            <td>/</td>
+                            <td>唐杰</td>
+                            <td>计算机学院</td>
+                            <td>计算机视觉、多媒体技术以及相关领域的智能分析与建模</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+        </ol>
+        <h2>生活</h2>
+
+        <h1>今日趣事</h1>
+        <hr>
+    </div>
+</body>
+</html>
