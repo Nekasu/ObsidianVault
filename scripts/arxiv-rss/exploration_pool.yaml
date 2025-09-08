@@ -1,0 +1,51 @@
+pool:
+  topics:
+  - name: Style Transfer
+    weight: 1.0
+    keywords:
+    - style transfer
+    - neural style
+    - artistic style
+    - texture transfer
+    - stylegan
+  - name: Inpainting
+    weight: 1.0
+    keywords:
+    - inpainting
+    - image completion
+    - hole filling
+    - partial convolution
+    - soft mask
+  - name: diffusion
+    weight: 1.0
+    keywords:
+      DDPM
+  candidates:
+    Guassian Platting
+  backlog: []
+  ignore_keywords:
+    - survey
+    - position paper
+    - call for
+    - benchmarking only
+    - dataset only
+    - toolbox
+history:
+  seen_ids:
+  - oai:arXiv.org:2312.03993v2
+  - oai:arXiv.org:2509.03704v1
+  - oai:arXiv.org:2509.03775v1
+  - oai:arXiv.org:2509.03973v1
+  - oai:arXiv.org:2509.04058v1
+  - oai:arXiv.org:2509.04379v1
+  - oai:arXiv.org:2509.04437v1
+settings:
+  feed_url: https://export.arxiv.org/rss/cs.CV
+  daily_pick:
+    global_count: 4
+    pool_count: 3
+    max_per_topic: 2
+  autosuggest:
+    top_unigrams: 15
+    top_bigrams: 10
+    min_len: 4

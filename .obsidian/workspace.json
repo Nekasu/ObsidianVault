@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "30031b6c71fe61f5",
+        "id": "d843291949201a32",
         "type": "tabs",
         "children": [
           {
-            "id": "5d7c8f71c1e83011",
+            "id": "bec782d2341acd26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ARTS/成一家之言/人体/人体基础/5_1如何绘制胸腔.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "5_1如何绘制胸腔"
-            }
-          },
-          {
-            "id": "76cdc4c5ea0f20b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ARTS/成一家之言/人体/人体基础/4_眼睛的球与透视.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4_眼睛的球与透视"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,43 +79,13 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "815dea67bac94a71",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "503b56f3d546cf91",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
-          },
-          {
-            "id": "db10c3621f631923",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 298.5086555480957
+    "width": 296.49999618530273
   },
   "right": {
     "id": "7bf503d9429739e8",
@@ -151,13 +102,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ARTS/成一家之言/人体/人体基础/4_眼睛的球与透视.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4_眼睛的球与透视 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -266,12 +216,38 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "76cdc4c5ea0f20b3",
+  "active": "b70a1505259d4f6a",
   "lastOpenFiles": [
-    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607032541.png",
-    "ARTS/成一家之言/人体/人体基础/5_1如何绘制胸腔.md",
-    "ARTS/成一家之言/人体/人体基础/6_胸部的画法.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/2025-08-07CCF计算机视觉前沿讲习班.zip",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/7第二天-动态场景三维重建与生成-戴玉超.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/8第二天-机器学习的变与不变-孟德宇.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/9第二天-大模型背景下的强化学习-俞扬.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/10第二天-roboticsManipulationFundamentalsandApplications-ATutorial-李弘扬.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/8第二天-机器学习的变与不变.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/6第二天-视觉感知与自动驾驶-鲁继文.md",
+    "会议/2025-07-26中国大模型技术峰会/4-吴飞-从统计学到人工智能的个人思考.md",
+    "会议/2025-07-26中国大模型技术峰会/5-文继荣-LLaDA-扩散大语言模型新范式.md",
+    "会议/2025-07-26中国大模型技术峰会/3常象宇-实践“真实数据科学”.md",
+    "会议/2025-07-26中国大模型技术峰会/2郁彬-真实数据科学《Veridical Data Science》中文版发布.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/2第一天-InteroVideo系列大模型与评测基准-王利民.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/3第一天-AIforScience-机遇与挑战-欧阳万里.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/4第一天-神经网络量化-吴建鑫.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/5第一天-多模态生成、理解统一架构基础知识与前沿展望.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/ex.md",
     "ARTS/成一家之言/人体/人体基础/4_眼睛的球与透视.md",
+    "会议/2025-07-26中国大模型技术峰会/第二天-3-龚小龙-金融大模型在消费金融场景的技术实践.md",
+    "会议/2025-07-26中国大模型技术峰会/第二天-2-基于相干光量子计算的人工智能应用探索.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班/1第一天-面向视频理解生成和规划的高效率表征学习-王兴刚.md",
+    "会议/2025-07-26中国大模型技术峰会/第二天-5-VtripGPT的Ai旅游应用场景.md",
+    "会议/2025-08-07CCF计算机视觉前沿讲习班",
+    "会议/2025-07-26中国大模型技术峰会/第二天-4-侯皓文-RWKV下一贷序列建模架构.md",
+    "会议/2025-07-26中国大模型技术峰会/合成内容检测论坛/4-张健-可信视觉鉴伪大模型.md",
+    "会议/2025-07-26中国大模型技术峰会/合成内容检测论坛/3-纪守领-可解释大模型安全与评测平台.md",
+    "会议/2025-07-26中国大模型技术峰会/合成内容检测论坛/2-张新鹏-从深度模型确权到AIGC溯源.md",
+    "会议/2025-07-26中国大模型技术峰会/合成内容检测论坛/1-金连文-文本图像篡改检测新方法-从像素感知到可解释语义分析.md",
+    "会议/2025-07-26中国大模型技术峰会/合成内容检测论坛",
+    "会议/2025-07-26中国大模型技术峰会/语言大模型与多模态大模型论坛",
+    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607032541.png",
     "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607032300.png",
     "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607022229.png",
     "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607022211.png",
@@ -281,29 +257,6 @@
     "ARTS/成一家之言/人体/人体基础/0_Attachments/b731cee1b3825bcbe14083b05235937.jpg",
     "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607022002.png",
     "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607013126.png",
-    "ARTS/成一家之言/人体/人体基础/0_Attachments/Pasted image 20250607012245.png",
-    "ARTS/成一家之言/人体/人体基础/3_鞋与脚的画法.md",
-    "ARTS/成一家之言/人体/人体基础/2_腿部的画法.md",
-    "ARTS/成一家之言/人体/人体基础/0_人体比例关系.md",
-    "ARTS/成一家之言/人体/人体基础/1_脸颊的转折在哪里.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_32正规矩阵、「正规矩阵」与「本章其他矩阵」之间的关系.md",
-    "Excalidraw/正规矩阵的分类.excalidraw.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/定义Definition/D1_31酉空间的定义.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O3酉空间中模长、长度的定义.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O2酉空间的内积相关性质_酉空间的性质1.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O1酉空间与欧式空间的关系.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/0_讨论本节的意义.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O9定理：「酉矩阵」、「正交矩阵」用于上三角化.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B3两个重要子空间/B35酉空间介绍/其他重要知识Others/O10Herimite矩阵的谱分解、矩阵的第三种表示方式.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/B线性空间与线性变换/B2线性空间变换及其矩阵/B26Jardan标准型/定理与性质Theorem/T1_28Jardan引理.md",
-    "论文/专利撰写/README_专利_内容分析与填充_思路整理.md",
-    "Neural Network/0_基础知识/6_XPU各种处理器.md",
-    "Neural Network/style_stransfer/对于风格迁移领域的一些思考/1_由AseFA论文思考的「解纠缠」.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C31矩阵的非奇异性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/0_本节行文思路_目录_请直接看这个_不要翻文件夹C32.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C32近似逆矩阵的误差--逆矩阵的摄动/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹.md",
-    "研究生/课程笔记/研一课程/上/矩阵论/C范数理论及其应用/C3范数的一些应用/C33矩阵的谱半径及其性质/0_本节行文思路_目录_请直接看这个_不要翻文件夹C33.md",
     "研究生/开题报告/新思路记录.md.nssyncsc",
     "研究生/开题报告/开题报告撰写.html",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/NEUCOM-D-24-08078.pdf",
@@ -311,9 +264,6 @@
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.md.nssyncsc",
     "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/文章修改.htm",
     "Template/styles.css",
-    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/howtousehtml.html",
-    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/未命名.html",
-    "Neural Network/style_stransfer/2024年向NeuroComputing投稿论文/styles.css",
     "Neural Network/style_stransfer/前背景分离的风格迁移/20240929为起始的AesFA工作原理探究/请阅读README文件/AesFA代码修改工作栈.canvas",
     "未命名.canvas",
     "Neural Network/style_stransfer/CANVAS/0_风格迁移领域文章发展关系.canvas",

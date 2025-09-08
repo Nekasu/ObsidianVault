@@ -81,7 +81,36 @@
         <hr>
         <h1>今日计划</h1>
         <h2>科研</h2>
+        <ol>
+            <li>
+                <span class="color-kachina-yellow">2025-06-17 16:17 周二. 进一步细化 SoftPartialAesFA.</span> 目前的工作依旧存在一些缺陷. 生成风格化图像质量不佳. 但具体在什么方面不好……我先说几个能说上来的点吧. <span class="color-huohuo-green">首先</span>, 内容信息模糊. 在生成的风格化图像中, 与原始内容图像相比, 丢失大量内容信息. <span class="color-huohuo-green">其次</span>, 风格化图像中会出现莫名的小圆圈, 具体原因未知.<br>
+                &ensp;&ensp;为了探究原因, 我决定做以下对比. <br>
+                <ul>
+                    <li>
+                        <span class="color-alice-red">检查损失函数与生成质量的关系</span>首先在同一训练的不同轮次中对比. 使用 SoftPartialAesFA_limited 项目不同训练轮次对比, 查看各轮次之间生成图像的对比, 探究在损失函数几乎不变的情况下, 生成图像质量是否越来越好, 随后分析原因. <br>
+                        &ensp;&ensp;分析结果出来了, 随着训练轮次的增加, 生成图像的效果的确越来越好, 但损失函数的变化
+                        为了获得更多次的数据, 我决定再次进行训练, 将训练轮次提升至原来的 5 倍, 也即 160,000 * 5 =  800,000 次, 记作 SoftPartialAesFA_limited-800000iter.
+                    </li>
+                    <li>
+                        <span class="color-alice-red">对比 AesFA 以检查更多不足.</span> 原始的 AesFA 网络具有不错的效果, 为了检查当前工作与 AesFA 之间的差距, 我们应该将 SoftPartialAesFA 与 AesFA 进行对比, 以进一步查看二者之间的差距.
+                    </li>
+                    <li>
+                        <span class="color-alice-red">可能是损失函数的原因.</span> 2025-07-14-15:58 周一. 在阅读 EFDM 的损失函数后, 发现该损失函数计算过程中, 没要考虑不透明度信息, 而是直接将「原风格图像」与「生成的风格化图像」直接放入损失函数中计算, 而没有考虑不透明度信息. 所以应该改写代码, 将不透明度信息融入损失函数的计算. <br>
+                        &ensp;&ensp;现立刻开始改写代码, 争取今天改完并上机训练.<br>
+                        &ensp;&ensp;2025-07-14 23:30 周一. 代码修改完毕, 开始上机运行.<br>
+                    </li>
+                </ul>
+            </li>
+        </ol>
         <h2>兴趣</h2>
+        <ol>
+            <li>
+                <span class="color-kachina-yellow">2025-06-19 14:08 周四.</span> 整了一个电脑控制手机的软件. 该软件名字为 QtScrcpy, 可以从 <a href="https://github.com/barry-ran/QtScrcpy">github </a>上获取. 教程可以参考 bilibili 上的 <a href="https://www.bilibili.com/video/BV177UYYnEpf">该视频</a>.
+            </li>
+            <li>
+                <span class="color-kachina-yellow">2025-06-19 14:34 周四.</span> 从 抖音 上刷到<a href=" https://v.douyin.com/Y4L0NqSBWzI/">一种专注学习的方法</a>, 我打算进行一段时间的实验, 下面我将介绍该方法. 首先介绍整体框架. 整体来说, 该方法要求专注 90 min 后休息 20 min. 其次介绍其中细节. 在 90 min 的专注过程中, 每隔 3~5 min 就播放一段提示音. 在听到提示音后, 我们就闭眼休息 10 s, 随后继续工作. <br>
+                为了实现该方法, 编写了程序 './scripts/beep.py'. 
+            </li>
         <h2>工作</h2>
         <h2>生活</h2>
 

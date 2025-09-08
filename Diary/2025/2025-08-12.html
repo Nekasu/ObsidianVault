@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary</title>
+    <link rel="stylesheet" href="/Template/styles.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>今日生活</h1>
+        <table id="table-blue">
+            <thead>
+                <tr>
+                    <th>日期</th>
+                    <th>昨天睡觉时间</th>
+                    <th>今天起床时间</th>
+                    <th>今日体重</th>
+                    <th>昨日锻炼</th>
+                    <th>昨日资金剩余(支付宝)</th>
+                    <th>昨日资金剩余(微信)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025-08-12</td>
+                    <td>1:55</td>
+                    <td>8:53</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>71.51</td>
+                    <td>2588.59</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>新年计划</h1>
+        <span class="color-DrRatio-blue">“要么立刻行动, 要么一事无成.” </span> -- 真理医生\(\cdot\)星野<br>
+        <span class="color-huohuo-green">“太大的目标容易吓到自己……所以要把大目标化成多个小目标哦……”</span>--藿藿\(\cdot\)星野<br>
+        <img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/20250505160303.png"/>
+        <img src="https://raw.githubusercontent.com/Nekasu/Blog_pics/main/20250505160335.png"/>
+        <ol>
+            和 deepseek 学习了两种技巧:
+            <li>
+                如何快速进入工作状态. 我经常难以开始工作, 所以向 deepseek 请教如何快速开始工作. deepseek 给了我 7 个可行的方案, 我在此记录最容易执行的几个.
+                <ol>
+                    <li>
+                        首先, deepseek 分析了 "启动困难" 的根本原因: <span class="color-alice-red">大脑对能量消耗的本能抗拒</span>, 下面介绍几个解决方案.
+                    </li>
+                    <li>
+                        观念升级: <span class="color-alice-red">放弃完美主义, 完成比完美重要.</span><br>
+                        &ensp; &ensp; 科学依据: 前额叶皮层在任务初期最脆弱, 完美注意会额外消耗意志力.<br> 所以允许自己以最潦草的方式开始工作, <span class="color-alice-red">故意把第一版做的足够烂</span>, 完成后再优化.
+                        <span class="color-alice-red">完成比完美更重要</span>
+                    </li>
+                    <li>
+                        立即开始的方法: <span class="color-alice-red">火箭发射法: 5-4-3-2-1, 立刻开始!</span><br>
+                        &ensp; &ensp; 科学依据: NASA 发现, 人在5秒内不行动, 大脑就会找借口.<br>
+                        &ensp; &ensp; 执行规则: <span class="color-alice-red">在想开始工作时, 倒记时5s, 数到1时, 立刻进行物理行动(如起身、打开文档等).</span> 重点在于 "动作优先于思考". 持续21天可重建「决策-行动」直连通道<br>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                如何获得学习内驱力.
+                <ul>
+                    <li>
+                        先天天赋: 每天留15分钟「无目的思考」时间，允许大脑自由联想知识碎片
+
+                    </li>
+                    <li>
+                        早期环境影响: 成年人可通过「破坏性学习」重燃好奇心，例如：拆解旧手机观察内部结构, 故意写错代码观察系统崩溃模式
+                    </li>
+                    <li>
+                        后天养成习惯: 用「2分钟挑战法」测试难度适配性——如果某个任务开始2分钟后仍无进展，立即调整难度<br>
+                        每天进行「5分钟极限学习」：选择完全陌生的领域（如量子物理基础），在强烈困惑中坚持探索，刺激新神经回路生长
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+        <h1>近日安排</h1>
+
+        <hr>
+        <h1>今日计划</h1>
+        <h2>科研</h2>
+        <h2>兴趣</h2>
+        <h2>工作</h2>
+        <ol>
+            <li>
+                <span class="color-kachina-yellow">2025-08-12 10:15 周二. Guoqing 服务器出现异常, 无法正常开机, 描述如下.</span>一台主板是超微的双4090卡服务器. 原本有两块固态硬盘以及一块机械硬盘. 但是自从加装了一块机械硬盘后(现在共两块), 电脑就无法正常开机(一直卡在logo界面, 该界面有ubuntu的logo以及超微的logo). 但是如果使用知道电脑ip, 则可以通过windows下的“远程桌面连接”连接上该电脑, 可以正常访问图形界面, 并使用无误. 现在由于电脑关机重启导致局域网内ip改变, 我希望能开机重新查看ip. 如何解决这种“无法开机”的问题？<br>
+                由于开机显示“Memory Population”问题, 所以考虑是内存或硬盘有问题.
+                <ol>
+                    <li>
+                        首先排查内存条的问题. 重新插拔内存条, 查看是否能正常开机.<br>
+                        2025-08-12 11:00 周二. 开机时发现, 出现如下报错: 
+                        <ul>
+                            <li>Failing DIMM: DIMM location. (uncorrectable memory component found) PI-DIMMF1</li>
+                            <li>Failing DIMM: DIMM location. (uncorrectable memory component found) PI-DIMMC1</li>
+                            <li>Incorrect memory DIMM population P1-DIMMC1</li>
+                        </ul>
+                        现试图将 C1 内存条 与 B1 内存条对调, 以检查报错是否跟随内存条变化.
+                        2025-08-12 11:12 周二. 对调 C1 与 B1 内存条后发现, 报错信息变为如下:
+                        <ul>
+                            <li>Failing DIMM: DIMM location. (uncorrectable memory component found) PI-DIMMF1</li>
+                            <li>Failing DIMM: DIMM location. (uncorrectable memory component found) PI-DIMM <span class="color-alice-red">B1</span></li>
+                            <li>Incorrect memory DIMM population P1-DIMM<span class="color-alice-red">B1</span></li>
+                        </ul>
+                        也即, 该报错跟随内存条的变化而变化, 故尝试拆除 B1与F1所在位置上的内存条, 以查看报错信息以及是否能正常开机.
+                        2025-08-12 11:23 周二. B1 与 F1 上内存条拔出, 准备开机测试. 发现报错信息如下:
+                        <ul>
+                            <li>Incorrect memory DIMM population</li>
+                        </ul>
+                        现等待开机是否正常, 现在去吃饭+午休, 下午来看电脑是否已正常开机.<br>
+                        2025-08-12 14:03 周二. 开机异常, 依旧卡在 ubuntu + 超微 logo 界面, 说明 「uncorrectable memory component found」错误不是导致开机异常的原因. 
+                        2025年8月12日 14:06 周二. 现根据<a href="https://blog.csdn.net/u010087338/article/details/134745286">网站</a>提示, 准备开机进入bios, 查看详细日志. 
+                        2025-08-12 14:21 周二. 进入 bios 后中的 memeroy topology 后, 发现仅显示了两根内存条, 详细信息如下:
+                        <ul>
+                            <li>DDIMMA1: 2666MT/s Microm DRx4 32GB RDDIM</li>
+                            <li>DDIMMC1: 2666MT/s Microm DRx4 32GB RDDIM</li>
+                        </ul>
+                        2025-08-12 14:37 周二. 决定将剩下4根内存条按A1-E1-B1-F1顺序插入, 则在 Memory Topology 中会出现:
+                        <ul>
+                            <li>DDIMMB1: 2666MT/s Microm DRx4 32GB RDDIM</li>
+                            <li>DDIMMF1: 2666MT/s Microm DRx4 32GB RDDIM</li>
+                        </ul>
+                        2025-08-12 14:59 周二. 将内存条按 A1-E1-C1-G1 顺序插入(即说明书顺序), 则在Memeory Topology 中会出现如下信息:
+                        <ul>
+                            <li>DDIMMA1: 2666MT/s Microm DRx4 32GB RDDIM</li>
+                            <li>DDIMMC1: 2666MT/s Microm DRx4 32GB RDDIM</li>
+                        </ul>
+                        若将A1插槽内的内存条与C1插槽内的内存条调换、将E1插槽内的内存条与G1内的内存条调换, 则出现信息与上述相同, 也即:
+                        <ul>
+                            <li>DDIMMA1: 2666MT/s Microm DRx4 32GB RDDIM</li>
+                            <li>DDIMMC1: 2666MT/s Microm DRx4 32GB RDDIM</li>
+                        </ul>
+                        现决定仅保留这A1-C1两根内存条, 重新开机, 以检查是否会再次出现 「Incorrect memory DIMM population」问题.<br>
+                        2025-08-12 15:31 周二. 去掉两根内存条后, 发现不再出现 「Incorrect Menory DIMM population」错误. 开机后随依旧卡在logo界面, 但能通过 ctrl+alt+F2 进入tyy2. 现准备登录后检查问题. 下面的记录将以“与GPT对话的形式呈现”. 为了节省空间, 请查看同目录下的: <a href="./tyy问题排查.md">tyy问题排查.md文件.</a> <br>
+                        2025-08-12 16:23 周二. 在重新安装 NVIDA 驱动后, 依旧无法进入登录界面. 针对该问题, 请查看同目录下的:  <a href="./NVIDA驱动重装后问题.md">./NVIDA驱动重装后问题.md</a>
+                        <li>
+                            2025-08-12 16:53 周二. 现能正常进入图形界面, 流程请见同目录下的 <a href="驱动问题导致的无法进入图像界面问题-排查流程.md">驱动问题导致的无法进入图像界面问题-排查流程.md</a>, 或直接阅读解决方案 <a href="驱动问题导致的无法进入图像界面问题-解决方案.md">驱动问题导致的无法进入图像界面问题-解决方案.md</a>
+                        </li>
+                        <li>
+                            2025-08-12 17:16 周二. 在已经能进入图形界面的现在, 重新插入内存条, 以检查是否是内存条导致的卡logo问题.
+                        </li>
+                    </li>
+                    <li>其次排查硬盘的问题. 将机械硬盘 umount, 检查是否能正常开机. <br>
+                        2025-08-12 17:13 周二. 在已经进入图形界面的现在, 重新挂载硬盘, 查看是否可以进入图形界面, 如果可以, 则说明不是硬盘导致的问题.
+                         2025-08-12 17:15 周二. 硬盘挂载完毕, 系统成功进入图形界面. 结论: 不是固态硬盘导致的问题.
+                    </li>
+                    <li>最后更换系统固态硬盘. 我记得我有一块固态硬盘, 其中装载了linux系统, 可以将这块硬盘放到服务器里, 查看是否是固态硬盘导致的问题. <br>
+                    2025-08-12 17:14 周二. 已发现是 VGA 接口驱动有误, 整个排查错误期间没有涉及固态硬盘, 故固态硬盘不是问题.
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <h2>生活</h2>
+
+        <h1>今日趣事</h1>
+        <hr>
+    </div>
+</body>
+</html>
