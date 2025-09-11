@@ -9,7 +9,7 @@ pool:
     - texture transfer
     - stylegan
   - name: Inpainting
-    weight: 1.0
+    weight: 0.5
     keywords:
     - inpainting
     - image completion
@@ -17,14 +17,12 @@ pool:
     - partial convolution
     - soft mask
   - name: diffusion
-    weight: 1.0
+    weight: 0.5
     keywords: DDPM
   candidates: Guassian Platting
   backlog:
   - group detection
-  # Group Detection: In the group detection task, all observed people are divided into groups, including those each of which consists of only one person.
   - Randomly Wired Neural Network
-  # Randomly Wired Neural Network: 用一些概率模型生成特定的拓扑结构(图), 再将拓扑结构中的各个结点对应到神经网络的各个边, 以生成具有良好拓扑结构的网络结构. 
   ignore_keywords:
   - survey
   - position paper
@@ -34,9 +32,12 @@ pool:
   - toolbox
 history:
   seen_ids:
+  - oai:arXiv.org:2306.00262v5
   - oai:arXiv.org:2312.03993v2
   - oai:arXiv.org:2411.11844v3
+  - oai:arXiv.org:2411.18795v2
   - oai:arXiv.org:2504.13176v2
+  - oai:arXiv.org:2506.21369v2
   - oai:arXiv.org:2509.03704v1
   - oai:arXiv.org:2509.03775v1
   - oai:arXiv.org:2509.03973v1
@@ -48,6 +49,10 @@ history:
   - oai:arXiv.org:2509.05975v1
   - oai:arXiv.org:2509.06006v1
   - oai:arXiv.org:2509.06011v1
+  - oai:arXiv.org:2509.08026v1
+  - oai:arXiv.org:2509.08265v1
+  - oai:arXiv.org:2509.08280v1
+  - oai:arXiv.org:2509.08628v1
 settings:
   feed_url: https://export.arxiv.org/rss/cs.CV
   daily_pick:
