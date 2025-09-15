@@ -36,9 +36,11 @@ history:
   - oai:arXiv.org:2312.03993v2
   - oai:arXiv.org:2411.11844v3
   - oai:arXiv.org:2411.18795v2
+  - oai:arXiv.org:2503.08336v2
   - oai:arXiv.org:2503.09151v3
   - oai:arXiv.org:2504.13176v2
   - oai:arXiv.org:2506.21369v2
+  - oai:arXiv.org:2508.16016v2
   - oai:arXiv.org:2509.03704v1
   - oai:arXiv.org:2509.03775v1
   - oai:arXiv.org:2509.03973v1
@@ -60,6 +62,11 @@ history:
   - oai:arXiv.org:2509.08311v1
   - oai:arXiv.org:2509.08489v1
   - oai:arXiv.org:2509.08628v1
+  - oai:arXiv.org:2509.09501v2
+  - oai:arXiv.org:2509.09730v1
+  - oai:arXiv.org:2509.09849v1
+  - oai:arXiv.org:2509.10250v1
+  - oai:arXiv.org:2509.10259v1
 settings:
   feed_url: https://export.arxiv.org/rss/cs.CV
   daily_pick:
