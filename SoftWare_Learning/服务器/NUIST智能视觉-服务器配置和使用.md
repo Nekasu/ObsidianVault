@@ -110,14 +110,9 @@ sudo apt install xrdp -y
 sudo systemctl status xrdp
 #如果不是active（running），手动启动
 sudo systemctl start xrdp
-<<<<<<< HEAD
-```
-
-=======
 设置防火墙
 sudo ufw allow 3389
 ~~~
->>>>>>> 0faefc0e07b84db7a606172ad06d1c35b8eb83dc
 
 # 服务器使用
 
