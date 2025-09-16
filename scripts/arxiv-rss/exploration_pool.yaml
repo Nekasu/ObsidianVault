@@ -38,6 +38,8 @@ history:
   - oai:arXiv.org:2411.18795v2
   - oai:arXiv.org:2503.08336v2
   - oai:arXiv.org:2503.09151v3
+  - oai:arXiv.org:2503.16365v2
+  - oai:arXiv.org:2504.11705v3
   - oai:arXiv.org:2504.13176v2
   - oai:arXiv.org:2506.21369v2
   - oai:arXiv.org:2508.16016v2
@@ -53,6 +55,7 @@ history:
   - oai:arXiv.org:2509.05975v1
   - oai:arXiv.org:2509.06006v1
   - oai:arXiv.org:2509.06011v1
+  - oai:arXiv.org:2509.06591v4
   - oai:arXiv.org:2509.07538v2
   - oai:arXiv.org:2509.08026v1
   - oai:arXiv.org:2509.08027v1
@@ -63,8 +66,12 @@ history:
   - oai:arXiv.org:2509.08489v1
   - oai:arXiv.org:2509.08628v1
   - oai:arXiv.org:2509.09501v2
+  - oai:arXiv.org:2509.09720v1
   - oai:arXiv.org:2509.09730v1
+  - oai:arXiv.org:2509.09732v1
+  - oai:arXiv.org:2509.09844v1
   - oai:arXiv.org:2509.09849v1
+  - oai:arXiv.org:2509.09869v1
   - oai:arXiv.org:2509.10250v1
   - oai:arXiv.org:2509.10259v1
 settings:
