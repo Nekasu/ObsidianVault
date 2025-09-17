@@ -74,6 +74,13 @@ history:
   - oai:arXiv.org:2509.09869v1
   - oai:arXiv.org:2509.10250v1
   - oai:arXiv.org:2509.10259v1
+  - oai:arXiv.org:2509.10466v1
+  - oai:arXiv.org:2509.10813v1
+  - oai:arXiv.org:2509.11092v1
+  - oai:arXiv.org:2509.11323v1
+  - oai:arXiv.org:2509.12024v1
+  - oai:arXiv.org:2509.12062v1
+  - oai:arXiv.org:2509.12201v1
 settings:
   feed_url: https://export.arxiv.org/rss/cs.CV
   daily_pick:
