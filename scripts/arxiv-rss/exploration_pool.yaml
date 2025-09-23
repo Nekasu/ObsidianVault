@@ -19,7 +19,9 @@ pool:
   - name: diffusion
     weight: 0.5
     keywords: DDPM
-  candidates: Guassian Platting
+  candidates: 
+  - Guassian Platting
+  - Tactile perception
   backlog:
   - group detection
   - Randomly Wired Neural Network
@@ -34,6 +36,7 @@ history:
   seen_ids:
   - oai:arXiv.org:2306.00262v5
   - oai:arXiv.org:2312.03993v2
+  - oai:arXiv.org:2410.08567v3
   - oai:arXiv.org:2411.11844v3
   - oai:arXiv.org:2411.18795v2
   - oai:arXiv.org:2503.08336v2
@@ -41,6 +44,7 @@ history:
   - oai:arXiv.org:2503.16365v2
   - oai:arXiv.org:2504.11705v3
   - oai:arXiv.org:2504.13176v2
+  - oai:arXiv.org:2505.14319v2
   - oai:arXiv.org:2506.21369v2
   - oai:arXiv.org:2508.16016v2
   - oai:arXiv.org:2509.03704v1
@@ -81,6 +85,11 @@ history:
   - oai:arXiv.org:2509.12024v1
   - oai:arXiv.org:2509.12062v1
   - oai:arXiv.org:2509.12201v1
+  - oai:arXiv.org:2509.15123v2
+  - oai:arXiv.org:2509.15257v1
+  - oai:arXiv.org:2509.15391v1
+  - oai:arXiv.org:2509.15496v1
+  - oai:arXiv.org:2509.15602v1
 settings:
   feed_url: https://export.arxiv.org/rss/cs.CV
   daily_pick:
