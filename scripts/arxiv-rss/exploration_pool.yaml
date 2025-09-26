@@ -19,7 +19,7 @@ pool:
   - name: diffusion
     weight: 0.5
     keywords: DDPM
-  candidates: 
+  candidates:
   - Guassian Platting
   - Tactile perception
   backlog:
@@ -38,15 +38,21 @@ history:
   - oai:arXiv.org:2312.03993v2
   - oai:arXiv.org:2410.08567v3
   - oai:arXiv.org:2411.11844v3
+  - oai:arXiv.org:2411.17223v2
   - oai:arXiv.org:2411.18795v2
+  - oai:arXiv.org:2502.11381v4
   - oai:arXiv.org:2503.08336v2
   - oai:arXiv.org:2503.09151v3
+  - oai:arXiv.org:2503.09447v2
   - oai:arXiv.org:2503.16365v2
   - oai:arXiv.org:2504.11705v3
   - oai:arXiv.org:2504.13176v2
   - oai:arXiv.org:2505.14319v2
   - oai:arXiv.org:2506.21369v2
+  - oai:arXiv.org:2507.18237v2
+  - oai:arXiv.org:2508.12720v3
   - oai:arXiv.org:2508.16016v2
+  - oai:arXiv.org:2509.02957v2
   - oai:arXiv.org:2509.03704v1
   - oai:arXiv.org:2509.03775v1
   - oai:arXiv.org:2509.03973v1
@@ -90,6 +96,21 @@ history:
   - oai:arXiv.org:2509.15391v1
   - oai:arXiv.org:2509.15496v1
   - oai:arXiv.org:2509.15602v1
+  - oai:arXiv.org:2509.16472v1
+  - oai:arXiv.org:2509.16483v1
+  - oai:arXiv.org:2509.16632v1
+  - oai:arXiv.org:2509.16727v1
+  - oai:arXiv.org:2509.17431v1
+  - oai:arXiv.org:2509.17431v2
+  - oai:arXiv.org:2509.17654v2
+  - oai:arXiv.org:2509.18177v1
+  - oai:arXiv.org:2509.18425v1
+  - oai:arXiv.org:2509.18948v1
+  - oai:arXiv.org:2509.19624v1
+  - oai:arXiv.org:2509.19793v1
+  - oai:arXiv.org:2509.19937v1
+  - oai:arXiv.org:2509.20242v1
+  - oai:arXiv.org:2509.20295v1
 settings:
   feed_url: https://export.arxiv.org/rss/cs.CV
   daily_pick:
